@@ -8,29 +8,12 @@ import re
 import jellyfish
 import webvtt
 
-KNOWN_SPEAKERS = [
-    "UNKNOWN",
-    "city admin. crawford",
-    "city atty. postema",
-    "clerk beaudry",
-    "councilmember briggs",
-    "councilmember disch",
-    "councilmember eyer",
-    "councilmember grand",
-    "councilmember griswold",
-    "councilmember hayner",
-    "councilmember nelson",
-    "councilmember radina",
-    "councilmember ramlawi",
-    "councilmember song",
-    "mayor taylor",
-]
-
 Block = collections.namedtuple(
     "Block", ["start", "end", "duration", "speaker", "speech"]
 )
 
 PLACEHOLDER_DATE = datetime.date(1970, 1, 1)
+UNKNOWN_SPEAKER = "UNKNOWN"
 
 
 def calc_duration(start_time, end_time):
@@ -53,19 +36,19 @@ def get_closest_match(query, knowns):
     return best_candidate
 
 
-def get_speech_blocks(captions, no_infer_speakers):
+def get_speech_blocks(captions, no_infer_speakers, known_speakers):
     # Implemented as a closure rather than a standalone function so we
     # can cache results in "speaker_map". We'll only run the
     # levenshtein distance checks when we encounter a typo we haven't
     # seen before!
-    speaker_map = {s: s for s in KNOWN_SPEAKERS}
+    speaker_map = {s: s for s in known_speakers}
     blocks = []
 
     def infer_speaker(speaker):
         if no_infer_speakers:
             return speaker
         if speaker not in speaker_map:
-            inferred_speaker = get_closest_match(speaker, KNOWN_SPEAKERS)
+            inferred_speaker = get_closest_match(speaker, known_speakers)
             speaker_map[speaker] = inferred_speaker
             return inferred_speaker
         else:
@@ -76,7 +59,7 @@ def get_speech_blocks(captions, no_infer_speakers):
     end_time = None
     duration = 0
     current_speech = ""
-    speaker = "UNKNOWN"
+    speaker = UNKNOWN_SPEAKER
     for idx, caption in enumerate(captions):
         # Apparently CTN's webvtt caption text are terminated in null bytes
         line = caption.text.strip("\r\n \u0000")
@@ -118,7 +101,7 @@ def get_speech_blocks(captions, no_infer_speakers):
                 # try to correct them
                 speaker = infer_speaker(line[2:].split(":")[0].strip().lower())
             else:
-                speaker = "UNKNOWN"
+                speaker = UNKNOWN_SPEAKER
         else:
             # Append the line to the existing speech block, and extend
             # the end time to the end time of the latest caption
@@ -190,7 +173,20 @@ def main():
             "against a fixed set of known speakers."
         ),
     )
+    parser.add_argument(
+        "--speaker-list-file",
+        help=(
+            "Text file containing a list of known speaker names. Must be "
+            'lowercase, one per line. (default: "known_speakers.txt")'
+        ),
+        default="known_speakers.txt",
+    )
     args = parser.parse_args()
+
+    with open(args.speaker_list_file, "r") as known_speakers_fp:
+        known_speakers = [line.strip() for line in known_speakers_fp if line.strip()]
+        # ensure this list also contains our unknown-speaker placeholder!
+        known_speakers.append(UNKNOWN_SPEAKER)
 
     with open(args.captions_file, "r") as captions_fp:
         content = preprocess(captions_fp)
@@ -198,7 +194,7 @@ def main():
     captions = webvtt.read_buffer(StringIO(content))
 
     blocks, speaker_map = get_speech_blocks(
-        captions, no_infer_speakers=args.no_infer_speakers
+        captions, args.no_infer_speakers, known_speakers
     )
 
     if args.get_transcript:
