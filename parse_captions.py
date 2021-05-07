@@ -23,34 +23,44 @@ KNOWN_SPEAKERS = [
     "councilmember radina",
     "councilmember ramlawi",
     "councilmember song",
-    "mayor taylor"]
+    "mayor taylor",
+]
 
 Block = collections.namedtuple(
-    "Block", ['start', 'end', 'duration', 'speaker', 'speech'])
+    "Block", ["start", "end", "duration", "speaker", "speech"]
+)
 
-PLACEHOLDER_DATE = datetime.date(1970,1,1)
+PLACEHOLDER_DATE = datetime.date(1970, 1, 1)
+
+
 def calc_duration(start_time, end_time):
     start_time = datetime.datetime.combine(
-        PLACEHOLDER_DATE, datetime.time.fromisoformat(start_time))
+        PLACEHOLDER_DATE, datetime.time.fromisoformat(start_time)
+    )
     end_time = datetime.datetime.combine(
-        PLACEHOLDER_DATE, datetime.time.fromisoformat(end_time))
+        PLACEHOLDER_DATE, datetime.time.fromisoformat(end_time)
+    )
     return (end_time - start_time).total_seconds()
+
 
 def get_closest_match(query, knowns):
     """For a string 'query', find which string in the 'knowns' list has the lowest
     levenshtein edit distance."""
     (lowest_score, best_candidate) = min(
         (jellyfish.levenshtein_distance(query, candidate), candidate)
-        for candidate in knowns)
+        for candidate in knowns
+    )
     return best_candidate
+
 
 def get_speech_blocks(captions, no_infer_speakers):
     # Implemented as a closure rather than a standalone function so we
     # can cache results in "speaker_map". We'll only run the
     # levenshtein distance checks when we encounter a typo we haven't
     # seen before!
-    speaker_map = {s:s for s in KNOWN_SPEAKERS}
+    speaker_map = {s: s for s in KNOWN_SPEAKERS}
     blocks = []
+
     def infer_speaker(speaker):
         if no_infer_speakers:
             return speaker
@@ -91,8 +101,9 @@ def get_speech_blocks(captions, no_infer_speakers):
         if line.startswith(">>"):
             # Record the previous speech "block" and start a new one
             if start_time is not None:
-                blocks.append(Block(
-                    start_time, end_time, duration, speaker, current_speech))
+                blocks.append(
+                    Block(start_time, end_time, duration, speaker, current_speech)
+                )
             current_speech = line
             start_time = caption.start
             end_time = caption.end
@@ -126,6 +137,7 @@ def get_speech_blocks(captions, no_infer_speakers):
         duration += calc_duration(caption.start, caption.end)
     return blocks, speaker_map
 
+
 def preprocess(webvtt_fp):
     """The "webvtt" module doesn't like something in the header content on CTN's
     VTT files, so here's a hack to just skip all the headers and return only the
@@ -150,19 +162,34 @@ def preprocess(webvtt_fp):
     # read the rest of the file, and prepend the magic "WEBVTT" header!
     return "WEBVTT\r\n" + webvtt_fp.read()
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("captions_file")
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--get-transcript", action="store_true",
-                       help="Output a reconstructed text transcript of all the captions")
-    group.add_argument("--get-speaker-times", action="store_true",
-                       help="Calculate approximate total speaking times for each speaker")
-    group.add_argument("--get-blocks", action="store_true",
-                       help=("Output raw information about all reconstructed speech blocks, "
-                             "including start time, end time, the name of the speaker, and the duration"))
-    parser.add_argument("--no-infer-speakers", action="store_true",
-                        help="Don't attempt to correct typos by matching speaker names against a fixed set of known speakers.")
+    group.add_argument(
+        "--get-transcript",
+        action="store_true",
+        help="Output a reconstructed text transcript of all the captions",
+    )
+    group.add_argument(
+        "--get-speaker-times",
+        action="store_true",
+        help="Calculate approximate total speaking times for each speaker",
+    )
+    group.add_argument(
+        "--get-blocks",
+        action="store_true",
+        help=("Output raw information about all reconstructed speech blocks"),
+    )
+    parser.add_argument(
+        "--no-infer-speakers",
+        action="store_true",
+        help=(
+            "Don't attempt to correct typos by matching speaker names "
+            "against a fixed set of known speakers."
+        ),
+    )
     args = parser.parse_args()
 
     with open(args.captions_file, "r") as captions_fp:
@@ -171,12 +198,13 @@ def main():
     captions = webvtt.read_buffer(StringIO(content))
 
     blocks, speaker_map = get_speech_blocks(
-        captions, no_infer_speakers=args.no_infer_speakers)
+        captions, no_infer_speakers=args.no_infer_speakers
+    )
 
     if args.get_transcript:
-        print('\n'.join(b.speech for b in blocks))
+        print("\n".join(b.speech for b in blocks))
     elif args.get_speaker_times:
-        for k,v in speaker_map.items():
+        for k, v in speaker_map.items():
             if k != v:
                 print("Inferred {} -> {}".format(k, v))
         print()
@@ -184,16 +212,17 @@ def main():
         speaker_times = {}
         for block in blocks:
             speaker_times[block.speaker] = (
-                speaker_times.get(block.speaker, 0) + block.duration)
+                speaker_times.get(block.speaker, 0) + block.duration
+            )
         pprint.pprint(speaker_times)
     elif args.get_blocks:
-        for k,v in speaker_map.items():
+        for k, v in speaker_map.items():
             if k != v:
                 print("Inferred {} -> {}".format(k, v))
         print()
 
         pprint.pprint(blocks)
 
-if __name__ == '__main__':
-    main()
 
+if __name__ == "__main__":
+    main()
