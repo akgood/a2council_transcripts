@@ -1,9 +1,12 @@
 import argparse
 import collections
+import csv
 import datetime
+import json
 from io import StringIO
 import pprint
 import re
+import sys
 
 import jellyfish
 import webvtt
@@ -151,6 +154,11 @@ def main():
     parser.add_argument("captions_file")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument(
+        "--check-speakers",
+        action="store_true",
+        help="Show inferred spelling corrections for unknown speakers",
+    )
+    group.add_argument(
         "--get-transcript",
         action="store_true",
         help="Output a reconstructed text transcript of all the captions",
@@ -181,6 +189,14 @@ def main():
         ),
         default="known_speakers.txt",
     )
+    parser.add_argument(
+        "--output-format",
+        choices=["json", "csv"],
+        help=(
+            "Output format for --get-speaker-times"
+            ),
+        default="json"
+    )
     args = parser.parse_args()
 
     with open(args.speaker_list_file, "r") as known_speakers_fp:
@@ -199,24 +215,26 @@ def main():
 
     if args.get_transcript:
         print("\n".join(b.speech for b in blocks))
-    elif args.get_speaker_times:
+    elif args.check_speakers:
         for k, v in speaker_map.items():
             if k != v:
                 print("Inferred {} -> {}".format(k, v))
         print()
-
+    elif args.get_speaker_times:
         speaker_times = {}
         for block in blocks:
             speaker_times[block.speaker] = (
                 speaker_times.get(block.speaker, 0) + block.duration
             )
-        pprint.pprint(speaker_times)
+        if args.output_format == "json":
+            print(json.dumps(speaker_times, indent=4, sort_keys=True))
+        elif args.output_format == "csv":
+            w = csv.writer(sys.stdout)
+            w.writerow(["speaker", "time_in_seconds"])
+            for s in sorted(speaker_times.keys()):
+                w.writerow([s, speaker_times[s]])
+            print()
     elif args.get_blocks:
-        for k, v in speaker_map.items():
-            if k != v:
-                print("Inferred {} -> {}".format(k, v))
-        print()
-
         pprint.pprint(blocks)
 
 
