@@ -1,0 +1,1884 @@
+﻿WEBVTT
+Style:
+/* default values */
+::cue {
+  line-height: 5.33vh;
+  font-size: 4.1vh;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  background-color: black;
+  color: white;
+}
+/* special cue parts */
+::cue(c.transparent) {
+  color: transparent;
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.semi-transparent) {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.opaque) {
+  color: rgba(0, 0, 0, 1);
+}
+::cue(c.blink) {
+  text-decoration: blink;
+}
+::cue(c.white) {
+  color: white;
+}
+::cue(c.red) {
+  color: red;
+}
+::cue(c.green) {
+  color: lime;
+}
+::cue(c.blue) {
+  color: blue;
+}
+::cue(c.cyan) {
+  color: cyan;
+}
+::cue(c.yellow) {
+  color: yellow;
+}
+::cue(c.magenta) {
+  color: magenta;
+}
+::cue(c.bg_transparent) {
+  background-color: transparent;
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.bg_semi-transparent) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.bg_opaque) {
+  background-color: rgba(0, 0, 0, 1);
+}
+::cue(c.bg_white) {
+  background-color: white;
+}
+::cue(c.bg_green) {
+  background-color: lime;
+}
+::cue(c.bg_blue) {
+  background-color: blue;
+}
+::cue(c.bg_cyan) {
+  background-color: cyan;
+}
+::cue(c.bg_red) {
+  background-color: red;
+}
+::cue(c.bg_yellow) {
+  background-color: yellow;
+}
+::cue(c.bg_magenta) {
+  background-color: magenta;
+}
+::cue(c.bg_black) {
+  background-color: black;
+}
+/* Examples of combined colors */
+::cue(c.bg_white.bg_semi-transparent) {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+::cue(c.bg_green.bg_semi-transparent) {
+  background-color: rgba(0, 256, 0, 0.5);
+}
+::cue(c.bg_blue.bg_semi-transparent) {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+::cue(c.bg_cyan.bg_semi-transparent) {
+  background-color: rgba(0, 255, 255, 0.5);
+}
+::cue(c.bg_red.bg_semi-transparent) {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+::cue(c.bg_yellow.bg_semi-transparent) {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+::cue(c.bg_magenta.bg_semi-transparent) {
+  background-color: rgba(255, 0, 255, 0.5);
+}
+::cue(c.bg_black.bg_semi-transparent) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+##
+
+X-TIMESTAMP-MAP=MPEGTS:38215, LOCAL 00:00:00.000
+00:00:12.603 --> 00:00:28.618 line:74%
+>> Mayor Taylor:                
+
+00:00:12.603 --> 00:00:28.618 line:79.33%
+Good evening everyone and       
+
+00:00:12.603 --> 00:00:28.618 line:84.66%
+welcome to the Feb. 24th        
+
+00:00:28.620 --> 00:00:29.953 line:74%
+Good evening everyone and       
+
+00:00:28.620 --> 00:00:29.953 line:79.33%
+welcome to the Feb. 24th        
+
+00:00:28.620 --> 00:00:29.953 line:84.66%
+Special Session.                
+
+00:00:29.955 --> 00:00:39.296 line:74%
+welcome to the Feb. 24th        
+
+00:00:29.955 --> 00:00:39.296 line:79.33%
+Special Session.                
+
+00:00:29.955 --> 00:00:39.296 line:84.66%
+>> Clerk Beaudry:               
+
+00:00:39.298 --> 00:00:39.929 line:74%
+Special Session.                
+
+00:00:39.298 --> 00:00:39.929 line:79.33%
+>> Clerk Beaudry:               
+
+00:00:39.298 --> 00:00:39.929 line:84.66%
+Notice is given to the special  
+
+00:00:39.931 --> 00:00:40.563 line:74%
+>> Clerk Beaudry:               
+
+00:00:39.931 --> 00:00:40.563 line:79.33%
+Notice is given to the special  
+
+00:00:39.931 --> 00:00:40.563 line:84.66%
+session will be held on Monday  
+
+00:00:40.565 --> 00:00:40.764 line:74%
+Notice is given to the special  
+
+00:00:40.565 --> 00:00:40.764 line:79.33%
+session will be held on Monday  
+
+00:00:40.565 --> 00:00:40.764 line:84.66%
+the                             
+
+00:00:40.766 --> 00:00:46.369 line:74%
+session will be held on Monday  
+
+00:00:40.766 --> 00:00:46.369 line:79.33%
+the                             
+
+00:00:40.766 --> 00:00:46.369 line:84.66%
+February 24th, 9 p.m.           
+
+00:00:46.371 --> 00:00:46.970 line:74%
+the                             
+
+00:00:46.371 --> 00:00:46.970 line:79.33%
+February 24th, 9 p.m.           
+
+00:00:46.371 --> 00:00:46.970 line:84.66%
+PUBLIC SERVICES 022420 FY 21    
+
+00:00:46.972 --> 00:00:47.370 line:74%
+February 24th, 9 p.m.           
+
+00:00:46.972 --> 00:00:47.370 line:79.33%
+PUBLIC SERVICES 022420 FY 21    
+
+00:00:46.972 --> 00:00:47.370 line:84.66%
+BUDGET OVERVIEW_                
+
+00:00:47.372 --> 00:00:47.904 line:74%
+PUBLIC SERVICES 022420 FY 21    
+
+00:00:47.372 --> 00:00:47.904 line:79.33%
+BUDGET OVERVIEW_                
+
+00:00:47.372 --> 00:00:47.904 line:84.66%
+REV2-21-20.pdf, 2020 PSA        
+
+00:00:47.906 --> 00:00:48.471 line:74%
+BUDGET OVERVIEW_                
+
+00:00:47.906 --> 00:00:48.471 line:79.33%
+REV2-21-20.pdf, 2020 PSA        
+
+00:00:47.906 --> 00:00:48.471 line:84.66%
+Project Plan - updated.pdf,     
+
+00:00:48.473 --> 00:00:48.838 line:74%
+REV2-21-20.pdf, 2020 PSA        
+
+00:00:48.473 --> 00:00:48.838 line:79.33%
+Project Plan - updated.pdf,     
+
+00:00:48.473 --> 00:00:48.838 line:84.66%
+200210 - General                
+
+00:00:48.840 --> 00:00:52.909 line:74%
+Project Plan - updated.pdf,     
+
+00:00:48.840 --> 00:00:52.909 line:79.33%
+200210 - General                
+
+00:00:48.840 --> 00:00:52.909 line:84.66%
+Fund (correction)               
+
+00:00:52.911 --> 00:00:53.443 line:74%
+200210 - General                
+
+00:00:52.911 --> 00:00:53.443 line:79.33%
+Fund (correction)               
+
+00:00:52.911 --> 00:00:53.443 line:84.66%
+CLOSED SESSION UNDER THE        
+
+00:00:53.445 --> 00:00:54.077 line:74%
+Fund (correction)               
+
+00:00:53.445 --> 00:00:54.077 line:79.33%
+CLOSED SESSION UNDER THE        
+
+00:00:53.445 --> 00:00:54.077 line:84.66%
+MICHIGAN OPEN MEETINGS ACT FOR  
+
+00:00:54.079 --> 00:00:54.344 line:74%
+CLOSED SESSION UNDER THE        
+
+00:00:54.079 --> 00:00:54.344 line:79.33%
+MICHIGAN OPEN MEETINGS ACT FOR  
+
+00:00:54.079 --> 00:00:54.344 line:84.66%
+REVIEW OF                       
+
+00:00:54.346 --> 00:00:54.911 line:74%
+MICHIGAN OPEN MEETINGS ACT FOR  
+
+00:00:54.346 --> 00:00:54.911 line:79.33%
+REVIEW OF                       
+
+00:00:54.346 --> 00:00:54.911 line:84.66%
+ATTORNEY/CLIENT PRIVILEGED      
+
+00:00:54.913 --> 00:00:55.545 line:74%
+REVIEW OF                       
+
+00:00:54.913 --> 00:00:55.545 line:79.33%
+ATTORNEY/CLIENT PRIVILEGED      
+
+00:00:54.913 --> 00:00:55.545 line:84.66%
+COMMUNICATIONS AND OR PERSONNEL 
+
+00:00:55.547 --> 00:00:56.179 line:74%
+ATTORNEY/CLIENT PRIVILEGED      
+
+00:00:55.547 --> 00:00:56.179 line:79.33%
+COMMUNICATIONS AND OR PERSONNEL 
+
+00:00:55.547 --> 00:00:56.179 line:84.66%
+EVALUATION MATTERS SET FORTH OR 
+
+00:00:56.181 --> 00:00:56.813 line:74%
+COMMUNICATIONS AND OR PERSONNEL 
+
+00:00:56.181 --> 00:00:56.813 line:79.33%
+EVALUATION MATTERS SET FORTH OR 
+
+00:00:56.181 --> 00:00:56.813 line:84.66%
+INCORPORATED IN MCLA 15.268 (H) 
+
+00:00:56.815 --> 00:00:56.980 line:74%
+EVALUATION MATTERS SET FORTH OR 
+
+00:00:56.815 --> 00:00:56.980 line:79.33%
+INCORPORATED IN MCLA 15.268 (H) 
+
+00:00:56.815 --> 00:00:56.980 line:84.66%
+AND                             
+
+00:00:56.982 --> 00:00:57.213 line:74%
+INCORPORATED IN MCLA 15.268 (H) 
+
+00:00:56.982 --> 00:00:57.213 line:79.33%
+AND                             
+
+00:00:56.982 --> 00:00:57.213 line:84.66%
+OR (A).                         
+
+00:00:57.215 --> 00:00:57.881 line:74%
+AND                             
+
+00:00:57.215 --> 00:00:57.881 line:79.33%
+OR (A).                         
+
+00:00:57.215 --> 00:00:57.881 line:84.66%
+>> Point of order on that. It   
+
+00:00:57.883 --> 00:01:01.284 line:74%
+OR (A).                         
+
+00:00:57.883 --> 00:01:01.284 line:79.33%
+>> Point of order on that. It   
+
+00:00:57.883 --> 00:01:01.284 line:84.66%
+will be "and" rather than "or"  
+
+00:01:01.286 --> 00:01:03.086 line:74%
+>> Point of order on that. It   
+
+00:01:01.286 --> 00:01:03.086 line:79.33%
+will be "and" rather than "or"  
+
+00:01:01.286 --> 00:01:03.086 line:84.66%
+and I need to                   
+
+00:01:03.088 --> 00:01:06.623 line:74%
+will be "and" rather than "or"  
+
+00:01:03.088 --> 00:01:06.623 line:79.33%
+and I need to                   
+
+00:01:03.088 --> 00:01:06.623 line:84.66%
+state for the record that Chief 
+
+00:01:06.625 --> 00:01:16.966 line:74%
+and I need to                   
+
+00:01:06.625 --> 00:01:16.966 line:79.33%
+state for the record that Chief 
+
+00:01:06.625 --> 00:01:16.966 line:84.66%
+Cox is here and his attorney -- 
+
+00:01:16.968 --> 00:01:17.233 line:74%
+state for the record that Chief 
+
+00:01:16.968 --> 00:01:17.233 line:79.33%
+Cox is here and his attorney -- 
+
+00:01:16.968 --> 00:01:17.233 line:84.66%
+and this                        
+
+00:01:17.235 --> 00:01:20.470 line:74%
+Cox is here and his attorney -- 
+
+00:01:17.235 --> 00:01:20.470 line:79.33%
+and this                        
+
+00:01:17.235 --> 00:01:20.470 line:84.66%
+portion of the  special meeting 
+
+00:01:20.472 --> 00:01:23.173 line:74%
+and this                        
+
+00:01:20.472 --> 00:01:23.173 line:79.33%
+portion of the  special meeting 
+
+00:01:20.472 --> 00:01:23.173 line:84.66%
+site needs to be done  with the 
+
+00:01:23.175 --> 00:01:23.473 line:74%
+portion of the  special meeting 
+
+00:01:23.175 --> 00:01:23.473 line:79.33%
+site needs to be done  with the 
+
+00:01:23.175 --> 00:01:23.473 line:84.66%
+consent of                      
+
+00:01:23.475 --> 00:01:24.040 line:74%
+site needs to be done  with the 
+
+00:01:23.475 --> 00:01:24.040 line:79.33%
+consent of                      
+
+00:01:23.475 --> 00:01:24.040 line:84.66%
+chief Cox  and he has done      
+
+00:01:24.042 --> 00:01:24.240 line:74%
+consent of                      
+
+00:01:24.042 --> 00:01:24.240 line:79.33%
+chief Cox  and he has done      
+
+00:01:24.042 --> 00:01:24.240 line:84.66%
+that.                           
+
+00:01:24.242 --> 00:01:27.877 line:74%
+chief Cox  and he has done      
+
+00:01:24.242 --> 00:01:27.877 line:79.33%
+that.                           
+
+00:01:24.242 --> 00:01:27.877 line:84.66%
+>> Mayor Taylor:                
+
+00:01:27.879 --> 00:01:30.880 line:74%
+that.                           
+
+00:01:27.879 --> 00:01:30.880 line:79.33%
+>> Mayor Taylor:                
+
+00:01:27.879 --> 00:01:30.880 line:84.66%
+If you are able please rise     
+
+00:01:30.882 --> 00:01:31.481 line:74%
+>> Mayor Taylor:                
+
+00:01:30.882 --> 00:01:31.481 line:79.33%
+If you are able please rise     
+
+00:01:30.882 --> 00:01:31.481 line:84.66%
+and join us for a moment of     
+
+00:01:31.483 --> 00:01:31.881 line:74%
+If you are able please rise     
+
+00:01:31.483 --> 00:01:31.881 line:79.33%
+and join us for a moment of     
+
+00:01:31.483 --> 00:01:31.881 line:84.66%
+silence followed                
+
+00:01:31.883 --> 00:01:39.489 line:74%
+and join us for a moment of     
+
+00:01:31.883 --> 00:01:39.489 line:79.33%
+silence followed                
+
+00:01:31.883 --> 00:01:39.489 line:84.66%
+by the Pledge of Allegiance.    
+
+00:01:39.491 --> 00:01:40.724 line:74%
+silence followed                
+
+00:01:39.491 --> 00:01:40.724 line:79.33%
+by the Pledge of Allegiance.    
+
+00:01:39.491 --> 00:01:40.724 line:84.66%
+I pledge allegiance             
+
+00:01:40.726 --> 00:01:41.691 line:74%
+by the Pledge of Allegiance.    
+
+00:01:40.726 --> 00:01:41.691 line:79.33%
+I pledge allegiance             
+
+00:01:40.726 --> 00:01:41.691 line:84.66%
+to the flag of the              
+
+00:01:41.693 --> 00:01:42.692 line:74%
+I pledge allegiance             
+
+00:01:41.693 --> 00:01:42.692 line:79.33%
+to the flag of the              
+
+00:01:41.693 --> 00:01:42.692 line:84.66%
+United States of America        
+
+00:01:42.694 --> 00:01:43.827 line:74%
+to the flag of the              
+
+00:01:42.694 --> 00:01:43.827 line:79.33%
+United States of America        
+
+00:01:42.694 --> 00:01:43.827 line:84.66%
+and to the Republic             
+
+00:01:43.829 --> 00:01:44.894 line:74%
+United States of America        
+
+00:01:43.829 --> 00:01:44.894 line:79.33%
+and to the Republic             
+
+00:01:43.829 --> 00:01:44.894 line:84.66%
+for which it stands,            
+
+00:01:44.896 --> 00:01:47.497 line:74%
+and to the Republic             
+
+00:01:44.896 --> 00:01:47.497 line:79.33%
+for which it stands,            
+
+00:01:44.896 --> 00:01:47.497 line:84.66%
+one Nation under God,           
+
+00:01:47.499 --> 00:01:48.732 line:74%
+for which it stands,            
+
+00:01:47.499 --> 00:01:48.732 line:79.33%
+one Nation under God,           
+
+00:01:47.499 --> 00:01:48.732 line:84.66%
+indivisible,                    
+
+00:01:48.734 --> 00:01:49.332 line:74%
+one Nation under God,           
+
+00:01:48.734 --> 00:01:49.332 line:79.33%
+indivisible,                    
+
+00:01:48.734 --> 00:01:49.332 line:84.66%
+with liberty and justice for    
+
+00:01:49.334 --> 00:01:54.104 line:74%
+indivisible,                    
+
+00:01:49.334 --> 00:01:54.104 line:79.33%
+with liberty and justice for    
+
+00:01:49.334 --> 00:01:54.104 line:84.66%
+all.                            
+
+00:01:54.106 --> 00:01:54.738 line:74%
+with liberty and justice for    
+
+00:01:54.106 --> 00:01:54.738 line:79.33%
+all.                            
+
+00:01:54.106 --> 00:01:54.738 line:84.66%
+with liberty and justice for    
+
+00:01:54.740 --> 00:02:02.412 line:74%
+all.                            
+
+00:01:54.740 --> 00:02:02.412 line:79.33%
+with liberty and justice for    
+
+00:01:54.740 --> 00:02:02.412 line:84.66%
+all..                           
+
+00:02:02.414 --> 00:02:03.813 line:74%
+with liberty and justice for    
+
+00:02:02.414 --> 00:02:03.813 line:79.33%
+all..                           
+
+00:02:02.414 --> 00:02:03.813 line:84.66%
+>> Councilmember Hayner:        
+
+00:02:03.815 --> 00:02:08.551 line:74%
+all..                           
+
+00:02:03.815 --> 00:02:08.551 line:79.33%
+>> Councilmember Hayner:        
+
+00:02:03.815 --> 00:02:08.551 line:84.66%
+>> Here.                        
+
+00:02:08.553 --> 00:02:09.419 line:74%
+>> Councilmember Hayner:        
+
+00:02:08.553 --> 00:02:09.419 line:79.33%
+>> Here.                        
+
+00:02:08.553 --> 00:02:09.419 line:84.66%
+Councilmember Eaton.            
+
+00:02:09.421 --> 00:02:14.023 line:74%
+>> Here.                        
+
+00:02:09.421 --> 00:02:14.023 line:79.33%
+Councilmember Eaton.            
+
+00:02:09.421 --> 00:02:14.023 line:84.66%
+>> Here.                        
+
+00:02:14.025 --> 00:02:16.326 line:74%
+Councilmember Eaton.            
+
+00:02:14.025 --> 00:02:16.326 line:79.33%
+>> Here.                        
+
+00:02:14.025 --> 00:02:16.326 line:84.66%
+Councilmember Griswold          
+
+00:02:16.328 --> 00:02:20.196 line:74%
+>> Here.                        
+
+00:02:16.328 --> 00:02:20.196 line:79.33%
+Councilmember Griswold          
+
+00:02:16.328 --> 00:02:20.196 line:84.66%
+>> Here.                        
+
+00:02:20.198 --> 00:02:21.931 line:74%
+Councilmember Griswold          
+
+00:02:20.198 --> 00:02:21.931 line:79.33%
+>> Here.                        
+
+00:02:20.198 --> 00:02:21.931 line:84.66%
+>> Councilmember Lumm:          
+
+00:02:21.933 --> 00:02:22.766 line:74%
+>> Here.                        
+
+00:02:21.933 --> 00:02:22.766 line:79.33%
+>> Councilmember Lumm:          
+
+00:02:21.933 --> 00:02:22.766 line:84.66%
+>> Here.                        
+
+00:02:22.768 --> 00:02:23.867 line:74%
+>> Councilmember Lumm:          
+
+00:02:22.768 --> 00:02:23.867 line:79.33%
+>> Here.                        
+
+00:02:22.768 --> 00:02:23.867 line:84.66%
+>> Mayor Taylor:                
+
+00:02:23.869 --> 00:02:30.907 line:74%
+>> Here.                        
+
+00:02:23.869 --> 00:02:30.907 line:79.33%
+>> Mayor Taylor:                
+
+00:02:23.869 --> 00:02:30.907 line:84.66%
+The agenda is approved, public  
+
+00:02:30.909 --> 00:02:32.609 line:74%
+>> Mayor Taylor:                
+
+00:02:30.909 --> 00:02:32.609 line:79.33%
+The agenda is approved, public  
+
+00:02:30.909 --> 00:02:32.609 line:84.66%
+comment  is an opportunity for  
+
+00:02:32.611 --> 00:02:32.909 line:74%
+The agenda is approved, public  
+
+00:02:32.611 --> 00:02:32.909 line:79.33%
+comment  is an opportunity for  
+
+00:02:32.611 --> 00:02:32.909 line:84.66%
+members of                      
+
+00:02:32.911 --> 00:02:34.944 line:74%
+comment  is an opportunity for  
+
+00:02:32.911 --> 00:02:34.944 line:79.33%
+members of                      
+
+00:02:32.911 --> 00:02:34.944 line:84.66%
+the community to speak to       
+
+00:02:34.946 --> 00:02:38.114 line:74%
+members of                      
+
+00:02:34.946 --> 00:02:38.114 line:79.33%
+the community to speak to       
+
+00:02:34.946 --> 00:02:38.114 line:84.66%
+Council  in one need not  be    
+
+00:02:38.116 --> 00:02:42.185 line:74%
+the community to speak to       
+
+00:02:38.116 --> 00:02:42.185 line:79.33%
+Council  in one need not  be    
+
+00:02:38.116 --> 00:02:42.185 line:84.66%
+signed up in                    
+
+00:02:42.187 --> 00:02:48.358 line:74%
+Council  in one need not  be    
+
+00:02:42.187 --> 00:02:48.358 line:79.33%
+signed up in                    
+
+00:02:42.187 --> 00:02:48.358 line:84.66%
+advance;                        
+
+00:02:48.360 --> 00:02:49.025 line:74%
+signed up in                    
+
+00:02:48.360 --> 00:02:49.025 line:79.33%
+advance;                        
+
+00:02:48.360 --> 00:02:49.025 line:84.66%
+as a matter of courtesy we only 
+
+00:02:49.027 --> 00:02:49.626 line:74%
+advance;                        
+
+00:02:49.027 --> 00:02:49.626 line:79.33%
+as a matter of courtesy we only 
+
+00:02:49.027 --> 00:02:49.626 line:84.66%
+need one person at a time and   
+
+00:02:49.628 --> 00:02:50.894 line:74%
+as a matter of courtesy we only 
+
+00:02:49.628 --> 00:02:50.894 line:79.33%
+need one person at a time and   
+
+00:02:49.628 --> 00:02:50.894 line:84.66%
+if you need                     
+
+00:02:50.896 --> 00:02:52.695 line:74%
+need one person at a time and   
+
+00:02:50.896 --> 00:02:52.695 line:79.33%
+if you need                     
+
+00:02:50.896 --> 00:02:52.695 line:84.66%
+special assistance will be      
+
+00:02:52.697 --> 00:02:53.296 line:74%
+if you need                     
+
+00:02:52.697 --> 00:02:53.296 line:79.33%
+special assistance will be      
+
+00:02:52.697 --> 00:02:53.296 line:84.66%
+delighted to provide that to    
+
+00:02:53.298 --> 00:02:55.231 line:74%
+special assistance will be      
+
+00:02:53.298 --> 00:02:55.231 line:79.33%
+delighted to provide that to    
+
+00:02:53.298 --> 00:02:55.231 line:84.66%
+you.                            
+
+00:02:55.233 --> 00:02:56.199 line:74%
+delighted to provide that to    
+
+00:02:55.233 --> 00:02:56.199 line:79.33%
+you.                            
+
+00:02:55.233 --> 00:02:56.199 line:84.66%
+Is there someone who would like 
+
+00:02:56.201 --> 00:02:56.466 line:74%
+you.                            
+
+00:02:56.201 --> 00:02:56.466 line:79.33%
+Is there someone who would like 
+
+00:02:56.201 --> 00:02:56.466 line:84.66%
+to speak?                       
+
+00:02:56.468 --> 00:03:39.609 line:74%
+Is there someone who would like 
+
+00:02:56.468 --> 00:03:39.609 line:79.33%
+to speak?                       
+
+00:02:56.468 --> 00:03:39.609 line:84.66%
+>> (off mic)                    
+
+00:03:39.611 --> 00:03:48.885 line:74%
+to speak?                       
+
+00:03:39.611 --> 00:03:48.885 line:79.33%
+>> (off mic)                    
+
+00:03:39.611 --> 00:03:48.885 line:84.66%
+>> (off mic) -- --              
+
+00:03:48.887 --> 00:03:53.423 line:74%
+>> (off mic)                    
+
+00:03:48.887 --> 00:03:53.423 line:79.33%
+>> (off mic) -- --              
+
+00:03:48.887 --> 00:03:53.423 line:84.66%
+(off mic) --                    
+
+00:03:53.425 --> 00:03:56.826 line:74%
+>> (off mic) -- --              
+
+00:03:53.425 --> 00:03:56.826 line:79.33%
+(off mic) --                    
+
+00:03:53.425 --> 00:03:56.826 line:84.66%
+from a transparency perspective 
+
+00:03:56.828 --> 00:03:59.362 line:74%
+(off mic) --                    
+
+00:03:56.828 --> 00:03:59.362 line:79.33%
+from a transparency perspective 
+
+00:03:56.828 --> 00:03:59.362 line:84.66%
+and the city charter            
+
+00:03:59.364 --> 00:04:00.763 line:74%
+from a transparency perspective 
+
+00:03:59.364 --> 00:04:00.763 line:79.33%
+and the city charter            
+
+00:03:59.364 --> 00:04:00.763 line:84.66%
+perspective -- (off             
+
+00:04:00.765 --> 00:04:04.667 line:74%
+and the city charter            
+
+00:04:00.765 --> 00:04:04.667 line:79.33%
+perspective -- (off             
+
+00:04:00.765 --> 00:04:04.667 line:84.66%
+mic) --                         
+
+00:04:04.669 --> 00:04:07.670 line:74%
+perspective -- (off             
+
+00:04:04.669 --> 00:04:07.670 line:79.33%
+mic) --                         
+
+00:04:04.669 --> 00:04:07.670 line:84.66%
+otherwise have a good night. I  
+
+00:04:07.672 --> 00:04:10.306 line:74%
+mic) --                         
+
+00:04:07.672 --> 00:04:10.306 line:79.33%
+otherwise have a good night. I  
+
+00:04:07.672 --> 00:04:10.306 line:84.66%
+have nothing further to say     
+
+00:04:10.308 --> 00:04:12.175 line:74%
+otherwise have a good night. I  
+
+00:04:10.308 --> 00:04:12.175 line:79.33%
+have nothing further to say     
+
+00:04:10.308 --> 00:04:12.175 line:84.66%
+about the                       
+
+00:04:12.177 --> 00:04:14.310 line:74%
+have nothing further to say     
+
+00:04:12.177 --> 00:04:14.310 line:79.33%
+about the                       
+
+00:04:12.177 --> 00:04:14.310 line:84.66%
+Chief, but I wanted to add      
+
+00:04:14.312 --> 00:04:14.611 line:74%
+about the                       
+
+00:04:14.312 --> 00:04:14.611 line:79.33%
+Chief, but I wanted to add      
+
+00:04:14.312 --> 00:04:14.611 line:84.66%
+that.                           
+
+00:04:14.613 --> 00:04:15.678 line:74%
+Chief, but I wanted to add      
+
+00:04:14.613 --> 00:04:15.678 line:79.33%
+that.                           
+
+00:04:14.613 --> 00:04:15.678 line:84.66%
+>> Mayor Taylor:                
+
+00:04:15.680 --> 00:04:27.190 line:74%
+that.                           
+
+00:04:15.680 --> 00:04:27.190 line:79.33%
+>> Mayor Taylor:                
+
+00:04:15.680 --> 00:04:27.190 line:84.66%
+Thank you.                      
+
+00:04:27.192 --> 00:04:31.394 line:74%
+>> Mayor Taylor:                
+
+00:04:27.192 --> 00:04:31.394 line:79.33%
+Thank you.                      
+
+00:04:27.192 --> 00:04:31.394 line:84.66%
+>> This has been very           
+
+00:04:31.396 --> 00:04:33.162 line:74%
+Thank you.                      
+
+00:04:31.396 --> 00:04:33.162 line:79.33%
+>> This has been very           
+
+00:04:31.396 --> 00:04:33.162 line:84.66%
+personally upsetting (off mic)  
+
+00:04:33.164 --> 00:04:35.698 line:74%
+>> This has been very           
+
+00:04:33.164 --> 00:04:35.698 line:79.33%
+personally upsetting (off mic)  
+
+00:04:33.164 --> 00:04:35.698 line:84.66%
+-- I want to point              
+
+00:04:35.700 --> 00:04:37.133 line:74%
+personally upsetting (off mic)  
+
+00:04:35.700 --> 00:04:37.133 line:79.33%
+-- I want to point              
+
+00:04:35.700 --> 00:04:37.133 line:84.66%
+out --                          
+
+00:04:37.135 --> 00:04:40.370 line:74%
+-- I want to point              
+
+00:04:37.135 --> 00:04:40.370 line:79.33%
+out --                          
+
+00:04:37.135 --> 00:04:40.370 line:84.66%
+(indiscernible)                 
+
+00:04:40.372 --> 00:04:43.673 line:74%
+out --                          
+
+00:04:40.372 --> 00:04:43.673 line:79.33%
+(indiscernible)                 
+
+00:04:40.372 --> 00:04:43.673 line:84.66%
+-- he has a family, he has      
+
+00:04:43.675 --> 00:04:48.478 line:74%
+(indiscernible)                 
+
+00:04:43.675 --> 00:04:48.478 line:79.33%
+-- he has a family, he has      
+
+00:04:43.675 --> 00:04:48.478 line:84.66%
+children, he took a great risk  
+
+00:04:48.480 --> 00:04:48.845 line:74%
+-- he has a family, he has      
+
+00:04:48.480 --> 00:04:48.845 line:79.33%
+children, he took a great risk  
+
+00:04:48.480 --> 00:04:48.845 line:84.66%
+coming to this                  
+
+00:04:48.847 --> 00:04:52.415 line:74%
+children, he took a great risk  
+
+00:04:48.847 --> 00:04:52.415 line:79.33%
+coming to this                  
+
+00:04:48.847 --> 00:04:52.415 line:84.66%
+community -- Without the        
+
+00:04:52.417 --> 00:04:54.350 line:74%
+coming to this                  
+
+00:04:52.417 --> 00:04:54.350 line:79.33%
+community -- Without the        
+
+00:04:52.417 --> 00:04:54.350 line:84.66%
+leadership for four years.      
+
+00:04:54.352 --> 00:04:56.286 line:74%
+community -- Without the        
+
+00:04:54.352 --> 00:04:56.286 line:79.33%
+leadership for four years.      
+
+00:04:54.352 --> 00:04:56.286 line:84.66%
+There's a lot of                
+
+00:04:56.288 --> 00:05:04.193 line:74%
+leadership for four years.      
+
+00:04:56.288 --> 00:05:04.193 line:79.33%
+There's a lot of                
+
+00:04:56.288 --> 00:05:04.193 line:84.66%
+people in the community that    
+
+00:05:04.195 --> 00:05:04.794 line:74%
+There's a lot of                
+
+00:05:04.195 --> 00:05:04.794 line:79.33%
+people in the community that    
+
+00:05:04.195 --> 00:05:04.794 line:84.66%
+depend on a wonderful and       
+
+00:05:04.796 --> 00:05:05.161 line:74%
+people in the community that    
+
+00:05:04.796 --> 00:05:05.161 line:79.33%
+depend on a wonderful and       
+
+00:05:04.796 --> 00:05:05.161 line:84.66%
+highly trained                  
+
+00:05:05.163 --> 00:05:07.664 line:74%
+depend on a wonderful and       
+
+00:05:05.163 --> 00:05:07.664 line:79.33%
+highly trained                  
+
+00:05:05.163 --> 00:05:07.664 line:84.66%
+police department. My neighbor  
+
+00:05:07.666 --> 00:05:10.433 line:74%
+highly trained                  
+
+00:05:07.666 --> 00:05:10.433 line:79.33%
+police department. My neighbor  
+
+00:05:07.666 --> 00:05:10.433 line:84.66%
+had a mental issue and felt     
+
+00:05:10.435 --> 00:05:12.068 line:74%
+police department. My neighbor  
+
+00:05:10.435 --> 00:05:12.068 line:79.33%
+had a mental issue and felt     
+
+00:05:10.435 --> 00:05:12.068 line:84.66%
+suicidal. So                    
+
+00:05:12.070 --> 00:05:16.906 line:74%
+had a mental issue and felt     
+
+00:05:12.070 --> 00:05:16.906 line:79.33%
+suicidal. So                    
+
+00:05:12.070 --> 00:05:16.906 line:84.66%
+the SWAT team came (off mic) -- 
+
+00:05:16.908 --> 00:05:20.710 line:74%
+suicidal. So                    
+
+00:05:16.908 --> 00:05:20.710 line:79.33%
+the SWAT team came (off mic) -- 
+
+00:05:16.908 --> 00:05:20.710 line:84.66%
+those men and women were        
+
+00:05:20.712 --> 00:05:21.244 line:74%
+the SWAT team came (off mic) -- 
+
+00:05:20.712 --> 00:05:21.244 line:79.33%
+those men and women were        
+
+00:05:20.712 --> 00:05:21.244 line:84.66%
+incredibly                      
+
+00:05:21.246 --> 00:05:23.446 line:74%
+those men and women were        
+
+00:05:21.246 --> 00:05:23.446 line:79.33%
+incredibly                      
+
+00:05:21.246 --> 00:05:23.446 line:84.66%
+professional and he lived to    
+
+00:05:23.448 --> 00:05:26.583 line:74%
+incredibly                      
+
+00:05:23.448 --> 00:05:26.583 line:79.33%
+professional and he lived to    
+
+00:05:23.448 --> 00:05:26.583 line:84.66%
+see another day and got the     
+
+00:05:26.585 --> 00:05:28.351 line:74%
+professional and he lived to    
+
+00:05:26.585 --> 00:05:28.351 line:79.33%
+see another day and got the     
+
+00:05:26.585 --> 00:05:28.351 line:84.66%
+help he needed,                 
+
+00:05:28.353 --> 00:05:32.488 line:74%
+see another day and got the     
+
+00:05:28.353 --> 00:05:32.488 line:79.33%
+help he needed,                 
+
+00:05:28.353 --> 00:05:32.488 line:84.66%
+and he's a father. I will tell  
+
+00:05:32.490 --> 00:05:38.394 line:74%
+help he needed,                 
+
+00:05:32.490 --> 00:05:38.394 line:79.33%
+and he's a father. I will tell  
+
+00:05:32.490 --> 00:05:38.394 line:84.66%
+you why. It's because of        
+
+00:05:38.396 --> 00:05:38.795 line:74%
+and he's a father. I will tell  
+
+00:05:38.396 --> 00:05:38.795 line:79.33%
+you why. It's because of        
+
+00:05:38.396 --> 00:05:38.795 line:84.66%
+training  and our               
+
+00:05:38.797 --> 00:05:44.334 line:74%
+you why. It's because of        
+
+00:05:38.797 --> 00:05:44.334 line:79.33%
+training  and our               
+
+00:05:38.797 --> 00:05:44.334 line:84.66%
+police department  deserves so  
+
+00:05:44.336 --> 00:05:44.901 line:74%
+training  and our               
+
+00:05:44.336 --> 00:05:44.901 line:79.33%
+police department  deserves so  
+
+00:05:44.336 --> 00:05:44.901 line:84.66%
+much better than they  have     
+
+00:05:44.903 --> 00:05:45.201 line:74%
+police department  deserves so  
+
+00:05:44.903 --> 00:05:45.201 line:79.33%
+much better than they  have     
+
+00:05:44.903 --> 00:05:45.201 line:84.66%
+been having                     
+
+00:05:45.203 --> 00:05:48.938 line:74%
+much better than they  have     
+
+00:05:45.203 --> 00:05:48.938 line:79.33%
+been having                     
+
+00:05:45.203 --> 00:05:48.938 line:84.66%
+(off mic) -- trying to live my  
+
+00:05:48.940 --> 00:05:55.712 line:74%
+been having                     
+
+00:05:48.940 --> 00:05:55.712 line:79.33%
+(off mic) -- trying to live my  
+
+00:05:48.940 --> 00:05:55.712 line:84.66%
+life until I came across the -- 
+
+00:05:55.714 --> 00:05:56.512 line:74%
+(off mic) -- trying to live my  
+
+00:05:55.714 --> 00:05:56.512 line:79.33%
+life until I came across the -- 
+
+00:05:55.714 --> 00:05:56.512 line:84.66%
+Community                       
+
+00:05:56.514 --> 00:05:57.580 line:74%
+life until I came across the -- 
+
+00:05:56.514 --> 00:05:57.580 line:79.33%
+Community                       
+
+00:05:56.514 --> 00:05:57.580 line:84.66%
+engagement officer  and worked  
+
+00:05:57.582 --> 00:05:59.349 line:74%
+Community                       
+
+00:05:57.582 --> 00:05:59.349 line:79.33%
+engagement officer  and worked  
+
+00:05:57.582 --> 00:05:59.349 line:84.66%
+side-by-side with me -- (off    
+
+00:05:59.351 --> 00:06:04.954 line:74%
+engagement officer  and worked  
+
+00:05:59.351 --> 00:06:04.954 line:79.33%
+side-by-side with me -- (off    
+
+00:05:59.351 --> 00:06:04.954 line:84.66%
+mic) -- buying                  
+
+00:06:04.956 --> 00:06:06.956 line:74%
+side-by-side with me -- (off    
+
+00:06:04.956 --> 00:06:06.956 line:79.33%
+mic) -- buying                  
+
+00:06:04.956 --> 00:06:06.956 line:84.66%
+them sandwiches, working with   
+
+00:06:06.958 --> 00:06:15.098 line:74%
+mic) -- buying                  
+
+00:06:06.958 --> 00:06:15.098 line:79.33%
+them sandwiches, working with   
+
+00:06:06.958 --> 00:06:15.098 line:84.66%
+us on father's day,  working to 
+
+00:06:15.100 --> 00:06:16.633 line:74%
+them sandwiches, working with   
+
+00:06:15.100 --> 00:06:16.633 line:79.33%
+us on father's day,  working to 
+
+00:06:15.100 --> 00:06:16.633 line:84.66%
+make the                        
+
+00:06:16.635 --> 00:06:17.634 line:74%
+us on father's day,  working to 
+
+00:06:16.635 --> 00:06:17.634 line:79.33%
+make the                        
+
+00:06:16.635 --> 00:06:17.634 line:84.66%
+city better, one of the         
+
+00:06:17.636 --> 00:06:21.804 line:74%
+make the                        
+
+00:06:17.636 --> 00:06:21.804 line:79.33%
+city better, one of the         
+
+00:06:17.636 --> 00:06:21.804 line:84.66%
+greatest leaders I've met.      
+
+00:06:21.806 --> 00:06:24.674 line:74%
+city better, one of the         
+
+00:06:21.806 --> 00:06:24.674 line:79.33%
+greatest leaders I've met.      
+
+00:06:21.806 --> 00:06:24.674 line:84.66%
+The police department does  so  
+
+00:06:24.676 --> 00:06:26.976 line:74%
+greatest leaders I've met.      
+
+00:06:24.676 --> 00:06:26.976 line:79.33%
+The police department does  so  
+
+00:06:24.676 --> 00:06:26.976 line:84.66%
+much behind the scenes and they 
+
+00:06:26.978 --> 00:06:27.543 line:74%
+The police department does  so  
+
+00:06:26.978 --> 00:06:27.543 line:79.33%
+much behind the scenes and they 
+
+00:06:26.978 --> 00:06:27.543 line:84.66%
+are heroes                      
+
+00:06:27.545 --> 00:06:28.878 line:74%
+much behind the scenes and they 
+
+00:06:27.545 --> 00:06:28.878 line:79.33%
+are heroes                      
+
+00:06:27.545 --> 00:06:28.878 line:84.66%
+everyday in their threatened    
+
+00:06:28.880 --> 00:06:36.185 line:74%
+are heroes                      
+
+00:06:28.880 --> 00:06:36.185 line:79.33%
+everyday in their threatened    
+
+00:06:28.880 --> 00:06:36.185 line:84.66%
+with Assassination attempts     
+
+00:06:36.187 --> 00:06:36.686 line:74%
+everyday in their threatened    
+
+00:06:36.187 --> 00:06:36.686 line:79.33%
+with Assassination attempts     
+
+00:06:36.187 --> 00:06:36.686 line:84.66%
+across the nation               
+
+00:06:36.688 --> 00:06:39.555 line:74%
+with Assassination attempts     
+
+00:06:36.688 --> 00:06:39.555 line:79.33%
+across the nation               
+
+00:06:36.688 --> 00:06:39.555 line:84.66%
+-- (off mic) -- his character   
+
+00:06:39.557 --> 00:06:43.226 line:74%
+across the nation               
+
+00:06:39.557 --> 00:06:43.226 line:79.33%
+-- (off mic) -- his character   
+
+00:06:39.557 --> 00:06:43.226 line:84.66%
+has been assassinated. And if   
+
+00:06:43.228 --> 00:06:44.694 line:74%
+-- (off mic) -- his character   
+
+00:06:43.228 --> 00:06:44.694 line:79.33%
+has been assassinated. And if   
+
+00:06:43.228 --> 00:06:44.694 line:84.66%
+I'm wrong I                     
+
+00:06:44.696 --> 00:06:47.897 line:74%
+has been assassinated. And if   
+
+00:06:44.696 --> 00:06:47.897 line:79.33%
+I'm wrong I                     
+
+00:06:44.696 --> 00:06:47.897 line:84.66%
+will eat my words; but the      
+
+00:06:47.899 --> 00:06:50.400 line:74%
+I'm wrong I                     
+
+00:06:47.899 --> 00:06:50.400 line:79.33%
+will eat my words; but the      
+
+00:06:47.899 --> 00:06:50.400 line:84.66%
+sense I got from this man       
+
+00:06:50.402 --> 00:06:51.000 line:74%
+will eat my words; but the      
+
+00:06:50.402 --> 00:06:51.000 line:79.33%
+sense I got from this man       
+
+00:06:50.402 --> 00:06:51.000 line:84.66%
+(indiscernible)                 
+
+00:06:51.002 --> 00:06:54.404 line:74%
+sense I got from this man       
+
+00:06:51.002 --> 00:06:54.404 line:79.33%
+(indiscernible)                 
+
+00:06:51.002 --> 00:06:54.404 line:84.66%
+-- and many of the other men    
+
+00:06:54.406 --> 00:06:58.574 line:74%
+(indiscernible)                 
+
+00:06:54.406 --> 00:06:58.574 line:79.33%
+-- and many of the other men    
+
+00:06:54.406 --> 00:06:58.574 line:84.66%
+and women of our fantastic      
+
+00:06:58.576 --> 00:07:00.109 line:74%
+-- and many of the other men    
+
+00:06:58.576 --> 00:07:00.109 line:79.33%
+and women of our fantastic      
+
+00:06:58.576 --> 00:07:00.109 line:84.66%
+AAPD.                           
+
+00:07:00.111 --> 00:07:06.549 line:74%
+and women of our fantastic      
+
+00:07:00.111 --> 00:07:06.549 line:79.33%
+AAPD.                           
+
+00:07:00.111 --> 00:07:06.549 line:84.66%
+Dr. -- I want to  apologize     
+
+00:07:06.551 --> 00:07:10.386 line:74%
+AAPD.                           
+
+00:07:06.551 --> 00:07:10.386 line:79.33%
+Dr. -- I want to  apologize     
+
+00:07:06.551 --> 00:07:10.386 line:84.66%
+again and chief Cox  if you are 
+
+00:07:10.388 --> 00:07:10.687 line:74%
+Dr. -- I want to  apologize     
+
+00:07:10.388 --> 00:07:10.687 line:79.33%
+again and chief Cox  if you are 
+
+00:07:10.388 --> 00:07:10.687 line:84.66%
+not able to                     
+
+00:07:10.689 --> 00:07:11.287 line:74%
+again and chief Cox  if you are 
+
+00:07:10.689 --> 00:07:11.287 line:79.33%
+not able to                     
+
+00:07:10.689 --> 00:07:11.287 line:84.66%
+stay I won't blame you but if   
+
+00:07:11.289 --> 00:07:13.956 line:74%
+not able to                     
+
+00:07:11.289 --> 00:07:13.956 line:79.33%
+stay I won't blame you but if   
+
+00:07:11.289 --> 00:07:13.956 line:84.66%
+you do I hope this Council and  
+
+00:07:13.958 --> 00:07:20.763 line:74%
+stay I won't blame you but if   
+
+00:07:13.958 --> 00:07:20.763 line:79.33%
+you do I hope this Council and  
+
+00:07:13.958 --> 00:07:20.763 line:84.66%
+this city for                   
+
+00:07:20.765 --> 00:07:24.233 line:74%
+you do I hope this Council and  
+
+00:07:20.765 --> 00:07:24.233 line:79.33%
+this city for                   
+
+00:07:20.765 --> 00:07:24.233 line:84.66%
+a very improper rude and        
+
+00:07:24.235 --> 00:07:24.834 line:74%
+this city for                   
+
+00:07:24.235 --> 00:07:24.834 line:79.33%
+a very improper rude and        
+
+00:07:24.235 --> 00:07:24.834 line:84.66%
+disturbing --.                  
+
+00:07:24.836 --> 00:07:25.902 line:74%
+a very improper rude and        
+
+00:07:24.836 --> 00:07:25.902 line:79.33%
+disturbing --.                  
+
+00:07:24.836 --> 00:07:25.902 line:84.66%
+>> Mayor Taylor:                
+
+00:07:25.904 --> 00:07:30.273 line:74%
+disturbing --.                  
+
+00:07:25.904 --> 00:07:30.273 line:79.33%
+>> Mayor Taylor:                
+
+00:07:25.904 --> 00:07:30.273 line:84.66%
+Thank you.                      
+
+00:07:30.275 --> 00:07:31.808 line:74%
+>> Mayor Taylor:                
+
+00:07:30.275 --> 00:07:31.808 line:79.33%
+Thank you.                      
+
+00:07:30.275 --> 00:07:31.808 line:84.66%
+Is anyone else who would like   
+
+00:07:31.810 --> 00:07:32.375 line:74%
+Thank you.                      
+
+00:07:31.810 --> 00:07:32.375 line:79.33%
+Is anyone else who would like   
+
+00:07:31.810 --> 00:07:32.375 line:84.66%
+to speak at public comment?     
+
+00:07:32.377 --> 00:07:34.977 line:74%
+Is anyone else who would like   
+
+00:07:32.377 --> 00:07:34.977 line:79.33%
+to speak at public comment?     
+
+00:07:32.377 --> 00:07:34.977 line:84.66%
+Seeing no one, public comment   
+
+00:07:34.979 --> 00:07:35.745 line:74%
+to speak at public comment?     
+
+00:07:34.979 --> 00:07:35.745 line:79.33%
+Seeing no one, public comment   
+
+00:07:34.979 --> 00:07:35.745 line:84.66%
+is closed.                      
+
+00:07:35.747 --> 00:07:39.182 line:74%
+Seeing no one, public comment   
+
+00:07:35.747 --> 00:07:39.182 line:79.33%
+is closed.                      
+
+00:07:35.747 --> 00:07:39.182 line:84.66%
+May I have a motion to go to    
+
+00:07:39.184 --> 00:07:44.787 line:74%
+is closed.                      
+
+00:07:39.184 --> 00:07:44.787 line:79.33%
+May I have a motion to go to    
+
+00:07:39.184 --> 00:07:44.787 line:84.66%
+session for the basis that the  
+
+00:07:44.789 --> 00:07:46.856 line:74%
+May I have a motion to go to    
+
+00:07:44.789 --> 00:07:46.856 line:79.33%
+session for the basis that the  
+
+00:07:44.789 --> 00:07:46.856 line:84.66%
+clerk read, in                  
+
+00:07:46.858 --> 00:07:53.963 line:74%
+session for the basis that the  
+
+00:07:46.858 --> 00:07:53.963 line:79.33%
+clerk read, in                  
+
+00:07:46.858 --> 00:07:53.963 line:84.66%
+the open meetings act.          
+
+00:07:53.965 --> 00:08:03.239 line:74%
+clerk read, in                  
+
+00:07:53.965 --> 00:08:03.239 line:79.33%
+the open meetings act.          
+
+00:07:53.965 --> 00:08:03.239 line:84.66%
+>> Moved by -- and seconded.    
+
+00:08:03.241 --> 00:08:04.907 line:74%
+the open meetings act.          
+
+00:08:03.241 --> 00:08:04.907 line:79.33%
+>> Moved by -- and seconded.    
+
+00:08:03.241 --> 00:08:04.907 line:84.66%
+Roll ca..                       
+
+00:08:04.909 --> 00:08:06.042 line:74%
+>> Moved by -- and seconded.    
+
+00:08:04.909 --> 00:08:06.042 line:79.33%
+Roll ca..                       
+
+00:08:04.909 --> 00:08:06.042 line:84.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:06.044 --> 00:08:06.843 line:74%
+Roll ca..                       
+
+00:08:06.044 --> 00:08:06.843 line:79.33%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:06.044 --> 00:08:06.843 line:84.66%
+HAYNER.                         
+
+00:08:06.845 --> 00:08:08.611 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:06.845 --> 00:08:08.611 line:79.33%
+HAYNER.                         
+
+00:08:06.845 --> 00:08:08.611 line:84.66%
+>> Yes.                         
+
+00:08:08.613 --> 00:08:09.579 line:74%
+HAYNER.                         
+
+00:08:08.613 --> 00:08:09.579 line:79.33%
+>> Yes.                         
+
+00:08:08.613 --> 00:08:09.579 line:84.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:09.581 --> 00:08:10.279 line:74%
+>> Yes.                         
+
+00:08:09.581 --> 00:08:10.279 line:79.33%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:09.581 --> 00:08:10.279 line:84.66%
+NELSON.                         
+
+00:08:10.281 --> 00:08:12.515 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:10.281 --> 00:08:12.515 line:79.33%
+NELSON.                         
+
+00:08:10.281 --> 00:08:12.515 line:84.66%
+>> Yes.                         
+
+00:08:12.517 --> 00:08:13.216 line:74%
+NELSON.                         
+
+00:08:12.517 --> 00:08:13.216 line:79.33%
+>> Yes.                         
+
+00:08:12.517 --> 00:08:13.216 line:84.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:13.218 --> 00:08:13.983 line:74%
+>> Yes.                         
+
+00:08:13.218 --> 00:08:13.983 line:79.33%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:13.218 --> 00:08:13.983 line:84.66%
+HAYNER.                         
+
+00:08:13.985 --> 00:08:14.851 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:13.985 --> 00:08:14.851 line:79.33%
+HAYNER.                         
+
+00:08:13.985 --> 00:08:14.851 line:84.66%
+>> Yes.                         
+
+00:08:14.853 --> 00:08:15.485 line:74%
+HAYNER.                         
+
+00:08:14.853 --> 00:08:15.485 line:79.33%
+>> Yes.                         
+
+00:08:14.853 --> 00:08:15.485 line:84.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:15.487 --> 00:08:16.219 line:74%
+>> Yes.                         
+
+00:08:15.487 --> 00:08:16.219 line:79.33%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:15.487 --> 00:08:16.219 line:84.66%
+BANNISTER.                      
+
+00:08:16.221 --> 00:08:20.456 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:16.221 --> 00:08:20.456 line:79.33%
+BANNISTER.                      
+
+00:08:16.221 --> 00:08:20.456 line:84.66%
+>> Yes.                         
+
+00:08:20.458 --> 00:08:21.290 line:74%
+BANNISTER.                      
+
+00:08:20.458 --> 00:08:21.290 line:79.33%
+>> Yes.                         
+
+00:08:20.458 --> 00:08:21.290 line:84.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:21.292 --> 00:08:21.958 line:74%
+>> Yes.                         
+
+00:08:21.292 --> 00:08:21.958 line:79.33%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:21.292 --> 00:08:21.958 line:84.66%
+GRISWOLD.                       
+
+00:08:21.960 --> 00:08:22.859 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:08:21.960 --> 00:08:22.859 line:79.33%
+GRISWOLD.                       
+
+00:08:21.960 --> 00:08:22.859 line:84.66%
+>> Yes.                         
+
+00:08:22.861 --> 00:08:23.826 line:74%
+GRISWOLD.                       
+
+00:08:22.861 --> 00:08:23.826 line:79.33%
+>> Yes.                         
+
+00:08:22.861 --> 00:08:23.826 line:84.66%
+>> Mayor Taylor:                
+
+00:08:23.828 --> 00:08:25.995 line:74%
+>> Yes.                         
+
+00:08:23.828 --> 00:08:25.995 line:79.33%
+>> Mayor Taylor:                
+
+00:08:23.828 --> 00:08:25.995 line:84.66%
+We're in closed session.        
+
+00:08:25.997 --> 00:08:31.534 line:74%
+>> Mayor Taylor:                
+
+00:08:25.997 --> 00:08:31.534 line:79.33%
+We're in closed session.        
+
+00:08:25.997 --> 00:08:31.534 line:84.66%
+g>> (Gavel)                     
+
+00:08:31.536 --> 00:34:46.107 line:74%
+We're in closed session.        
+
+00:08:31.536 --> 00:34:46.107 line:79.33%
+g>> (Gavel)                     
+
+00:08:31.536 --> 00:34:46.107 line:84.66%
+>> [Closed session]             
+
+00:34:46.109 --> 00:34:48.843 line:74%
+g>> (Gavel)                     
+
+00:34:46.109 --> 00:34:48.843 line:79.33%
+>> [Closed session]             
+
+00:34:46.109 --> 00:34:48.843 line:84.66%
+>> [Closed session]             
+
+00:34:48.845 --> 00:53:19.419 line:74%
+>> [Closed session]             
+
+00:34:48.845 --> 00:53:19.419 line:79.33%
+>> [Closed session]             
+
+00:34:48.845 --> 00:53:19.419 line:84.66%
+>>                              
+
+00:53:19.421 --> 01:08:37.403 line:74%
+>> [Closed session]             
+
+00:53:19.421 --> 01:08:37.403 line:79.33%
+>>                              
+
+00:53:19.421 --> 01:08:37.403 line:84.66%
+>> [Closed session]             
+
+01:08:37.405 --> 01:08:39.372 line:74%
+>>                              
+
+01:08:37.405 --> 01:08:39.372 line:79.33%
+>> [Closed session]             
+
+01:08:37.405 --> 01:08:39.372 line:84.66%
+>> Councilmember Smith:         
+
+01:08:39.374 --> 01:08:39.672 line:74%
+>> [Closed session]             
+
+01:08:39.374 --> 01:08:39.672 line:79.33%
+>> Councilmember Smith:         
+
+01:08:39.374 --> 01:08:39.672 line:84.66%
+>>                              
+
+01:08:39.674 --> 01:08:39.939 line:74%
+>> Councilmember Smith:         
+
+01:08:39.674 --> 01:08:39.939 line:79.33%
+>>                              
+
+01:08:39.674 --> 01:08:39.939 line:84.66%
+>>                              
+
+01:08:39.941 --> 01:08:40.206 line:74%
+>>                              
+
+01:08:39.941 --> 01:08:40.206 line:79.33%
+>>                              
+
+01:08:39.941 --> 01:08:40.206 line:84.66%
+>>                              
+
+01:08:40.208 --> 01:08:43.008 line:74%
+>>                              
+
+01:08:40.208 --> 01:08:43.008 line:79.33%
+>>                              
+
+01:08:40.208 --> 01:08:43.008 line:84.66%
+>>                              
+
+01:08:43.010 --> 01:08:44.877 line:74%
+>>                              
+
+01:08:43.010 --> 01:08:44.877 line:79.33%
+>>                              
+
+01:08:43.010 --> 01:08:44.877 line:84.66%
+>> [Closed session]             
+
+01:08:44.879 --> 01:08:45.211 line:74%
+>>                              
+
+01:08:44.879 --> 01:08:45.211 line:79.33%
+>> [Closed session]             
+
+01:08:44.879 --> 01:08:45.211 line:84.66%
+>>                              
+
+01:08:45.213 --> 01:09:06.232 line:74%
+>> [Closed session]             
+
+01:08:45.213 --> 01:09:06.232 line:79.33%
+>>                              
+
+01:08:45.213 --> 01:09:06.232 line:84.66%
+>>                              
+
+01:09:06.234 --> 01:09:07.500 line:74%
+>>                              
+
+01:09:06.234 --> 01:09:07.500 line:79.33%
+>>                              
+
+01:09:06.234 --> 01:09:07.500 line:84.66%
+>>                              
+
+01:09:07.502 --> 01:09:10.002 line:74%
+>>                              
+
+01:09:07.502 --> 01:09:10.002 line:79.33%
+>>                              
+
+01:09:07.502 --> 01:09:10.002 line:84.66%
+>> [Closed session]             
+
+01:09:10.004 --> 01:33:05.970 line:74%
+>>                              
+
+01:09:10.004 --> 01:33:05.970 line:79.33%
+>> [Closed session]             
+
+01:09:10.004 --> 01:33:05.970 line:84.66%
+>>                              
+
+01:33:05.972 --> 01:33:07.004 line:74%
+>> [Closed session]             
+
+01:33:05.972 --> 01:33:07.004 line:79.33%
+>>                              
+
+01:33:05.972 --> 01:33:07.004 line:84.66%
+>> [Closed session]             
+
+01:33:07.006 --> 01:52:19.389 line:74%
+>>                              
+
+01:33:07.006 --> 01:52:19.389 line:79.33%
+>> [Closed session]             
+
+01:33:07.006 --> 01:52:19.389 line:84.66%
+>>                              
+

@@ -1,0 +1,1476 @@
+﻿WEBVTT
+Style:
+/* default values */
+::cue {
+  line-height: 5.33vh;
+  font-size: 4.1vh;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  background-color: black;
+  color: white;
+}
+/* special cue parts */
+::cue(c.transparent) {
+  color: transparent;
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.semi-transparent) {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.opaque) {
+  color: rgba(0, 0, 0, 1);
+}
+::cue(c.blink) {
+  text-decoration: blink;
+}
+::cue(c.white) {
+  color: white;
+}
+::cue(c.red) {
+  color: red;
+}
+::cue(c.green) {
+  color: lime;
+}
+::cue(c.blue) {
+  color: blue;
+}
+::cue(c.cyan) {
+  color: cyan;
+}
+::cue(c.yellow) {
+  color: yellow;
+}
+::cue(c.magenta) {
+  color: magenta;
+}
+::cue(c.bg_transparent) {
+  background-color: transparent;
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.bg_semi-transparent) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.bg_opaque) {
+  background-color: rgba(0, 0, 0, 1);
+}
+::cue(c.bg_white) {
+  background-color: white;
+}
+::cue(c.bg_green) {
+  background-color: lime;
+}
+::cue(c.bg_blue) {
+  background-color: blue;
+}
+::cue(c.bg_cyan) {
+  background-color: cyan;
+}
+::cue(c.bg_red) {
+  background-color: red;
+}
+::cue(c.bg_yellow) {
+  background-color: yellow;
+}
+::cue(c.bg_magenta) {
+  background-color: magenta;
+}
+::cue(c.bg_black) {
+  background-color: black;
+}
+/* Examples of combined colors */
+::cue(c.bg_white.bg_semi-transparent) {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+::cue(c.bg_green.bg_semi-transparent) {
+  background-color: rgba(0, 256, 0, 0.5);
+}
+::cue(c.bg_blue.bg_semi-transparent) {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+::cue(c.bg_cyan.bg_semi-transparent) {
+  background-color: rgba(0, 255, 255, 0.5);
+}
+::cue(c.bg_red.bg_semi-transparent) {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+::cue(c.bg_yellow.bg_semi-transparent) {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+::cue(c.bg_magenta.bg_semi-transparent) {
+  background-color: rgba(255, 0, 255, 0.5);
+}
+::cue(c.bg_black.bg_semi-transparent) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+##
+
+X-TIMESTAMP-MAP=MPEGTS:38215, LOCAL 00:00:00.000
+00:00:05.691 --> 00:00:09.294 line:68.66%
+>> Mayor Taylor: GOOD EVENING,  
+
+00:00:05.691 --> 00:00:09.294 line:74%
+EVERYONE.                       
+
+00:00:09.296 --> 00:00:10.462 line:68.66%
+EVERYONE.                       
+
+00:00:09.296 --> 00:00:10.462 line:74%
+MAY THE CLERK PLEASE READ THE   
+
+00:00:10.464 --> 00:00:12.764 line:68.66%
+MAY THE CLERK PLEASE READ THE   
+
+00:00:10.464 --> 00:00:12.764 line:74%
+ORDER AND NOTICE OF CALL OF     
+
+00:00:12.766 --> 00:00:17.302 line:68.66%
+ORDER AND NOTICE OF CALL OF     
+
+00:00:12.766 --> 00:00:17.302 line:74%
+SPECIAL SESSION.                
+
+00:00:17.304 --> 00:00:18.136 line:68.66%
+SPECIAL SESSION.                
+
+00:00:17.304 --> 00:00:18.136 line:74%
+>> Clerk Beaudry: NOTICE IS     
+
+00:00:18.138 --> 00:00:19.037 line:68.66%
+>> Clerk Beaudry: NOTICE IS     
+
+00:00:18.138 --> 00:00:19.037 line:74%
+HEREBY GIVE THAN A SPECIAL      
+
+00:00:19.039 --> 00:00:21.006 line:68.66%
+HEREBY GIVE THAN A SPECIAL      
+
+00:00:19.039 --> 00:00:21.006 line:74%
+SESSION OF THE CITY OF ANN ARBOR
+
+00:00:21.008 --> 00:00:23.141 line:68.66%
+SESSION OF THE CITY OF ANN ARBOR
+
+00:00:21.008 --> 00:00:23.141 line:74%
+CITY COUNCIL WILL BE HELD ON    
+
+00:00:23.143 --> 00:00:25.844 line:68.66%
+CITY COUNCIL WILL BE HELD ON    
+
+00:00:23.143 --> 00:00:25.844 line:74%
+MONDAY, AUGUST 12th, 2019 AT    
+
+00:00:25.846 --> 00:00:27.679 line:68.66%
+MONDAY, AUGUST 12th, 2019 AT    
+
+00:00:25.846 --> 00:00:27.679 line:74%
+7 P.M. IN THE COUNCIL CHAMBERS  
+
+00:00:27.681 --> 00:00:32.117 line:68.66%
+7 P.M. IN THE COUNCIL CHAMBERS  
+
+00:00:27.681 --> 00:00:32.117 line:74%
+SECOND FLOOR OF THE GUY         
+
+00:00:32.119 --> 00:00:33.318 line:68.66%
+SECOND FLOOR OF THE GUY         
+
+00:00:32.119 --> 00:00:33.318 line:74%
+C.LARCOM, JR., BUILDING.        
+
+00:00:33.320 --> 00:00:34.386 line:68.66%
+C.LARCOM, JR., BUILDING.        
+
+00:00:33.320 --> 00:00:34.386 line:74%
+CLOSED SESSION UNDER MICHIGAN   
+
+00:00:34.388 --> 00:00:36.821 line:68.66%
+CLOSED SESSION UNDER MICHIGAN   
+
+00:00:34.388 --> 00:00:36.821 line:74%
+OPEN MEETINGS ACT FOR PENDING   
+
+00:00:36.823 --> 00:00:40.792 line:68.66%
+OPEN MEETINGS ACT FOR PENDING   
+
+00:00:36.823 --> 00:00:40.792 line:74%
+LITIGATION SET FORTH IN         
+
+00:00:40.794 --> 00:00:43.528 line:68.66%
+LITIGATION SET FORTH IN         
+
+00:00:40.794 --> 00:00:43.528 line:74%
+MCLA15.268 (E) FOR THE FOLLOWING
+
+00:00:43.530 --> 00:00:45.564 line:68.66%
+MCLA15.268 (E) FOR THE FOLLOWING
+
+00:00:43.530 --> 00:00:45.564 line:74%
+TWO CASES:  ATTORNEY GENERAL    
+
+00:00:45.566 --> 00:00:48.600 line:68.66%
+TWO CASES:  ATTORNEY GENERAL    
+
+00:00:45.566 --> 00:00:48.600 line:74%
+vs. GELMAN SCIENCE              
+
+00:00:48.602 --> 00:00:49.901 line:68.66%
+vs. GELMAN SCIENCE              
+
+00:00:48.602 --> 00:00:49.901 line:74%
+INCORPORATED, WASHTENAW COUNTY  
+
+00:00:49.903 --> 00:00:50.869 line:68.66%
+INCORPORATED, WASHTENAW COUNTY  
+
+00:00:49.903 --> 00:00:50.869 line:74%
+CIRCUIT COURT.                  
+
+00:00:50.871 --> 00:00:53.772 line:68.66%
+CIRCUIT COURT.                  
+
+00:00:50.871 --> 00:00:53.772 line:74%
+AND THINK RIGHT STRATEGIES vs.  
+
+00:00:53.774 --> 00:00:55.607 line:68.66%
+AND THINK RIGHT STRATEGIES vs.  
+
+00:00:53.774 --> 00:00:55.607 line:74%
+CITY OF ANN ARBOR IN THE U.S.   
+
+00:00:55.609 --> 00:00:55.874 line:68.66%
+CITY OF ANN ARBOR IN THE U.S.   
+
+00:00:55.609 --> 00:00:55.874 line:74%
+DISTRICT.                       
+
+00:00:55.876 --> 00:00:59.878 line:68.66%
+DISTRICT.                       
+
+00:00:55.876 --> 00:00:59.878 line:74%
+IF YOIF YOU ARE ABLE, PLEASE RIR
+
+00:00:59.880 --> 00:01:02.981 line:68.66%
+IF YOIF YOU ARE ABLE, PLEASE RIR
+
+00:00:59.880 --> 00:01:02.981 line:74%
+A MOMENT OF SILENCE, FOLLOWED BY
+
+00:01:02.983 --> 00:01:07.819 line:68.66%
+A MOMENT OF SILENCE, FOLLOWED BY
+
+00:01:02.983 --> 00:01:07.819 line:74%
+THE PLEDGE OF ALLEGIANCE.       
+
+00:01:07.821 --> 00:01:08.453 line:68.66%
+THE PLEDGE OF ALLEGIANCE.       
+
+00:01:07.821 --> 00:01:08.453 line:74%
+>> I PLEDGE ALLEGIANCE TO THE   
+
+00:01:08.455 --> 00:01:09.020 line:68.66%
+>> I PLEDGE ALLEGIANCE TO THE   
+
+00:01:08.455 --> 00:01:09.020 line:74%
+FLAG OF THE UNITED STATES OF    
+
+00:01:09.022 --> 00:01:09.921 line:68.66%
+FLAG OF THE UNITED STATES OF    
+
+00:01:09.022 --> 00:01:09.921 line:74%
+AMERICA, AND TO THE REPUBLIC FOR
+
+00:01:09.923 --> 00:01:11.723 line:68.66%
+AMERICA, AND TO THE REPUBLIC FOR
+
+00:01:09.923 --> 00:01:11.723 line:74%
+WHICH IT STANDS:  ONE NATION    
+
+00:01:11.725 --> 00:01:12.490 line:68.66%
+WHICH IT STANDS:  ONE NATION    
+
+00:01:11.725 --> 00:01:12.490 line:74%
+UNDER GOD, INDIVISIBLE, WITH    
+
+00:01:12.492 --> 00:01:18.129 line:68.66%
+UNDER GOD, INDIVISIBLE, WITH    
+
+00:01:12.492 --> 00:01:18.129 line:74%
+LIBERTY AND JUSTICE FOR ALL.    
+
+00:01:18.131 --> 00:01:18.863 line:68.66%
+LIBERTY AND JUSTICE FOR ALL.    
+
+00:01:18.131 --> 00:01:18.863 line:74%
+>> Mayor Taylor: WOULD OUR CLERK
+
+00:01:18.865 --> 00:01:27.172 line:68.66%
+>> Mayor Taylor: WOULD OUR CLERK
+
+00:01:18.865 --> 00:01:27.172 line:74%
+PLEASE CALL THE ROLL OF COUNCIL?
+
+00:01:27.174 --> 00:01:27.806 line:68.66%
+PLEASE CALL THE ROLL OF COUNCIL?
+
+00:01:27.174 --> 00:01:27.806 line:74%
+>> Councilmember Grand: HERE.   
+
+00:01:27.808 --> 00:01:28.473 line:68.66%
+>> Councilmember Grand: HERE.   
+
+00:01:27.808 --> 00:01:28.473 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:28.475 --> 00:01:28.740 line:68.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:28.475 --> 00:01:28.740 line:74%
+ACKERMAN.                       
+
+00:01:28.742 --> 00:01:29.274 line:68.66%
+ACKERMAN.                       
+
+00:01:28.742 --> 00:01:29.274 line:74%
+>> Councilmember Ackerman:      
+
+00:01:29.276 --> 00:01:29.474 line:68.66%
+>> Councilmember Ackerman:      
+
+00:01:29.276 --> 00:01:29.474 line:74%
+HERE.                           
+
+00:01:29.476 --> 00:01:30.141 line:68.66%
+HERE.                           
+
+00:01:29.476 --> 00:01:30.141 line:74%
+>> Clerk Beaudry: MAYOR TAYLOR. 
+
+00:01:30.143 --> 00:01:30.675 line:68.66%
+>> Clerk Beaudry: MAYOR TAYLOR. 
+
+00:01:30.143 --> 00:01:30.675 line:74%
+>> Mayor Taylor: HERE.          
+
+00:01:30.677 --> 00:01:31.343 line:68.66%
+>> Mayor Taylor: HERE.          
+
+00:01:30.677 --> 00:01:31.343 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:31.345 --> 00:01:31.543 line:68.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:31.345 --> 00:01:31.543 line:74%
+EATON.                          
+
+00:01:31.545 --> 00:01:32.177 line:68.66%
+EATON.                          
+
+00:01:31.545 --> 00:01:32.177 line:74%
+>> Councilmember Eaton: HERE.   
+
+00:01:32.179 --> 00:01:32.844 line:68.66%
+>> Councilmember Eaton: HERE.   
+
+00:01:32.179 --> 00:01:32.844 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:32.846 --> 00:01:33.078 line:68.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:32.846 --> 00:01:33.078 line:74%
+NELSON.                         
+
+00:01:33.080 --> 00:01:33.712 line:68.66%
+NELSON.                         
+
+00:01:33.080 --> 00:01:33.712 line:74%
+>> COUNCILMEMBER NELSON:  HERE. 
+
+00:01:33.714 --> 00:01:34.379 line:68.66%
+>> COUNCILMEMBER NELSON:  HERE. 
+
+00:01:33.714 --> 00:01:34.379 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:34.381 --> 00:01:36.147 line:68.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:34.381 --> 00:01:36.147 line:74%
+SMITH.                          
+
+00:01:36.149 --> 00:01:36.881 line:68.66%
+SMITH.                          
+
+00:01:36.149 --> 00:01:36.881 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:36.883 --> 00:01:37.115 line:68.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:36.883 --> 00:01:37.115 line:74%
+RAMLAWI.                        
+
+00:01:37.117 --> 00:01:41.553 line:68.66%
+RAMLAWI.                        
+
+00:01:37.117 --> 00:01:41.553 line:74%
+>> COUNCILMEMBER RAMLAWI:  HERE.
+
+00:01:41.555 --> 00:01:42.220 line:68.66%
+>> COUNCILMEMBER RAMLAWI:  HERE.
+
+00:01:41.555 --> 00:01:42.220 line:74%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:42.222 --> 00:01:42.454 line:68.66%
+>> Clerk Beaudry: COUNCILMEMBER 
+
+00:01:42.222 --> 00:01:42.454 line:74%
+HAYNER.                         
+
+00:01:42.456 --> 00:01:43.088 line:68.66%
+HAYNER.                         
+
+00:01:42.456 --> 00:01:43.088 line:74%
+>> Councilmember Hayner:  Here. 
+
+00:01:43.090 --> 00:01:43.755 line:68.66%
+>> Councilmember Hayner:  Here. 
+
+00:01:43.090 --> 00:01:43.755 line:74%
+>> Clerk Beaudry: Councilmember 
+
+00:01:43.757 --> 00:01:44.022 line:68.66%
+>> Clerk Beaudry: Councilmember 
+
+00:01:43.757 --> 00:01:44.022 line:74%
+Bannister.                      
+
+00:01:44.024 --> 00:01:44.589 line:68.66%
+Bannister.                      
+
+00:01:44.024 --> 00:01:44.589 line:74%
+>> Councilmember Bannister:     
+
+00:01:44.591 --> 00:01:44.789 line:68.66%
+>> Councilmember Bannister:     
+
+00:01:44.591 --> 00:01:44.789 line:74%
+Here.                           
+
+00:01:44.791 --> 00:01:45.457 line:68.66%
+Here.                           
+
+00:01:44.791 --> 00:01:45.457 line:74%
+>> Clerk Beaudry: Councilmember 
+
+00:01:45.459 --> 00:01:45.724 line:68.66%
+>> Clerk Beaudry: Councilmember 
+
+00:01:45.459 --> 00:01:45.724 line:74%
+Griswold.                       
+
+00:01:45.726 --> 00:01:46.258 line:68.66%
+Griswold.                       
+
+00:01:45.726 --> 00:01:46.258 line:74%
+>> Councilmember Griswold:      
+
+00:01:46.260 --> 00:01:46.458 line:68.66%
+>> Councilmember Griswold:      
+
+00:01:46.260 --> 00:01:46.458 line:74%
+Here.                           
+
+00:01:46.460 --> 00:01:47.125 line:68.66%
+Here.                           
+
+00:01:46.460 --> 00:01:47.125 line:74%
+>> Clerk Beaudry: Councilmember 
+
+00:01:47.127 --> 00:01:47.325 line:68.66%
+>> Clerk Beaudry: Councilmember 
+
+00:01:47.127 --> 00:01:47.325 line:74%
+Lumm.                           
+
+00:01:47.327 --> 00:01:47.959 line:68.66%
+Lumm.                           
+
+00:01:47.327 --> 00:01:47.959 line:74%
+>> Councilmember Lumm: Here.    
+
+00:01:47.961 --> 00:01:49.294 line:68.66%
+>> Councilmember Lumm: Here.    
+
+00:01:47.961 --> 00:01:49.294 line:74%
+>> Clerk Beaudry: WE HAVE A     
+
+00:01:49.296 --> 00:01:49.694 line:68.66%
+>> Clerk Beaudry: WE HAVE A     
+
+00:01:49.296 --> 00:01:49.694 line:74%
+QUORUM.                         
+
+00:01:49.696 --> 00:01:50.362 line:68.66%
+QUORUM.                         
+
+00:01:49.696 --> 00:01:50.362 line:74%
+>> Mayor Taylor: MAY WE HAVE A  
+
+00:01:50.364 --> 00:01:53.798 line:68.66%
+>> Mayor Taylor: MAY WE HAVE A  
+
+00:01:50.364 --> 00:01:53.798 line:74%
+MOTION TO APPROVE THE AGENDA.   
+
+00:01:53.800 --> 00:01:55.967 line:68.66%
+MOTION TO APPROVE THE AGENDA.   
+
+00:01:53.800 --> 00:01:55.967 line:74%
+MOVED BY LUMM AND SECONDED BY   
+
+00:01:55.969 --> 00:01:56.301 line:68.66%
+MOVED BY LUMM AND SECONDED BY   
+
+00:01:55.969 --> 00:01:56.301 line:74%
+RAMLAWI.                        
+
+00:01:56.303 --> 00:01:59.471 line:68.66%
+RAMLAWI.                        
+
+00:01:56.303 --> 00:01:59.471 line:74%
+ALL IN FAVOR?                   
+
+00:01:59.473 --> 00:01:59.838 line:68.66%
+ALL IN FAVOR?                   
+
+00:01:59.473 --> 00:01:59.838 line:74%
+[CHORUS OF AYES]                
+
+00:01:59.840 --> 00:02:00.939 line:68.66%
+[CHORUS OF AYES]                
+
+00:01:59.840 --> 00:02:00.939 line:74%
+ALL OPPOSED?                    
+
+00:02:00.941 --> 00:02:10.248 line:68.66%
+ALL OPPOSED?                    
+
+00:02:00.941 --> 00:02:10.248 line:74%
+WE NOW TO PUBLIC COMMENT GENERAL
+
+00:02:10.250 --> 00:02:10.682 line:68.66%
+WE NOW TO PUBLIC COMMENT GENERAL
+
+00:02:10.250 --> 00:02:10.682 line:74%
+TIME.                           
+
+00:02:10.684 --> 00:02:12.017 line:68.66%
+TIME.                           
+
+00:02:10.684 --> 00:02:12.017 line:74%
+SPEAKERS HAVE THREE MINUTES IN  
+
+00:02:12.019 --> 00:02:13.918 line:68.66%
+SPEAKERS HAVE THREE MINUTES IN  
+
+00:02:12.019 --> 00:02:13.918 line:74%
+WHICH TO SPEAK.                 
+
+00:02:13.920 --> 00:02:15.053 line:68.66%
+WHICH TO SPEAK.                 
+
+00:02:13.920 --> 00:02:15.053 line:74%
+SO PLEASE PAY CLOSE ATTENTION TO
+
+00:02:15.055 --> 00:02:15.654 line:68.66%
+SO PLEASE PAY CLOSE ATTENTION TO
+
+00:02:15.055 --> 00:02:15.654 line:74%
+THE TIME CLOSE.                 
+
+00:02:15.656 --> 00:02:17.389 line:68.66%
+THE TIME CLOSE.                 
+
+00:02:15.656 --> 00:02:17.389 line:74%
+AS A MATTER OF THE COURTESY, WE 
+
+00:02:17.391 --> 00:02:18.490 line:68.66%
+AS A MATTER OF THE COURTESY, WE 
+
+00:02:17.391 --> 00:02:18.490 line:74%
+MAY ONLY HAVE ONE PERSON        
+
+00:02:18.492 --> 00:02:19.591 line:68.66%
+MAY ONLY HAVE ONE PERSON        
+
+00:02:18.492 --> 00:02:19.591 line:74%
+SPEAKING AT A TIME.             
+
+00:02:19.593 --> 00:02:21.192 line:68.66%
+SPEAKING AT A TIME.             
+
+00:02:19.593 --> 00:02:21.192 line:74%
+FINALLY IF YOU REQUIRE          
+
+00:02:21.194 --> 00:02:22.127 line:68.66%
+FINALLY IF YOU REQUIRE          
+
+00:02:21.194 --> 00:02:22.127 line:74%
+ASSISTANCE IN SPEAKING BEFORE   
+
+00:02:22.129 --> 00:02:23.928 line:68.66%
+ASSISTANCE IN SPEAKING BEFORE   
+
+00:02:22.129 --> 00:02:23.928 line:74%
+COUNCIL TODAY, WE WOULD BE      
+
+00:02:23.930 --> 00:02:25.063 line:68.66%
+COUNCIL TODAY, WE WOULD BE      
+
+00:02:23.930 --> 00:02:25.063 line:74%
+DELIGHTED TO PROVIDE IT TO YOU. 
+
+00:02:25.065 --> 00:02:26.298 line:68.66%
+DELIGHTED TO PROVIDE IT TO YOU. 
+
+00:02:25.065 --> 00:02:26.298 line:74%
+IS THERE ANYONE WHO WOULD LIKE  
+
+00:02:26.300 --> 00:02:28.366 line:68.66%
+IS THERE ANYONE WHO WOULD LIKE  
+
+00:02:26.300 --> 00:02:28.366 line:74%
+TO SPEAK AT PUBLIC COMMENT?     
+
+00:02:28.368 --> 00:02:28.600 line:68.66%
+TO SPEAK AT PUBLIC COMMENT?     
+
+00:02:28.368 --> 00:02:28.600 line:74%
+PLEASE.                         
+
+00:02:28.602 --> 00:02:30.935 line:68.66%
+PLEASE.                         
+
+00:02:28.602 --> 00:02:30.935 line:74%
+>> IT'S KIND OF AMUSING.        
+
+00:02:30.937 --> 00:02:37.075 line:68.66%
+>> IT'S KIND OF AMUSING.        
+
+00:02:30.937 --> 00:02:37.075 line:74%
+WELL, MY NAME IS CHUCK LUCKS.   
+
+00:02:37.077 --> 00:02:38.343 line:68.66%
+WELL, MY NAME IS CHUCK LUCKS.   
+
+00:02:37.077 --> 00:02:38.343 line:74%
+I'M A PRIVATE CITIZEN.          
+
+00:02:38.345 --> 00:02:39.978 line:68.66%
+I'M A PRIVATE CITIZEN.          
+
+00:02:38.345 --> 00:02:39.978 line:74%
+I'M SPEAKING ON TOP OF MYSELF.  
+
+00:02:39.980 --> 00:02:41.880 line:68.66%
+I'M SPEAKING ON TOP OF MYSELF.  
+
+00:02:39.980 --> 00:02:41.880 line:74%
+I'M THE PERSON WHO PRODUCED THE 
+
+00:02:41.882 --> 00:02:44.149 line:68.66%
+I'M THE PERSON WHO PRODUCED THE 
+
+00:02:41.882 --> 00:02:44.149 line:74%
+REPORT ANALYZING THE STATISTICAL
+
+00:02:44.151 --> 00:02:45.283 line:68.66%
+REPORT ANALYZING THE STATISTICAL
+
+00:02:44.151 --> 00:02:45.283 line:74%
+CRASH DATA FOR PEDESTRIANS IN   
+
+00:02:45.285 --> 00:02:49.354 line:68.66%
+CRASH DATA FOR PEDESTRIANS IN   
+
+00:02:45.285 --> 00:02:49.354 line:74%
+THE CITY OF ANN ARBOR FROM THE  
+
+00:02:49.356 --> 00:02:51.356 line:68.66%
+THE CITY OF ANN ARBOR FROM THE  
+
+00:02:49.356 --> 00:02:51.356 line:74%
+PERIOD OF 2004 TO 2016.         
+
+00:02:51.358 --> 00:02:54.159 line:68.66%
+PERIOD OF 2004 TO 2016.         
+
+00:02:51.358 --> 00:02:54.159 line:74%
+I LOOK AT FIVE CITIES, ANN      
+
+00:02:54.161 --> 00:02:57.362 line:68.66%
+I LOOK AT FIVE CITIES, ANN      
+
+00:02:54.161 --> 00:02:57.362 line:74%
+ARBOR, DETROIT, KALAMAZOO, EAST 
+
+00:02:57.364 --> 00:03:00.131 line:68.66%
+ARBOR, DETROIT, KALAMAZOO, EAST 
+
+00:02:57.364 --> 00:03:00.131 line:74%
+LANSING, AND GRAND RAPIDS.      
+
+00:03:00.133 --> 00:03:02.100 line:68.66%
+LANSING, AND GRAND RAPIDS.      
+
+00:03:00.133 --> 00:03:02.100 line:74%
+I PERFORMED A STATISTICAL       
+
+00:03:02.102 --> 00:03:03.468 line:68.66%
+I PERFORMED A STATISTICAL       
+
+00:03:02.102 --> 00:03:03.468 line:74%
+ANALYSIS, LOOKING AT THE CRASH  
+
+00:03:03.470 --> 00:03:05.303 line:68.66%
+ANALYSIS, LOOKING AT THE CRASH  
+
+00:03:03.470 --> 00:03:05.303 line:74%
+DATA WITH PEDESTRIANS.          
+
+00:03:05.305 --> 00:03:07.005 line:68.66%
+DATA WITH PEDESTRIANS.          
+
+00:03:05.305 --> 00:03:07.005 line:74%
+THE CONCLUSION WAS THAT AFTER   
+
+00:03:07.007 --> 00:03:08.440 line:68.66%
+THE CONCLUSION WAS THAT AFTER   
+
+00:03:07.007 --> 00:03:08.440 line:74%
+THE PEDESTRIAN SAFETY LAW WENT  
+
+00:03:08.442 --> 00:03:10.975 line:68.66%
+THE PEDESTRIAN SAFETY LAW WENT  
+
+00:03:08.442 --> 00:03:10.975 line:74%
+INTO EFFECT AFTER 2011, THERE   
+
+00:03:10.977 --> 00:03:13.345 line:68.66%
+INTO EFFECT AFTER 2011, THERE   
+
+00:03:10.977 --> 00:03:13.345 line:74%
+WAS A SMALL BUMP UP IN THE      
+
+00:03:13.347 --> 00:03:15.747 line:68.66%
+WAS A SMALL BUMP UP IN THE      
+
+00:03:13.347 --> 00:03:15.747 line:74%
+NUMBER OF PEDESTRIAN VEHICLE    
+
+00:03:15.749 --> 00:03:16.181 line:68.66%
+NUMBER OF PEDESTRIAN VEHICLE    
+
+00:03:15.749 --> 00:03:16.181 line:74%
+COLLISIONS.                     
+
+00:03:16.183 --> 00:03:17.916 line:68.66%
+COLLISIONS.                     
+
+00:03:16.183 --> 00:03:17.916 line:74%
+THEY WENT UP AND IT STAYED UP   
+
+00:03:17.918 --> 00:03:20.285 line:68.66%
+THEY WENT UP AND IT STAYED UP   
+
+00:03:17.918 --> 00:03:20.285 line:74%
+THROUGH TO THE END OF 2016.     
+
+00:03:20.287 --> 00:03:23.855 line:68.66%
+THROUGH TO THE END OF 2016.     
+
+00:03:20.287 --> 00:03:23.855 line:74%
+THE EQUATION THAT I PRODUCED WAS
+
+00:03:23.857 --> 00:03:26.691 line:68.66%
+THE EQUATION THAT I PRODUCED WAS
+
+00:03:23.857 --> 00:03:26.691 line:74%
+PRETTY ACCURATE FOR THE 2016.   
+
+00:03:26.693 --> 00:03:29.394 line:68.66%
+PRETTY ACCURATE FOR THE 2016.   
+
+00:03:26.693 --> 00:03:29.394 line:74%
+IT WAS EXTRAPOLATED OUT TO 2016 
+
+00:03:29.396 --> 00:03:30.862 line:68.66%
+IT WAS EXTRAPOLATED OUT TO 2016 
+
+00:03:29.396 --> 00:03:30.862 line:74%
+AND 2018 AND IT WAS PRETTY      
+
+00:03:30.864 --> 00:03:32.330 line:68.66%
+AND 2018 AND IT WAS PRETTY      
+
+00:03:30.864 --> 00:03:32.330 line:74%
+ACCURATE IN PREDICTING THE      
+
+00:03:32.332 --> 00:03:34.299 line:68.66%
+ACCURATE IN PREDICTING THE      
+
+00:03:32.332 --> 00:03:34.299 line:74%
+ACTUAL NUMBER OF PEDESTRIAN     
+
+00:03:34.301 --> 00:03:35.834 line:68.66%
+ACTUAL NUMBER OF PEDESTRIAN     
+
+00:03:34.301 --> 00:03:35.834 line:74%
+VEHICLE COLLISIONS.             
+
+00:03:35.836 --> 00:03:37.802 line:68.66%
+VEHICLE COLLISIONS.             
+
+00:03:35.836 --> 00:03:37.802 line:74%
+I DID SEND A COPY OF THIS REPORT
+
+00:03:37.804 --> 00:03:40.605 line:68.66%
+I DID SEND A COPY OF THIS REPORT
+
+00:03:37.804 --> 00:03:40.605 line:74%
+TO ALL THE COUNCILMEMBERS OVER  
+
+00:03:40.607 --> 00:03:41.239 line:68.66%
+TO ALL THE COUNCILMEMBERS OVER  
+
+00:03:40.607 --> 00:03:41.239 line:74%
+THE WEEKEND.                    
+
+00:03:41.241 --> 00:03:43.908 line:68.66%
+THE WEEKEND.                    
+
+00:03:41.241 --> 00:03:43.908 line:74%
+AND I ONLY GOT A RESPONSE BACK  
+
+00:03:43.910 --> 00:03:45.877 line:68.66%
+AND I ONLY GOT A RESPONSE BACK  
+
+00:03:43.910 --> 00:03:45.877 line:74%
+FROM MR. SMITH.                 
+
+00:03:45.879 --> 00:03:47.612 line:68.66%
+FROM MR. SMITH.                 
+
+00:03:45.879 --> 00:03:47.612 line:74%
+HE RESPONDED, BUT HE DID NOT    
+
+00:03:47.614 --> 00:03:49.614 line:68.66%
+HE RESPONDED, BUT HE DID NOT    
+
+00:03:47.614 --> 00:03:49.614 line:74%
+RESPOND IN A SUBSTANTIVE WAY,   
+
+00:03:49.616 --> 00:03:51.716 line:68.66%
+RESPOND IN A SUBSTANTIVE WAY,   
+
+00:03:49.616 --> 00:03:51.716 line:74%
+HENCE THE REASON I AM HERE      
+
+00:03:51.718 --> 00:03:51.950 line:68.66%
+HENCE THE REASON I AM HERE      
+
+00:03:51.718 --> 00:03:51.950 line:74%
+TONIGHT.                        
+
+00:03:51.952 --> 00:03:54.953 line:68.66%
+TONIGHT.                        
+
+00:03:51.952 --> 00:03:54.953 line:74%
+HE WILL DID EVERYTHING EXCEPT   
+
+00:03:54.955 --> 00:03:56.554 line:68.66%
+HE WILL DID EVERYTHING EXCEPT   
+
+00:03:54.955 --> 00:03:56.554 line:74%
+RESPOND TO THE BASIC POINT IN   
+
+00:03:56.556 --> 00:03:58.490 line:68.66%
+RESPOND TO THE BASIC POINT IN   
+
+00:03:56.556 --> 00:03:58.490 line:74%
+THE REPORT, AND I'M VERY        
+
+00:03:58.492 --> 00:04:00.158 line:68.66%
+THE REPORT, AND I'M VERY        
+
+00:03:58.492 --> 00:04:00.158 line:74%
+DISTURBED AND UPSET BY THE      
+
+00:04:00.160 --> 00:04:00.425 line:68.66%
+DISTURBED AND UPSET BY THE      
+
+00:04:00.160 --> 00:04:00.425 line:74%
+RESPONSE.                       
+
+00:04:00.427 --> 00:04:01.426 line:68.66%
+RESPONSE.                       
+
+00:04:00.427 --> 00:04:01.426 line:74%
+THERE WERE A NUMBER OF THINGS   
+
+00:04:01.428 --> 00:04:04.696 line:68.66%
+THERE WERE A NUMBER OF THINGS   
+
+00:04:01.428 --> 00:04:04.696 line:74%
+THAT HE SAID.                   
+
+00:04:04.698 --> 00:04:06.331 line:68.66%
+THAT HE SAID.                   
+
+00:04:04.698 --> 00:04:06.331 line:74%
+HE -- AND IT RAISES A NUMBER OF 
+
+00:04:06.333 --> 00:04:06.664 line:68.66%
+HE -- AND IT RAISES A NUMBER OF 
+
+00:04:06.333 --> 00:04:06.664 line:74%
+QUESTIONS.                      
+
+00:04:06.666 --> 00:04:08.166 line:68.66%
+QUESTIONS.                      
+
+00:04:06.666 --> 00:04:08.166 line:74%
+THE LACK OF RESPONSE.           
+
+00:04:08.168 --> 00:04:09.768 line:68.66%
+THE LACK OF RESPONSE.           
+
+00:04:08.168 --> 00:04:09.768 line:74%
+HE BASICALLY ATTACKED ME.       
+
+00:04:09.770 --> 00:04:12.904 line:68.66%
+HE BASICALLY ATTACKED ME.       
+
+00:04:09.770 --> 00:04:12.904 line:74%
+HE BASICALLY ACCUSED ME OF      
+
+00:04:12.906 --> 00:04:15.540 line:68.66%
+HE BASICALLY ACCUSED ME OF      
+
+00:04:12.906 --> 00:04:15.540 line:74%
+ATTACKING ERICA BRIGGS WHEN, IN 
+
+00:04:15.542 --> 00:04:16.641 line:68.66%
+ATTACKING ERICA BRIGGS WHEN, IN 
+
+00:04:15.542 --> 00:04:16.641 line:74%
+FACT, I HAVE A QUESTION FOR     
+
+00:04:16.643 --> 00:04:18.276 line:68.66%
+FACT, I HAVE A QUESTION FOR     
+
+00:04:16.643 --> 00:04:18.276 line:74%
+PEOPLE LIKE ERICA BRIGGS WHO HAS
+
+00:04:18.278 --> 00:04:20.945 line:68.66%
+PEOPLE LIKE ERICA BRIGGS WHO HAS
+
+00:04:18.278 --> 00:04:20.945 line:74%
+BEEN A VERY ACTIVE PUBLIC       
+
+00:04:20.947 --> 00:04:21.613 line:68.66%
+BEEN A VERY ACTIVE PUBLIC       
+
+00:04:20.947 --> 00:04:21.613 line:74%
+SPOKESPERSON.                   
+
+00:04:21.615 --> 00:04:23.281 line:68.66%
+SPOKESPERSON.                   
+
+00:04:21.615 --> 00:04:23.281 line:74%
+SHE'S ON RECORD AS HAVING SAID  
+
+00:04:23.283 --> 00:04:25.450 line:68.66%
+SHE'S ON RECORD AS HAVING SAID  
+
+00:04:23.283 --> 00:04:25.450 line:74%
+THAT THIS LAW THIS PEDESTRIAN   
+
+00:04:25.452 --> 00:04:27.018 line:68.66%
+THAT THIS LAW THIS PEDESTRIAN   
+
+00:04:25.452 --> 00:04:27.018 line:74%
+CROSSING LAW HAS IMPROVED SAFETY
+
+00:04:27.020 --> 00:04:29.154 line:68.66%
+CROSSING LAW HAS IMPROVED SAFETY
+
+00:04:27.020 --> 00:04:29.154 line:74%
+WHEN, IN FACT, IT HAS NOT.      
+
+00:04:29.156 --> 00:04:30.121 line:68.66%
+WHEN, IN FACT, IT HAS NOT.      
+
+00:04:29.156 --> 00:04:30.121 line:74%
+THAT'S DISINFORMATION.          
+
+00:04:30.123 --> 00:04:33.792 line:68.66%
+THAT'S DISINFORMATION.          
+
+00:04:30.123 --> 00:04:33.792 line:74%
+ARE YOU OKAY -- IS THE COUNCIL  
+
+00:04:33.794 --> 00:04:34.893 line:68.66%
+ARE YOU OKAY -- IS THE COUNCIL  
+
+00:04:33.794 --> 00:04:34.893 line:74%
+OKAY WITH SOMEBODY GOING AROUND 
+
+00:04:34.895 --> 00:04:37.061 line:68.66%
+OKAY WITH SOMEBODY GOING AROUND 
+
+00:04:34.895 --> 00:04:37.061 line:74%
+AND SAYING THINGS THAT AREN'T   
+
+00:04:37.063 --> 00:04:39.264 line:68.66%
+AND SAYING THINGS THAT AREN'T   
+
+00:04:37.063 --> 00:04:39.264 line:74%
+TRUE AND MISINFORMING THE       
+
+00:04:39.266 --> 00:04:39.998 line:68.66%
+TRUE AND MISINFORMING THE       
+
+00:04:39.266 --> 00:04:39.998 line:74%
+CITIZENS OF ANN ARBOR?          
+
+00:04:40.000 --> 00:04:43.701 line:68.66%
+CITIZENS OF ANN ARBOR?          
+
+00:04:40.000 --> 00:04:43.701 line:74%
+YOU HAVE TO ADDRESS THIS ISSUE. 
+
+00:04:43.703 --> 00:04:46.337 line:68.66%
+YOU HAVE TO ADDRESS THIS ISSUE. 
+
+00:04:43.703 --> 00:04:46.337 line:74%
+MR. SMITH STATED THAT HE WANTS  
+
+00:04:46.339 --> 00:04:49.174 line:68.66%
+MR. SMITH STATED THAT HE WANTS  
+
+00:04:46.339 --> 00:04:49.174 line:74%
+TO PROMOTE OR GET AWAY FROM A   
+
+00:04:49.176 --> 00:04:49.941 line:68.66%
+TO PROMOTE OR GET AWAY FROM A   
+
+00:04:49.176 --> 00:04:49.941 line:74%
+CERTAIN CAR CULTURE.            
+
+00:04:49.943 --> 00:04:52.844 line:68.66%
+CERTAIN CAR CULTURE.            
+
+00:04:49.943 --> 00:04:52.844 line:74%
+I WANT TO KNOW FROM HIM IF HE   
+
+00:04:52.846 --> 00:04:54.145 line:68.66%
+I WANT TO KNOW FROM HIM IF HE   
+
+00:04:52.846 --> 00:04:54.145 line:74%
+MEANS THAT IT'S OKAY FOR THE    
+
+00:04:54.147 --> 00:04:55.980 line:68.66%
+MEANS THAT IT'S OKAY FOR THE    
+
+00:04:54.147 --> 00:04:55.980 line:74%
+CITY OF ANN ARBOR TO ACCEPT A   
+
+00:04:55.982 --> 00:04:58.283 line:68.66%
+CITY OF ANN ARBOR TO ACCEPT A   
+
+00:04:55.982 --> 00:04:58.283 line:74%
+FEW EXTRA CASUALTIES ALONG THE  
+
+00:04:58.285 --> 00:04:58.483 line:68.66%
+FEW EXTRA CASUALTIES ALONG THE  
+
+00:04:58.285 --> 00:04:58.483 line:74%
+WAY.                            
+
+00:04:58.485 --> 00:05:00.852 line:68.66%
+WAY.                            
+
+00:04:58.485 --> 00:05:00.852 line:74%
+THAT SEEMS TO BE THE INSINUATION
+
+00:05:00.854 --> 00:05:02.020 line:68.66%
+THAT SEEMS TO BE THE INSINUATION
+
+00:05:00.854 --> 00:05:02.020 line:74%
+OF WHAT HE'S SAYING FROM THE    
+
+00:05:02.022 --> 00:05:03.621 line:68.66%
+OF WHAT HE'S SAYING FROM THE    
+
+00:05:02.022 --> 00:05:03.621 line:74%
+LOGIC.                          
+
+00:05:03.623 --> 00:05:04.889 line:68.66%
+LOGIC.                          
+
+00:05:03.623 --> 00:05:04.889 line:74%
+AND THOSE ARE THE KIND OF       
+
+00:05:04.891 --> 00:05:07.358 line:68.66%
+AND THOSE ARE THE KIND OF       
+
+00:05:04.891 --> 00:05:07.358 line:74%
+QUESTIONS THAT WERE RAISED BY   
+
+00:05:07.360 --> 00:05:08.359 line:68.66%
+QUESTIONS THAT WERE RAISED BY   
+
+00:05:07.360 --> 00:05:08.359 line:74%
+THIS EXCHANGE THAT TOOK PLACE   
+
+00:05:08.361 --> 00:05:09.127 line:68.66%
+THIS EXCHANGE THAT TOOK PLACE   
+
+00:05:08.361 --> 00:05:09.127 line:74%
+OVER THE WEEKEND.               
+
+00:05:09.129 --> 00:05:10.662 line:68.66%
+OVER THE WEEKEND.               
+
+00:05:09.129 --> 00:05:10.662 line:74%
+I WOULD ENCOURAGE YOU TO GO OVER
+
+00:05:10.664 --> 00:05:12.030 line:68.66%
+I WOULD ENCOURAGE YOU TO GO OVER
+
+00:05:10.664 --> 00:05:12.030 line:74%
+THERE AND I WOULD ENCOURAGE YOU 
+
+00:05:12.032 --> 00:05:13.364 line:68.66%
+THERE AND I WOULD ENCOURAGE YOU 
+
+00:05:12.032 --> 00:05:13.364 line:74%
+TO GO OVER THE REPORT AND I     
+
+00:05:13.366 --> 00:05:14.799 line:68.66%
+TO GO OVER THE REPORT AND I     
+
+00:05:13.366 --> 00:05:14.799 line:74%
+WOULD APPRECIATE A CHANCE TO    
+
+00:05:14.801 --> 00:05:16.601 line:68.66%
+WOULD APPRECIATE A CHANCE TO    
+
+00:05:14.801 --> 00:05:16.601 line:74%
+DIALOGUE ON THE MATTER.         
+
+00:05:16.603 --> 00:05:18.002 line:68.66%
+DIALOGUE ON THE MATTER.         
+
+00:05:16.603 --> 00:05:18.002 line:74%
+I SPENT A CONSIDERABLE AMOUNT OF
+
+00:05:18.004 --> 00:05:19.237 line:68.66%
+I SPENT A CONSIDERABLE AMOUNT OF
+
+00:05:18.004 --> 00:05:19.237 line:74%
+TIME PRODUCING THAT REPORT.     
+
+00:05:19.239 --> 00:05:22.907 line:68.66%
+TIME PRODUCING THAT REPORT.     
+
+00:05:19.239 --> 00:05:22.907 line:74%
+IT'S BEEN PEER REVIEWED.        
+
+00:05:22.909 --> 00:05:24.442 line:68.66%
+IT'S BEEN PEER REVIEWED.        
+
+00:05:22.909 --> 00:05:24.442 line:74%
+THE PEOPLE WHO DID PEER REVIEW  
+
+00:05:24.444 --> 00:05:26.277 line:68.66%
+THE PEOPLE WHO DID PEER REVIEW  
+
+00:05:24.444 --> 00:05:26.277 line:74%
+IT, DID NOT SIGN IT BUT THEY    
+
+00:05:26.279 --> 00:05:28.446 line:68.66%
+IT, DID NOT SIGN IT BUT THEY    
+
+00:05:26.279 --> 00:05:28.446 line:74%
+GAVE ME ENOUGH CONFIDENCE THAT  
+
+00:05:28.448 --> 00:05:30.281 line:68.66%
+GAVE ME ENOUGH CONFIDENCE THAT  
+
+00:05:28.448 --> 00:05:30.281 line:74%
+THE CONCLUSIONS ARE FAIRLY      
+
+00:05:30.283 --> 00:05:31.716 line:68.66%
+THE CONCLUSIONS ARE FAIRLY      
+
+00:05:30.283 --> 00:05:31.716 line:74%
+STATISTICALLY VALID.            
+
+00:05:31.718 --> 00:05:33.117 line:68.66%
+STATISTICALLY VALID.            
+
+00:05:31.718 --> 00:05:33.117 line:74%
+MY TIME IS UP.                  
+
+00:05:33.119 --> 00:05:33.918 line:68.66%
+MY TIME IS UP.                  
+
+00:05:33.119 --> 00:05:33.918 line:74%
+>> Mayor Taylor: THANK YOU.     
+
+00:05:33.920 --> 00:05:34.619 line:68.66%
+>> Mayor Taylor: THANK YOU.     
+
+00:05:33.920 --> 00:05:34.619 line:74%
+IS THERE ANYONE ELSE WHO WOULD  
+
+00:05:34.621 --> 00:05:37.155 line:68.66%
+IS THERE ANYONE ELSE WHO WOULD  
+
+00:05:34.621 --> 00:05:37.155 line:74%
+LIKE TO SPEAK AT PUBLIC COMMENT?
+
+00:05:37.157 --> 00:05:38.756 line:68.66%
+LIKE TO SPEAK AT PUBLIC COMMENT?
+
+00:05:37.157 --> 00:05:38.756 line:74%
+SEEING NO ONE, PUBLIC COMMENT IS
+
+00:05:38.758 --> 00:05:39.123 line:68.66%
+SEEING NO ONE, PUBLIC COMMENT IS
+
+00:05:38.758 --> 00:05:39.123 line:74%
+CLOSED.                         
+
+00:05:39.125 --> 00:05:41.259 line:68.66%
+CLOSED.                         
+
+00:05:39.125 --> 00:05:41.259 line:74%
+MAY I HAVE A MOTION TO GO INTO  
+
+00:05:41.261 --> 00:05:41.893 line:68.66%
+MAY I HAVE A MOTION TO GO INTO  
+
+00:05:41.261 --> 00:05:41.893 line:74%
+CLOSED SESSION?                 
+
+00:05:41.895 --> 00:05:43.728 line:68.66%
+CLOSED SESSION?                 
+
+00:05:41.895 --> 00:05:43.728 line:74%
+MOVED BY COUNCILMEMBER LUMM,    
+
+00:05:43.730 --> 00:05:46.564 line:68.66%
+MOVED BY COUNCILMEMBER LUMM,    
+
+00:05:43.730 --> 00:05:46.564 line:74%
+SECONDED BY COUNCILMEMBER       
+
+00:05:46.566 --> 00:05:46.831 line:68.66%
+SECONDED BY COUNCILMEMBER       
+
+00:05:46.566 --> 00:05:46.831 line:74%
+ACKERMAN.                       
+
+00:05:46.833 --> 00:05:47.532 line:68.66%
+ACKERMAN.                       
+
+00:05:46.833 --> 00:05:47.532 line:74%
+>> City Atty. Postema: AND      
+
+00:05:47.534 --> 00:05:52.303 line:68.66%
+>> City Atty. Postema: AND      
+
+00:05:47.534 --> 00:05:52.303 line:74%
+MAYOR, IT'S UNDER THE OPEN      
+
+00:05:52.305 --> 00:05:56.140 line:68.66%
+MAYOR, IT'S UNDER THE OPEN      
+
+00:05:52.305 --> 00:05:56.140 line:74%
+MEETING ACT, IT'S THE TWO       
+
+00:05:56.142 --> 00:05:57.442 line:68.66%
+MEETING ACT, IT'S THE TWO       
+
+00:05:56.142 --> 00:05:57.442 line:74%
+LITIGATIONS AND IT'S THE GELMAN 
+
+00:05:57.444 --> 00:05:59.410 line:68.66%
+LITIGATIONS AND IT'S THE GELMAN 
+
+00:05:57.444 --> 00:05:59.410 line:74%
+CASE AND THE THINK RIGHT        
+
+00:05:59.412 --> 00:06:01.045 line:68.66%
+CASE AND THE THINK RIGHT        
+
+00:05:59.412 --> 00:06:01.045 line:74%
+STRATEGIES IN FEDERAL COURT.    
+
+00:06:01.047 --> 00:06:02.247 line:68.66%
+STRATEGIES IN FEDERAL COURT.    
+
+00:06:01.047 --> 00:06:02.247 line:74%
+>> Mayor Taylor: THANK YOU VERY 
+
+00:06:02.249 --> 00:06:02.447 line:68.66%
+>> Mayor Taylor: THANK YOU VERY 
+
+00:06:02.249 --> 00:06:02.447 line:74%
+MUCH.                           
+
+00:06:02.449 --> 00:06:03.448 line:68.66%
+MUCH.                           
+
+00:06:02.449 --> 00:06:03.448 line:74%
+FURTHER DISCUSSION.             
+
+00:06:03.450 --> 00:06:04.716 line:68.66%
+FURTHER DISCUSSION.             
+
+00:06:03.450 --> 00:06:04.716 line:74%
+ROLL CALL VOTE, PLEASE.         
+
+00:06:04.718 --> 00:06:06.284 line:68.66%
+ROLL CALL VOTE, PLEASE.         
+
+00:06:04.718 --> 00:06:06.284 line:74%
+STARTING WITH COUNCILMEMBER     
+
+00:06:06.286 --> 00:06:13.458 line:68.66%
+STARTING WITH COUNCILMEMBER     
+
+00:06:06.286 --> 00:06:13.458 line:74%
+ACKERMAN.                       
+
+00:06:13.460 --> 00:06:14.192 line:68.66%
+ACKERMAN.                       
+
+00:06:13.460 --> 00:06:14.192 line:74%
+>> Councilmember Ackerman:      
+
+00:06:14.194 --> 00:06:19.364 line:68.66%
+>> Councilmember Ackerman:      
+
+00:06:14.194 --> 00:06:19.364 line:74%
+YES.                            
+
+00:06:19.366 --> 00:06:19.864 line:68.66%
+YES.                            
+
+00:06:19.366 --> 00:06:19.864 line:74%
+>> Mayor Taylor: YES.           
+
+00:06:19.866 --> 00:06:20.465 line:68.66%
+>> Mayor Taylor: YES.           
+
+00:06:19.866 --> 00:06:20.465 line:74%
+>> Councilmember Eaton: YES.    
+
+00:06:20.467 --> 00:06:23.201 line:68.66%
+>> Councilmember Eaton: YES.    
+
+00:06:20.467 --> 00:06:23.201 line:74%
+>> Councilmember Nelson:  YES.  
+
+00:06:23.203 --> 00:06:23.801 line:68.66%
+>> Councilmember Nelson:  YES.  
+
+00:06:23.203 --> 00:06:23.801 line:74%
+>> Councilmember Smith: YES.    
+
+00:06:23.803 --> 00:06:24.602 line:68.66%
+>> Councilmember Smith: YES.    
+
+00:06:23.803 --> 00:06:24.602 line:74%
+>> Councilmember Ramlawi:       
+
+00:06:24.604 --> 00:06:24.769 line:68.66%
+>> Councilmember Ramlawi:       
+
+00:06:24.604 --> 00:06:24.769 line:74%
+YES.                            
+
+00:06:24.771 --> 00:06:26.604 line:68.66%
+YES.                            
+
+00:06:24.771 --> 00:06:26.604 line:74%
+>> Councilmember Hayner:  YES.  
+
+00:06:26.606 --> 00:06:28.673 line:68.66%
+>> Councilmember Hayner:  YES.  
+
+00:06:26.606 --> 00:06:28.673 line:74%
+>> Councilmember Bannister:     
+
+00:06:28.675 --> 00:06:28.840 line:68.66%
+>> Councilmember Bannister:     
+
+00:06:28.675 --> 00:06:28.840 line:74%
+YES.                            
+
+00:06:28.842 --> 00:06:30.108 line:68.66%
+YES.                            
+
+00:06:28.842 --> 00:06:30.108 line:74%
+>> Councilmember Griswold:      
+
+00:06:30.110 --> 00:06:30.308 line:68.66%
+>> Councilmember Griswold:      
+
+00:06:30.110 --> 00:06:30.308 line:74%
+YES.                            
+
+00:06:30.310 --> 00:06:33.811 line:68.66%
+YES.                            
+
+00:06:30.310 --> 00:06:33.811 line:74%
+>> Councilmember Lumm: YES.     
+
+00:06:33.813 --> 00:06:35.780 line:68.66%
+>> Councilmember Lumm: YES.     
+
+00:06:33.813 --> 00:06:35.780 line:74%
+>> Clerk Beaudry: MOTION        
+
+00:06:35.782 --> 00:06:36.014 line:68.66%
+>> Clerk Beaudry: MOTION        
+
+00:06:35.782 --> 00:06:36.014 line:74%
+CARRIES.                        
+
+00:06:36.016 --> 00:06:36.614 line:68.66%
+CARRIES.                        
+
+00:06:36.016 --> 00:06:36.614 line:74%
+>> Mayor Taylor: WE ARE IN      
+
+00:06:36.616 --> 00:06:36.948 line:68.66%
+>> Mayor Taylor: WE ARE IN      
+
+00:06:36.616 --> 00:06:36.948 line:74%
+CLOSED SESSION.                 
+
+00:06:41.587 --> 00:06:42.720 line:74%
+[ CLOSED SESSION ]              
+

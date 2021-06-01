@@ -1,0 +1,4611 @@
+﻿WEBVTT
+Style:
+/* default values */
+::cue {
+  line-height: 5.33vh;
+  font-size: 4.1vh;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  background-color: black;
+  color: white;
+}
+/* special cue parts */
+::cue(c.transparent) {
+  color: transparent;
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.semi-transparent) {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.opaque) {
+  color: rgba(0, 0, 0, 1);
+}
+::cue(c.blink) {
+  text-decoration: blink;
+}
+::cue(c.white) {
+  color: white;
+}
+::cue(c.red) {
+  color: red;
+}
+::cue(c.green) {
+  color: lime;
+}
+::cue(c.blue) {
+  color: blue;
+}
+::cue(c.cyan) {
+  color: cyan;
+}
+::cue(c.yellow) {
+  color: yellow;
+}
+::cue(c.magenta) {
+  color: magenta;
+}
+::cue(c.bg_transparent) {
+  background-color: transparent;
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.bg_semi-transparent) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* need to set this before changing color, otherwise the color is lost */
+::cue(c.bg_opaque) {
+  background-color: rgba(0, 0, 0, 1);
+}
+::cue(c.bg_white) {
+  background-color: white;
+}
+::cue(c.bg_green) {
+  background-color: lime;
+}
+::cue(c.bg_blue) {
+  background-color: blue;
+}
+::cue(c.bg_cyan) {
+  background-color: cyan;
+}
+::cue(c.bg_red) {
+  background-color: red;
+}
+::cue(c.bg_yellow) {
+  background-color: yellow;
+}
+::cue(c.bg_magenta) {
+  background-color: magenta;
+}
+::cue(c.bg_black) {
+  background-color: black;
+}
+/* Examples of combined colors */
+::cue(c.bg_white.bg_semi-transparent) {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+::cue(c.bg_green.bg_semi-transparent) {
+  background-color: rgba(0, 256, 0, 0.5);
+}
+::cue(c.bg_blue.bg_semi-transparent) {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+::cue(c.bg_cyan.bg_semi-transparent) {
+  background-color: rgba(0, 255, 255, 0.5);
+}
+::cue(c.bg_red.bg_semi-transparent) {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+::cue(c.bg_yellow.bg_semi-transparent) {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+::cue(c.bg_magenta.bg_semi-transparent) {
+  background-color: rgba(255, 0, 255, 0.5);
+}
+::cue(c.bg_black.bg_semi-transparent) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+##
+
+X-TIMESTAMP-MAP=MPEGTS:38215, LOCAL 00:00:00.000
+00:00:13.071 --> 00:00:14.605 line:68.66%
+>> Vice Chair Mills: WE CALL TO 
+
+00:00:13.071 --> 00:00:14.605 line:74%
+ORDER THE PLANNING COMMISSION   
+
+00:00:14.607 --> 00:00:16.207 line:68.66%
+ORDER THE PLANNING COMMISSION   
+
+00:00:14.607 --> 00:00:16.207 line:74%
+MEETING, THE NOVEMB             
+
+00:00:16.209 --> 00:00:16.674 line:68.66%
+MEETING, THE NOVEMB             
+
+00:00:16.209 --> 00:00:16.674 line:74%
+NOVEMBER 7th MEETING.           
+
+00:00:16.676 --> 00:00:17.575 line:68.66%
+NOVEMBER 7th MEETING.           
+
+00:00:16.676 --> 00:00:17.575 line:74%
+I DID THE CALL TO ORDER AND SO  
+
+00:00:17.577 --> 00:00:21.178 line:68.66%
+I DID THE CALL TO ORDER AND SO  
+
+00:00:17.577 --> 00:00:21.178 line:74%
+THE ROLL CALL.                  
+
+00:00:21.180 --> 00:00:22.079 line:68.66%
+THE ROLL CALL.                  
+
+00:00:21.180 --> 00:00:22.079 line:74%
+>> THANK YOU.                   
+
+00:00:22.081 --> 00:00:35.659 line:68.66%
+>> THANK YOU.                   
+
+00:00:22.081 --> 00:00:35.659 line:74%
+[ ROLL CALL ]                   
+
+00:00:35.661 --> 00:00:37.995 line:68.66%
+[ ROLL CALL ]                   
+
+00:00:35.661 --> 00:00:37.995 line:74%
+WE HAVE A QUORUM.               
+
+00:00:37.997 --> 00:00:38.596 line:68.66%
+WE HAVE A QUORUM.               
+
+00:00:37.997 --> 00:00:38.596 line:74%
+>> Vice Chair Mills: GREAT.     
+
+00:00:38.598 --> 00:00:41.065 line:68.66%
+>> Vice Chair Mills: GREAT.     
+
+00:00:38.598 --> 00:00:41.065 line:74%
+THERE ARE NO INTRODUCTIONS.     
+
+00:00:41.067 --> 00:00:43.534 line:68.66%
+THERE ARE NO INTRODUCTIONS.     
+
+00:00:41.067 --> 00:00:43.534 line:74%
+SO THE MINUTES OF THE PREVIOUS  
+
+00:00:43.536 --> 00:00:45.603 line:68.66%
+SO THE MINUTES OF THE PREVIOUS  
+
+00:00:43.536 --> 00:00:45.603 line:74%
+MEETING FROM THE OCTOB          
+
+00:00:45.605 --> 00:00:46.070 line:68.66%
+MEETING FROM THE OCTOB          
+
+00:00:45.605 --> 00:00:46.070 line:74%
+OCTOBER 1st PLANNING            
+
+00:00:46.072 --> 00:00:47.271 line:68.66%
+OCTOBER 1st PLANNING            
+
+00:00:46.072 --> 00:00:47.271 line:74%
+COMMISSION MEETING, DOES SOMEONE
+
+00:00:47.273 --> 00:00:51.775 line:68.66%
+COMMISSION MEETING, DOES SOMEONE
+
+00:00:47.273 --> 00:00:51.775 line:74%
+WANT TO MOVE THOSE MINUTES.     
+
+00:00:51.777 --> 00:00:56.680 line:68.66%
+WANT TO MOVE THOSE MINUTES.     
+
+00:00:51.777 --> 00:00:56.680 line:74%
+COMMISSIONER ABRAMS, SECONDED BY
+
+00:00:56.682 --> 00:00:57.381 line:68.66%
+COMMISSIONER ABRAMS, SECONDED BY
+
+00:00:56.682 --> 00:00:57.381 line:74%
+COMMISSIONER GIBB-RANDALL.      
+
+00:00:57.383 --> 00:00:59.283 line:68.66%
+COMMISSIONER GIBB-RANDALL.      
+
+00:00:57.383 --> 00:00:59.283 line:74%
+ALL IN FAVOR OF APPROVING THE   
+
+00:00:59.285 --> 00:01:00.150 line:68.66%
+ALL IN FAVOR OF APPROVING THE   
+
+00:00:59.285 --> 00:01:00.150 line:74%
+MINUTES, PLEASE SAY AYE.        
+
+00:01:00.152 --> 00:01:00.584 line:68.66%
+MINUTES, PLEASE SAY AYE.        
+
+00:01:00.152 --> 00:01:00.584 line:74%
+[CHORUS OF AYES]                
+
+00:01:00.586 --> 00:01:04.288 line:68.66%
+[CHORUS OF AYES]                
+
+00:01:00.586 --> 00:01:04.288 line:74%
+NEXT IS APPROVAL OF THE AGENDA. 
+
+00:01:04.290 --> 00:01:07.157 line:68.66%
+NEXT IS APPROVAL OF THE AGENDA. 
+
+00:01:04.290 --> 00:01:07.157 line:74%
+>> I HAVE A SUGGESTION OR A     
+
+00:01:07.159 --> 00:01:08.225 line:68.66%
+>> I HAVE A SUGGESTION OR A     
+
+00:01:07.159 --> 00:01:08.225 line:74%
+RECOMMENDATION THAT THE AGENDA  
+
+00:01:08.227 --> 00:01:11.862 line:68.66%
+RECOMMENDATION THAT THE AGENDA  
+
+00:01:08.227 --> 00:01:11.862 line:74%
+BE AMENDED BEFORE IT IS         
+
+00:01:11.864 --> 00:01:13.897 line:68.66%
+BE AMENDED BEFORE IT IS         
+
+00:01:11.864 --> 00:01:13.897 line:74%
+APPROVED.                       
+
+00:01:13.899 --> 00:01:18.102 line:68.66%
+APPROVED.                       
+
+00:01:13.899 --> 00:01:18.102 line:74%
+THE ITEM NUMBER 9B, WHICH IS A  
+
+00:01:18.104 --> 00:01:19.937 line:68.66%
+THE ITEM NUMBER 9B, WHICH IS A  
+
+00:01:18.104 --> 00:01:19.937 line:74%
+PREPETITION CONFERENCE FOR A    
+
+00:01:19.939 --> 00:01:22.706 line:68.66%
+PREPETITION CONFERENCE FOR A    
+
+00:01:19.939 --> 00:01:22.706 line:74%
+PROPOSED PUD PROJECT AT 2195    
+
+00:01:22.708 --> 00:01:24.575 line:68.66%
+PROPOSED PUD PROJECT AT 2195    
+
+00:01:22.708 --> 00:01:24.575 line:74%
+EAST ELLSWORTH, THAT THAT BE    
+
+00:01:24.577 --> 00:01:25.376 line:68.66%
+EAST ELLSWORTH, THAT THAT BE    
+
+00:01:24.577 --> 00:01:25.376 line:74%
+REMOVED FROM THE REGULAR        
+
+00:01:25.378 --> 00:01:27.978 line:68.66%
+REMOVED FROM THE REGULAR        
+
+00:01:25.378 --> 00:01:27.978 line:74%
+BUSINESS PORTION, AND THEN MOVED
+
+00:01:27.980 --> 00:01:30.014 line:68.66%
+BUSINESS PORTION, AND THEN MOVED
+
+00:01:27.980 --> 00:01:30.014 line:74%
+TO AFTER THE ADJOURNMENT AND IT 
+
+00:01:30.016 --> 00:01:31.615 line:68.66%
+TO AFTER THE ADJOURNMENT AND IT 
+
+00:01:30.016 --> 00:01:31.615 line:74%
+BE DISCUSSED IN A WORKING       
+
+00:01:31.617 --> 00:01:35.252 line:68.66%
+BE DISCUSSED IN A WORKING       
+
+00:01:31.617 --> 00:01:35.252 line:74%
+SESSION.                        
+
+00:01:35.254 --> 00:01:35.953 line:68.66%
+SESSION.                        
+
+00:01:35.254 --> 00:01:35.953 line:74%
+>> Vice Chair Mills: WILL ANYONE
+
+00:01:35.955 --> 00:01:45.062 line:68.66%
+>> Vice Chair Mills: WILL ANYONE
+
+00:01:35.955 --> 00:01:45.062 line:74%
+MOVE THE AGENDA AS AMENDED?     
+
+00:01:45.064 --> 00:01:46.130 line:68.66%
+MOVE THE AGENDA AS AMENDED?     
+
+00:01:45.064 --> 00:01:46.130 line:74%
+>> SO I MOVE.                   
+
+00:01:46.132 --> 00:01:46.830 line:68.66%
+>> SO I MOVE.                   
+
+00:01:46.132 --> 00:01:46.830 line:74%
+>> Vice Chair Mills: IT WAS     
+
+00:01:46.832 --> 00:01:48.432 line:68.66%
+>> Vice Chair Mills: IT WAS     
+
+00:01:46.832 --> 00:01:48.432 line:74%
+MOVED BY COMMISSIONER BRIGGS.   
+
+00:01:48.434 --> 00:01:52.870 line:68.66%
+MOVED BY COMMISSIONER BRIGGS.   
+
+00:01:48.434 --> 00:01:52.870 line:74%
+SECONDED BY COMMISSIONER --     
+
+00:01:52.872 --> 00:01:56.106 line:68.66%
+SECONDED BY COMMISSIONER --     
+
+00:01:52.872 --> 00:01:56.106 line:74%
+SARAH AND -- HAMMERSCHMIDT.     
+
+00:01:56.108 --> 00:01:56.273 line:68.66%
+SARAH AND -- HAMMERSCHMIDT.     
+
+00:01:56.108 --> 00:01:56.273 line:74%
+YES?                            
+
+00:01:56.275 --> 00:01:59.276 line:68.66%
+YES?                            
+
+00:01:56.275 --> 00:01:59.276 line:74%
+I DON'T CHAIR THIS VERY OFTEN,  
+
+00:01:59.278 --> 00:02:00.311 line:68.66%
+I DON'T CHAIR THIS VERY OFTEN,  
+
+00:01:59.278 --> 00:02:00.311 line:74%
+AUDIENCE.                       
+
+00:02:00.313 --> 00:02:00.511 line:68.66%
+AUDIENCE.                       
+
+00:02:00.313 --> 00:02:00.511 line:74%
+SORRY.                          
+
+00:02:00.513 --> 00:02:02.880 line:68.66%
+SORRY.                          
+
+00:02:00.513 --> 00:02:02.880 line:74%
+ALL IN FAVOR OF THE AGENDA AS   
+
+00:02:02.882 --> 00:02:03.947 line:68.66%
+ALL IN FAVOR OF THE AGENDA AS   
+
+00:02:02.882 --> 00:02:03.947 line:74%
+AMENDED?                        
+
+00:02:03.949 --> 00:02:04.782 line:68.66%
+AMENDED?                        
+
+00:02:03.949 --> 00:02:04.782 line:74%
+PLEASE SAY AYE.                 
+
+00:02:04.784 --> 00:02:05.983 line:68.66%
+PLEASE SAY AYE.                 
+
+00:02:04.784 --> 00:02:05.983 line:74%
+[CHORUS OF AYES]                
+
+00:02:05.985 --> 00:02:08.819 line:68.66%
+[CHORUS OF AYES]                
+
+00:02:05.985 --> 00:02:08.819 line:74%
+THAT IS EVERYBODY.              
+
+00:02:08.821 --> 00:02:10.821 line:68.66%
+THAT IS EVERYBODY.              
+
+00:02:08.821 --> 00:02:10.821 line:74%
+NEXT IS ITEM SIX, REPORTS FROM  
+
+00:02:10.823 --> 00:02:12.356 line:68.66%
+NEXT IS ITEM SIX, REPORTS FROM  
+
+00:02:10.823 --> 00:02:12.356 line:74%
+CITY ADMINISTRATION, CITY       
+
+00:02:12.358 --> 00:02:17.394 line:68.66%
+CITY ADMINISTRATION, CITY       
+
+00:02:12.358 --> 00:02:17.394 line:74%
+COUNCIL, PLANNING COMMISSION    
+
+00:02:17.396 --> 00:02:19.229 line:68.66%
+COUNCIL, PLANNING COMMISSION    
+
+00:02:17.396 --> 00:02:19.229 line:74%
+OFFICERS AND COMMITTEES.        
+
+00:02:19.231 --> 00:02:21.632 line:68.66%
+OFFICERS AND COMMITTEES.        
+
+00:02:19.231 --> 00:02:21.632 line:74%
+FIRST WE START WITH COMMISSIONER
+
+00:02:21.634 --> 00:02:23.567 line:68.66%
+FIRST WE START WITH COMMISSIONER
+
+00:02:21.634 --> 00:02:23.567 line:74%
+ACKERMAN, OUR CITY COUNCIL      
+
+00:02:23.569 --> 00:02:23.934 line:68.66%
+ACKERMAN, OUR CITY COUNCIL      
+
+00:02:23.569 --> 00:02:23.934 line:74%
+REPRESENTATIVE.                 
+
+00:02:23.936 --> 00:02:24.501 line:68.66%
+REPRESENTATIVE.                 
+
+00:02:23.936 --> 00:02:24.501 line:74%
+>> Councilmember Ackerman:      
+
+00:02:24.503 --> 00:02:26.036 line:68.66%
+>> Councilmember Ackerman:      
+
+00:02:24.503 --> 00:02:26.036 line:74%
+THANK YOU, MADAM CHAIR.         
+
+00:02:26.038 --> 00:02:28.272 line:68.66%
+THANK YOU, MADAM CHAIR.         
+
+00:02:26.038 --> 00:02:28.272 line:74%
+JUST A FEW ITEMS OF UPDATE FROM 
+
+00:02:28.274 --> 00:02:30.207 line:68.66%
+JUST A FEW ITEMS OF UPDATE FROM 
+
+00:02:28.274 --> 00:02:30.207 line:74%
+MONDAY NIGHT'S CITY COUNCIL     
+
+00:02:30.209 --> 00:02:30.441 line:68.66%
+MONDAY NIGHT'S CITY COUNCIL     
+
+00:02:30.209 --> 00:02:30.441 line:74%
+MEETING.                        
+
+00:02:30.443 --> 00:02:31.508 line:68.66%
+MEETING.                        
+
+00:02:30.443 --> 00:02:31.508 line:74%
+FIRST TWO PROPERTIES WERE       
+
+00:02:31.510 --> 00:02:33.744 line:68.66%
+FIRST TWO PROPERTIES WERE       
+
+00:02:31.510 --> 00:02:33.744 line:74%
+ACQUIRED BY THE CITY, ONE A     
+
+00:02:33.746 --> 00:02:34.745 line:68.66%
+ACQUIRED BY THE CITY, ONE A     
+
+00:02:33.746 --> 00:02:34.745 line:74%
+GREENBELT PROPERTY OUTSIDE THE  
+
+00:02:34.747 --> 00:02:37.281 line:68.66%
+GREENBELT PROPERTY OUTSIDE THE  
+
+00:02:34.747 --> 00:02:37.281 line:74%
+CITY LIMITS AND THE SECOND NEW  
+
+00:02:37.283 --> 00:02:38.382 line:68.66%
+CITY LIMITS AND THE SECOND NEW  
+
+00:02:37.283 --> 00:02:38.382 line:74%
+NATURAL AREA PURCHASED AS       
+
+00:02:38.384 --> 00:02:46.323 line:68.66%
+NATURAL AREA PURCHASED AS       
+
+00:02:38.384 --> 00:02:46.323 line:74%
+PARKLAND WITHIN THE CITY LIMITS.
+
+00:02:46.325 --> 00:02:49.259 line:68.66%
+PARKLAND WITHIN THE CITY LIMITS.
+
+00:02:46.325 --> 00:02:49.259 line:74%
+THE -- THE DOWNTOWN AFFORDABLE  
+
+00:02:49.261 --> 00:02:50.894 line:68.66%
+THE -- THE DOWNTOWN AFFORDABLE  
+
+00:02:49.261 --> 00:02:50.894 line:74%
+HOUSING PREMIUM ORDINANCE       
+
+00:02:50.896 --> 00:02:53.197 line:68.66%
+HOUSING PREMIUM ORDINANCE       
+
+00:02:50.896 --> 00:02:53.197 line:74%
+AMENDMENTS PASSED UNANIMOUSLY AT
+
+00:02:53.199 --> 00:02:55.199 line:68.66%
+AMENDMENTS PASSED UNANIMOUSLY AT
+
+00:02:53.199 --> 00:02:55.199 line:74%
+SECOND READING WITHOUT ANY      
+
+00:02:55.201 --> 00:02:55.933 line:68.66%
+SECOND READING WITHOUT ANY      
+
+00:02:55.201 --> 00:02:55.933 line:74%
+MATERIAL AMENDMENTS.            
+
+00:02:55.935 --> 00:02:59.570 line:68.66%
+MATERIAL AMENDMENTS.            
+
+00:02:55.935 --> 00:02:59.570 line:74%
+SO CONGRATULATIONS ON A JOB     
+
+00:02:59.572 --> 00:03:01.238 line:68.66%
+SO CONGRATULATIONS ON A JOB     
+
+00:02:59.572 --> 00:03:01.238 line:74%
+WELL-DONE TO MS. DELEO, THE     
+
+00:03:01.240 --> 00:03:04.308 line:68.66%
+WELL-DONE TO MS. DELEO, THE     
+
+00:03:01.240 --> 00:03:04.308 line:74%
+STAFF MEMBER WHO WORKED ON THAT 
+
+00:03:04.310 --> 00:03:07.111 line:68.66%
+STAFF MEMBER WHO WORKED ON THAT 
+
+00:03:04.310 --> 00:03:07.111 line:74%
+AND ALL COMMISSION MEMBERS WHO  
+
+00:03:07.113 --> 00:03:08.312 line:68.66%
+AND ALL COMMISSION MEMBERS WHO  
+
+00:03:07.113 --> 00:03:08.312 line:74%
+APPARENTLY PERFECTED IT.        
+
+00:03:08.314 --> 00:03:10.047 line:68.66%
+APPARENTLY PERFECTED IT.        
+
+00:03:08.314 --> 00:03:10.047 line:74%
+IT'S TEN YEARS SINCE THE        
+
+00:03:10.049 --> 00:03:11.949 line:68.66%
+IT'S TEN YEARS SINCE THE        
+
+00:03:10.049 --> 00:03:11.949 line:74%
+DOWNTOWN PREMIUMS WERE UPDATED  
+
+00:03:11.951 --> 00:03:13.250 line:68.66%
+DOWNTOWN PREMIUMS WERE UPDATED  
+
+00:03:11.951 --> 00:03:13.250 line:74%
+IN A MATERIAL FASHION AND I LOOK
+
+00:03:13.252 --> 00:03:16.987 line:68.66%
+IN A MATERIAL FASHION AND I LOOK
+
+00:03:13.252 --> 00:03:16.987 line:74%
+FORWARD TO MONITORING THE EFFECT
+
+00:03:16.989 --> 00:03:18.622 line:68.66%
+FORWARD TO MONITORING THE EFFECT
+
+00:03:16.989 --> 00:03:18.622 line:74%
+THAT THESE UPDATES BRING AND    
+
+00:03:18.624 --> 00:03:20.057 line:68.66%
+THAT THESE UPDATES BRING AND    
+
+00:03:18.624 --> 00:03:20.057 line:74%
+HOPEFULLY BRING MANY MORE UNITS 
+
+00:03:20.059 --> 00:03:21.925 line:68.66%
+HOPEFULLY BRING MANY MORE UNITS 
+
+00:03:20.059 --> 00:03:21.925 line:74%
+OF AFFORDABLE HOUSING AS WELL AS
+
+00:03:21.927 --> 00:03:23.360 line:68.66%
+OF AFFORDABLE HOUSING AS WELL AS
+
+00:03:21.927 --> 00:03:23.360 line:74%
+FUNDING TO THE AFFORDABLE       
+
+00:03:23.362 --> 00:03:25.062 line:68.66%
+FUNDING TO THE AFFORDABLE       
+
+00:03:23.362 --> 00:03:25.062 line:74%
+HOUSING FUND.                   
+
+00:03:25.064 --> 00:03:27.798 line:68.66%
+HOUSING FUND.                   
+
+00:03:25.064 --> 00:03:27.798 line:74%
+AND FINALLY, LAST UPDATE, CITY  
+
+00:03:27.800 --> 00:03:32.136 line:68.66%
+AND FINALLY, LAST UPDATE, CITY  
+
+00:03:27.800 --> 00:03:32.136 line:74%
+COUNCIL ALSO PASSED A RESOLUTION
+
+00:03:32.138 --> 00:03:33.337 line:68.66%
+COUNCIL ALSO PASSED A RESOLUTION
+
+00:03:32.138 --> 00:03:33.337 line:74%
+CALLING THE CITY TO LEAD THE    
+
+00:03:33.339 --> 00:03:36.440 line:68.66%
+CALLING THE CITY TO LEAD THE    
+
+00:03:33.339 --> 00:03:36.440 line:74%
+EFFORTS OF CREATING A CARBON    
+
+00:03:36.442 --> 00:03:39.076 line:68.66%
+EFFORTS OF CREATING A CARBON    
+
+00:03:36.442 --> 00:03:39.076 line:74%
+NEUTRAL COMMUNITY BY 2030.      
+
+00:03:39.078 --> 00:03:41.512 line:68.66%
+NEUTRAL COMMUNITY BY 2030.      
+
+00:03:39.078 --> 00:03:41.512 line:74%
+THESE HAVE LAND USE OBVIOUSLY   
+
+00:03:41.514 --> 00:03:44.648 line:68.66%
+THESE HAVE LAND USE OBVIOUSLY   
+
+00:03:41.514 --> 00:03:44.648 line:74%
+PLAYS A HUGE ROLE IN HOW WE EMIT
+
+00:03:44.650 --> 00:03:47.151 line:68.66%
+PLAYS A HUGE ROLE IN HOW WE EMIT
+
+00:03:44.650 --> 00:03:47.151 line:74%
+CARBON AS A CITY, AND SO THIS   
+
+00:03:47.153 --> 00:03:48.585 line:68.66%
+CARBON AS A CITY, AND SO THIS   
+
+00:03:47.153 --> 00:03:48.585 line:74%
+COMMISSION WILL BE PLACED       
+
+00:03:48.587 --> 00:03:50.988 line:68.66%
+COMMISSION WILL BE PLACED       
+
+00:03:48.587 --> 00:03:50.988 line:74%
+CENTRALLY IN A LOT OF POLICY    
+
+00:03:50.990 --> 00:03:52.022 line:68.66%
+CENTRALLY IN A LOT OF POLICY    
+
+00:03:50.990 --> 00:03:52.022 line:74%
+DECISIONS THAT WILL NEED TO BE  
+
+00:03:52.024 --> 00:03:52.222 line:68.66%
+DECISIONS THAT WILL NEED TO BE  
+
+00:03:52.024 --> 00:03:52.222 line:74%
+MADE.                           
+
+00:03:52.224 --> 00:03:53.424 line:68.66%
+MADE.                           
+
+00:03:52.224 --> 00:03:53.424 line:74%
+SOME OF THEM VERY DIFFICULT,    
+
+00:03:53.426 --> 00:03:55.659 line:68.66%
+SOME OF THEM VERY DIFFICULT,    
+
+00:03:53.426 --> 00:03:55.659 line:74%
+SOME OF THEM LOW HANGING FRUIT  
+
+00:03:55.661 --> 00:03:57.761 line:68.66%
+SOME OF THEM LOW HANGING FRUIT  
+
+00:03:55.661 --> 00:03:57.761 line:74%
+BUT PROBABLY MOST OF THEM VERY  
+
+00:03:57.763 --> 00:03:58.028 line:68.66%
+BUT PROBABLY MOST OF THEM VERY  
+
+00:03:57.763 --> 00:03:58.028 line:74%
+DIFFICULT.                      
+
+00:03:58.030 --> 00:04:02.399 line:68.66%
+DIFFICULT.                      
+
+00:03:58.030 --> 00:04:02.399 line:74%
+SO THANK YOU.                   
+
+00:04:02.401 --> 00:04:03.400 line:68.66%
+SO THANK YOU.                   
+
+00:04:02.401 --> 00:04:03.400 line:74%
+>> Vice Chair Mills: VERY GOOD. 
+
+00:04:03.402 --> 00:04:06.003 line:68.66%
+>> Vice Chair Mills: VERY GOOD. 
+
+00:04:03.402 --> 00:04:06.003 line:74%
+PLANNING MANAGER, MS. DILEO, DO 
+
+00:04:06.005 --> 00:04:07.037 line:68.66%
+PLANNING MANAGER, MS. DILEO, DO 
+
+00:04:06.005 --> 00:04:07.037 line:74%
+YOU HAVE SOMETHING TO REPORT?   
+
+00:04:07.039 --> 00:04:09.973 line:68.66%
+YOU HAVE SOMETHING TO REPORT?   
+
+00:04:07.039 --> 00:04:09.973 line:74%
+>> I DO NOT HAVE ANYTHING THIS  
+
+00:04:09.975 --> 00:04:10.207 line:68.66%
+>> I DO NOT HAVE ANYTHING THIS  
+
+00:04:09.975 --> 00:04:10.207 line:74%
+EVENING.                        
+
+00:04:10.209 --> 00:04:10.874 line:68.66%
+EVENING.                        
+
+00:04:10.209 --> 00:04:10.874 line:74%
+>> Vice Chair Mills: ALL RIGHT. 
+
+00:04:10.876 --> 00:04:11.375 line:68.66%
+>> Vice Chair Mills: ALL RIGHT. 
+
+00:04:10.876 --> 00:04:11.375 line:74%
+THERE ARE ANY PLANNING          
+
+00:04:11.377 --> 00:04:12.176 line:68.66%
+THERE ARE ANY PLANNING          
+
+00:04:11.377 --> 00:04:12.176 line:74%
+COMMISSION OFFICERS OR          
+
+00:04:12.178 --> 00:04:13.544 line:68.66%
+COMMISSION OFFICERS OR          
+
+00:04:12.178 --> 00:04:13.544 line:74%
+COMMITTEES THAT WANT TO REPORT  
+
+00:04:13.546 --> 00:04:15.612 line:68.66%
+COMMITTEES THAT WANT TO REPORT  
+
+00:04:13.546 --> 00:04:15.612 line:74%
+OUT?                            
+
+00:04:15.614 --> 00:04:18.649 line:68.66%
+OUT?                            
+
+00:04:15.614 --> 00:04:18.649 line:74%
+SEEING NO ONE.                  
+
+00:04:18.651 --> 00:04:19.850 line:68.66%
+SEEING NO ONE.                  
+
+00:04:18.651 --> 00:04:19.850 line:74%
+>> HOLD ON.                     
+
+00:04:19.852 --> 00:04:20.684 line:68.66%
+>> HOLD ON.                     
+
+00:04:19.852 --> 00:04:20.684 line:74%
+>> Vice Chair Mills: SORRY, I   
+
+00:04:20.686 --> 00:04:22.786 line:68.66%
+>> Vice Chair Mills: SORRY, I   
+
+00:04:20.686 --> 00:04:22.786 line:74%
+DIDN'T LOOK CLOSE ENOUGH.       
+
+00:04:22.788 --> 00:04:24.488 line:68.66%
+DIDN'T LOOK CLOSE ENOUGH.       
+
+00:04:22.788 --> 00:04:24.488 line:74%
+I APOLOGIZE COMMISSIONER        
+
+00:04:24.490 --> 00:04:24.822 line:68.66%
+I APOLOGIZE COMMISSIONER        
+
+00:04:24.490 --> 00:04:24.822 line:74%
+GIBB-RANDALL.                   
+
+00:04:24.824 --> 00:04:25.422 line:68.66%
+GIBB-RANDALL.                   
+
+00:04:24.824 --> 00:04:25.422 line:74%
+>> Commissioner Gibb-Randall:   
+
+00:04:25.424 --> 00:04:26.423 line:68.66%
+>> Commissioner Gibb-Randall:   
+
+00:04:25.424 --> 00:04:26.423 line:74%
+I WOULD SAY ON THE ENVIRONMENTAL
+
+00:04:26.425 --> 00:04:27.925 line:68.66%
+I WOULD SAY ON THE ENVIRONMENTAL
+
+00:04:26.425 --> 00:04:27.925 line:74%
+COMMISSION, OBVIOUSLY, THE      
+
+00:04:27.927 --> 00:04:29.860 line:68.66%
+COMMISSION, OBVIOUSLY, THE      
+
+00:04:27.927 --> 00:04:29.860 line:74%
+EMERGENCY CLIMATE ACTION THING  
+
+00:04:29.862 --> 00:04:31.962 line:68.66%
+EMERGENCY CLIMATE ACTION THING  
+
+00:04:29.862 --> 00:04:31.962 line:74%
+CAME THROUGH US FIRST AND I     
+
+00:04:31.964 --> 00:04:33.931 line:68.66%
+CAME THROUGH US FIRST AND I     
+
+00:04:31.964 --> 00:04:33.931 line:74%
+THINK THERE'S GOING TO NEED TO  
+
+00:04:33.933 --> 00:04:35.599 line:68.66%
+THINK THERE'S GOING TO NEED TO  
+
+00:04:33.933 --> 00:04:35.599 line:74%
+BE SOME -- SOME GOOD WORKING    
+
+00:04:35.601 --> 00:04:39.436 line:68.66%
+BE SOME -- SOME GOOD WORKING    
+
+00:04:35.601 --> 00:04:39.436 line:74%
+TOGETHER IN TERMS OF SOME OF THE
+
+00:04:39.438 --> 00:04:41.638 line:68.66%
+TOGETHER IN TERMS OF SOME OF THE
+
+00:04:39.438 --> 00:04:41.638 line:74%
+POLICIES AND BUDGETING -- NOT   
+
+00:04:41.640 --> 00:04:43.006 line:68.66%
+POLICIES AND BUDGETING -- NOT   
+
+00:04:41.640 --> 00:04:43.006 line:74%
+THAT WE MAKE BUDGETING DECISIONS
+
+00:04:43.008 --> 00:04:44.475 line:68.66%
+THAT WE MAKE BUDGETING DECISIONS
+
+00:04:43.008 --> 00:04:44.475 line:74%
+BUT THINKING ABOUT PROJECTS AND 
+
+00:04:44.477 --> 00:04:46.176 line:68.66%
+BUT THINKING ABOUT PROJECTS AND 
+
+00:04:44.477 --> 00:04:46.176 line:74%
+ALL OF THOSE KIND OF THINGS THAT
+
+00:04:46.178 --> 00:04:47.444 line:68.66%
+ALL OF THOSE KIND OF THINGS THAT
+
+00:04:46.178 --> 00:04:47.444 line:74%
+WILL BE ABSOLUTELY NECESSARY IN 
+
+00:04:47.446 --> 00:04:49.646 line:68.66%
+WILL BE ABSOLUTELY NECESSARY IN 
+
+00:04:47.446 --> 00:04:49.646 line:74%
+ORDER TO BE ABLE TO MOVE TOWARDS
+
+00:04:49.648 --> 00:04:51.148 line:68.66%
+ORDER TO BE ABLE TO MOVE TOWARDS
+
+00:04:49.648 --> 00:04:51.148 line:74%
+THAT GOAL AND ANY KIND OF       
+
+00:04:51.150 --> 00:04:51.748 line:68.66%
+THAT GOAL AND ANY KIND OF       
+
+00:04:51.150 --> 00:04:51.748 line:74%
+REALISTIC WAY.                  
+
+00:04:51.750 --> 00:04:54.084 line:68.66%
+REALISTIC WAY.                  
+
+00:04:51.750 --> 00:04:54.084 line:74%
+SO I WOULD IMAGINE THAT THERE   
+
+00:04:54.086 --> 00:04:57.988 line:68.66%
+SO I WOULD IMAGINE THAT THERE   
+
+00:04:54.086 --> 00:04:57.988 line:74%
+MAY NEED TO BE SOME MORE MESHING
+
+00:04:57.990 --> 00:04:59.723 line:68.66%
+MAY NEED TO BE SOME MORE MESHING
+
+00:04:57.990 --> 00:04:59.723 line:74%
+IN TERMS OF ENVIRONMENTAL       
+
+00:04:59.725 --> 00:05:00.791 line:68.66%
+IN TERMS OF ENVIRONMENTAL       
+
+00:04:59.725 --> 00:05:00.791 line:74%
+COMMISSION AND PLANNING         
+
+00:05:00.793 --> 00:05:02.426 line:68.66%
+COMMISSION AND PLANNING         
+
+00:05:00.793 --> 00:05:02.426 line:74%
+COMMISSION AS WE TRY TO FIGURE  
+
+00:05:02.428 --> 00:05:03.927 line:68.66%
+COMMISSION AS WE TRY TO FIGURE  
+
+00:05:02.428 --> 00:05:03.927 line:74%
+OUT HOW TO HIT THAT GOAL,       
+
+00:05:03.929 --> 00:05:07.297 line:68.66%
+OUT HOW TO HIT THAT GOAL,       
+
+00:05:03.929 --> 00:05:07.297 line:74%
+BECAUSE THAT'S COMING UP FAST.  
+
+00:05:07.299 --> 00:05:09.299 line:68.66%
+BECAUSE THAT'S COMING UP FAST.  
+
+00:05:07.299 --> 00:05:09.299 line:74%
+>> Vice Chair Mills: ALL RIGHT. 
+
+00:05:09.301 --> 00:05:09.466 line:68.66%
+>> Vice Chair Mills: ALL RIGHT. 
+
+00:05:09.301 --> 00:05:09.466 line:74%
+YES?                            
+
+00:05:09.468 --> 00:05:10.367 line:68.66%
+YES?                            
+
+00:05:09.468 --> 00:05:10.367 line:74%
+COMMISSIONER ACKERMAN?          
+
+00:05:10.369 --> 00:05:12.102 line:68.66%
+COMMISSIONER ACKERMAN?          
+
+00:05:10.369 --> 00:05:12.102 line:74%
+>> Councilmember Ackerman:      
+
+00:05:12.104 --> 00:05:13.337 line:68.66%
+>> Councilmember Ackerman:      
+
+00:05:12.104 --> 00:05:13.337 line:74%
+SORRY, I WILL GIVE AN UPDATE    
+
+00:05:13.339 --> 00:05:15.339 line:68.66%
+SORRY, I WILL GIVE AN UPDATE    
+
+00:05:13.339 --> 00:05:15.339 line:74%
+FROM THE HOUSING AND HUMAN      
+
+00:05:15.341 --> 00:05:19.276 line:68.66%
+FROM THE HOUSING AND HUMAN      
+
+00:05:15.341 --> 00:05:19.276 line:74%
+SERVICES ADVISORY BOARD ALSO    
+
+00:05:19.278 --> 00:05:20.777 line:68.66%
+SERVICES ADVISORY BOARD ALSO    
+
+00:05:19.278 --> 00:05:20.777 line:74%
+RELEVANT TO CITY COUNCIL.       
+
+00:05:20.779 --> 00:05:22.179 line:68.66%
+RELEVANT TO CITY COUNCIL.       
+
+00:05:20.779 --> 00:05:22.179 line:74%
+THE PLANNING OFFICE AND THE     
+
+00:05:22.181 --> 00:05:23.514 line:68.66%
+THE PLANNING OFFICE AND THE     
+
+00:05:22.181 --> 00:05:23.514 line:74%
+FINANCE OFFICE AT CITY HALL HAVE
+
+00:05:23.516 --> 00:05:26.350 line:68.66%
+FINANCE OFFICE AT CITY HALL HAVE
+
+00:05:23.516 --> 00:05:26.350 line:74%
+BEEN WORKING ON A FEASIBILITY   
+
+00:05:26.352 --> 00:05:30.053 line:68.66%
+BEEN WORKING ON A FEASIBILITY   
+
+00:05:26.352 --> 00:05:30.053 line:74%
+STUDY OF MULTIPLE PUBLICLY OWNED
+
+00:05:30.055 --> 00:05:32.990 line:68.66%
+STUDY OF MULTIPLE PUBLICLY OWNED
+
+00:05:30.055 --> 00:05:32.990 line:74%
+PROPERTIES FOR THEIR VIABILITY  
+
+00:05:32.992 --> 00:05:34.691 line:68.66%
+PROPERTIES FOR THEIR VIABILITY  
+
+00:05:32.992 --> 00:05:34.691 line:74%
+TO -- FOR THE CONSTRUCTION OF   
+
+00:05:34.693 --> 00:05:35.826 line:68.66%
+TO -- FOR THE CONSTRUCTION OF   
+
+00:05:34.693 --> 00:05:35.826 line:74%
+AFFORDABLE HOUSING.             
+
+00:05:35.828 --> 00:05:37.194 line:68.66%
+AFFORDABLE HOUSING.             
+
+00:05:35.828 --> 00:05:37.194 line:74%
+THAT REPORT IS NOW READY AND    
+
+00:05:37.196 --> 00:05:40.230 line:68.66%
+THAT REPORT IS NOW READY AND    
+
+00:05:37.196 --> 00:05:40.230 line:74%
+WILL BE PRESENTED TO CITY       
+
+00:05:40.232 --> 00:05:41.965 line:68.66%
+WILL BE PRESENTED TO CITY       
+
+00:05:40.232 --> 00:05:41.965 line:74%
+COUNCIL ON NOVEMBER 17th, I     
+
+00:05:41.967 --> 00:05:43.267 line:68.66%
+COUNCIL ON NOVEMBER 17th, I     
+
+00:05:41.967 --> 00:05:43.267 line:74%
+BELIEVE, IS THE MONDAY.         
+
+00:05:43.269 --> 00:05:45.102 line:68.66%
+BELIEVE, IS THE MONDAY.         
+
+00:05:43.269 --> 00:05:45.102 line:74%
+IT MIGHT BE THE 18th.           
+
+00:05:45.104 --> 00:05:48.338 line:68.66%
+IT MIGHT BE THE 18th.           
+
+00:05:45.104 --> 00:05:48.338 line:74%
+BUT THE REPORT IS AVAILABLE ON  
+
+00:05:48.340 --> 00:05:49.239 line:68.66%
+BUT THE REPORT IS AVAILABLE ON  
+
+00:05:48.340 --> 00:05:49.239 line:74%
+LEGISTAR AS WELL.               
+
+00:05:49.241 --> 00:05:50.541 line:68.66%
+LEGISTAR AS WELL.               
+
+00:05:49.241 --> 00:05:50.541 line:74%
+I ENCOURAGE PEOPLE TO GIVE THE  
+
+00:05:50.543 --> 00:05:50.807 line:68.66%
+I ENCOURAGE PEOPLE TO GIVE THE  
+
+00:05:50.543 --> 00:05:50.807 line:74%
+READ.                           
+
+00:05:50.809 --> 00:05:52.209 line:68.66%
+READ.                           
+
+00:05:50.809 --> 00:05:52.209 line:74%
+IT'S VERY ENCOURAGING.          
+
+00:05:52.211 --> 00:05:53.644 line:68.66%
+IT'S VERY ENCOURAGING.          
+
+00:05:52.211 --> 00:05:53.644 line:74%
+THERE ARE NINE CITY-OWNED       
+
+00:05:53.646 --> 00:05:57.781 line:68.66%
+THERE ARE NINE CITY-OWNED       
+
+00:05:53.646 --> 00:05:57.781 line:74%
+PROPERTIES THAT ARE DEVELOPABLE 
+
+00:05:57.783 --> 00:05:59.216 line:68.66%
+PROPERTIES THAT ARE DEVELOPABLE 
+
+00:05:57.783 --> 00:05:59.216 line:74%
+AND STAND A GOOD CHANCE OF      
+
+00:05:59.218 --> 00:06:01.418 line:68.66%
+AND STAND A GOOD CHANCE OF      
+
+00:05:59.218 --> 00:06:01.418 line:74%
+GETTING FEDERAL AND STATE       
+
+00:06:01.420 --> 00:06:03.253 line:68.66%
+GETTING FEDERAL AND STATE       
+
+00:06:01.420 --> 00:06:03.253 line:74%
+FUNDING TO -- TO PROVIDE        
+
+00:06:03.255 --> 00:06:03.854 line:68.66%
+FUNDING TO -- TO PROVIDE        
+
+00:06:03.255 --> 00:06:03.854 line:74%
+AFFORDABLE HOUSING.             
+
+00:06:03.856 --> 00:06:05.188 line:68.66%
+AFFORDABLE HOUSING.             
+
+00:06:03.856 --> 00:06:05.188 line:74%
+SO REALLY ENCOURAGING.          
+
+00:06:05.190 --> 00:06:06.924 line:68.66%
+SO REALLY ENCOURAGING.          
+
+00:06:05.190 --> 00:06:06.924 line:74%
+THE REPORT IS VERY DETAILED.    
+
+00:06:06.926 --> 00:06:08.725 line:68.66%
+THE REPORT IS VERY DETAILED.    
+
+00:06:06.926 --> 00:06:08.725 line:74%
+AND IT'S THE FIRST STEP TOWARDS 
+
+00:06:08.727 --> 00:06:10.093 line:68.66%
+AND IT'S THE FIRST STEP TOWARDS 
+
+00:06:08.727 --> 00:06:10.093 line:74%
+A VERY TANGIBLE PLAN TO SEE THAT
+
+00:06:10.095 --> 00:06:11.728 line:68.66%
+A VERY TANGIBLE PLAN TO SEE THAT
+
+00:06:10.095 --> 00:06:11.728 line:74%
+HAPPEN.                         
+
+00:06:11.730 --> 00:06:13.730 line:68.66%
+HAPPEN.                         
+
+00:06:11.730 --> 00:06:13.730 line:74%
+>> Vice Chair Mills: VERY GOOD. 
+
+00:06:13.732 --> 00:06:14.665 line:68.66%
+>> Vice Chair Mills: VERY GOOD. 
+
+00:06:13.732 --> 00:06:14.665 line:74%
+ALL RIGHT.                      
+
+00:06:14.667 --> 00:06:15.832 line:68.66%
+ALL RIGHT.                      
+
+00:06:14.667 --> 00:06:15.832 line:74%
+NOW I WILL SAY THERE ARE NO     
+
+00:06:15.834 --> 00:06:20.103 line:68.66%
+NOW I WILL SAY THERE ARE NO     
+
+00:06:15.834 --> 00:06:20.103 line:74%
+OTHER COMMITTEE REPORTS.        
+
+00:06:20.105 --> 00:06:23.607 line:68.66%
+OTHER COMMITTEE REPORTS.        
+
+00:06:20.105 --> 00:06:23.607 line:74%
+6D IS WRITTEN COMMUNICATION AND 
+
+00:06:23.609 --> 00:06:24.374 line:68.66%
+6D IS WRITTEN COMMUNICATION AND 
+
+00:06:23.609 --> 00:06:24.374 line:74%
+PETITIONS AND THERE ARE A NUMBER
+
+00:06:24.376 --> 00:06:26.343 line:68.66%
+PETITIONS AND THERE ARE A NUMBER
+
+00:06:24.376 --> 00:06:26.343 line:74%
+OF THINGS IN OUR PACKET AND I   
+
+00:06:26.345 --> 00:06:29.479 line:68.66%
+OF THINGS IN OUR PACKET AND I   
+
+00:06:26.345 --> 00:06:29.479 line:74%
+THINK PRINTED OFF BEFORE YOU,   
+
+00:06:29.481 --> 00:06:32.082 line:68.66%
+THINK PRINTED OFF BEFORE YOU,   
+
+00:06:29.481 --> 00:06:32.082 line:74%
+PERHAPS.                        
+
+00:06:32.084 --> 00:06:34.418 line:68.66%
+PERHAPS.                        
+
+00:06:32.084 --> 00:06:34.418 line:74%
+AND THE NEXT ITEM ON OUR AGENDA 
+
+00:06:34.420 --> 00:06:37.955 line:68.66%
+AND THE NEXT ITEM ON OUR AGENDA 
+
+00:06:34.420 --> 00:06:37.955 line:74%
+IS AUDIENCE PARTICIPATION.      
+
+00:06:37.957 --> 00:06:39.256 line:68.66%
+IS AUDIENCE PARTICIPATION.      
+
+00:06:37.957 --> 00:06:39.256 line:74%
+AUDIENCE MEMBERS MAY SPEAK FOR  
+
+00:06:39.258 --> 00:06:41.458 line:68.66%
+AUDIENCE MEMBERS MAY SPEAK FOR  
+
+00:06:39.258 --> 00:06:41.458 line:74%
+THREE MINUTES ABOUT AN ITEM THAT
+
+00:06:41.460 --> 00:06:46.029 line:68.66%
+THREE MINUTES ABOUT AN ITEM THAT
+
+00:06:41.460 --> 00:06:46.029 line:74%
+IS NOT LISTED ON THE PUBLIC     
+
+00:06:46.031 --> 00:06:46.930 line:68.66%
+IS NOT LISTED ON THE PUBLIC     
+
+00:06:46.031 --> 00:06:46.930 line:74%
+HEARING ON THIS AGENDA.         
+
+00:06:46.932 --> 00:06:49.032 line:68.66%
+HEARING ON THIS AGENDA.         
+
+00:06:46.932 --> 00:06:49.032 line:74%
+SO IF YOU WOULD LIKE TO MAKE A  
+
+00:06:49.034 --> 00:06:50.534 line:68.66%
+SO IF YOU WOULD LIKE TO MAKE A  
+
+00:06:49.034 --> 00:06:50.534 line:74%
+PUBLIC COMMENT, YOU CAN PLEASE  
+
+00:06:50.536 --> 00:06:52.769 line:68.66%
+PUBLIC COMMENT, YOU CAN PLEASE  
+
+00:06:50.536 --> 00:06:52.769 line:74%
+APPROACH THE PODIUM AND STATE   
+
+00:06:52.771 --> 00:06:54.271 line:68.66%
+APPROACH THE PODIUM AND STATE   
+
+00:06:52.771 --> 00:06:54.271 line:74%
+YOUR NAME AND ADDRESS FOR THE   
+
+00:06:54.273 --> 00:06:59.109 line:68.66%
+YOUR NAME AND ADDRESS FOR THE   
+
+00:06:54.273 --> 00:06:59.109 line:74%
+RECORD.                         
+
+00:06:59.111 --> 00:06:59.676 line:68.66%
+RECORD.                         
+
+00:06:59.111 --> 00:06:59.676 line:74%
+ALL RIGHT.                      
+
+00:06:59.678 --> 00:07:00.611 line:68.66%
+ALL RIGHT.                      
+
+00:06:59.678 --> 00:07:00.611 line:74%
+I DON'T SEE ANYONE.             
+
+00:07:00.613 --> 00:07:02.212 line:68.66%
+I DON'T SEE ANYONE.             
+
+00:07:00.613 --> 00:07:02.212 line:74%
+SO I WILL CLOSE THE AUDIENCE    
+
+00:07:02.214 --> 00:07:05.649 line:68.66%
+SO I WILL CLOSE THE AUDIENCE    
+
+00:07:02.214 --> 00:07:05.649 line:74%
+PARTICIPATION AND MOVE ON TO    
+
+00:07:05.651 --> 00:07:07.651 line:68.66%
+PARTICIPATION AND MOVE ON TO    
+
+00:07:05.651 --> 00:07:07.651 line:74%
+ITEM NUMBER 8, WHICH IS THE     
+
+00:07:07.653 --> 00:07:08.986 line:68.66%
+ITEM NUMBER 8, WHICH IS THE     
+
+00:07:07.653 --> 00:07:08.986 line:74%
+PUBLIC HEARING SCHEDULED FOR THE
+
+00:07:08.988 --> 00:07:14.224 line:68.66%
+PUBLIC HEARING SCHEDULED FOR THE
+
+00:07:08.988 --> 00:07:14.224 line:74%
+NEXT BUSINESS MEETING.          
+
+00:07:14.226 --> 00:07:15.158 line:68.66%
+NEXT BUSINESS MEETING.          
+
+00:07:14.226 --> 00:07:15.158 line:74%
+MS. DILEO, DO YOU WANT ME TO    
+
+00:07:15.160 --> 00:07:15.759 line:68.66%
+MS. DILEO, DO YOU WANT ME TO    
+
+00:07:15.160 --> 00:07:15.759 line:74%
+RAZE THESE?                     
+
+00:07:15.761 --> 00:07:17.561 line:68.66%
+RAZE THESE?                     
+
+00:07:15.761 --> 00:07:17.561 line:74%
+>> I THINK YOU ARE SUPPOSED TO. 
+
+00:07:17.563 --> 00:07:18.228 line:68.66%
+>> I THINK YOU ARE SUPPOSED TO. 
+
+00:07:17.563 --> 00:07:18.228 line:74%
+>> Vice Chair Mills: GREAT      
+
+00:07:18.230 --> 00:07:18.428 line:68.66%
+>> Vice Chair Mills: GREAT      
+
+00:07:18.230 --> 00:07:18.428 line:74%
+THERE.                          
+
+00:07:18.430 --> 00:07:23.000 line:68.66%
+THERE.                          
+
+00:07:18.430 --> 00:07:23.000 line:74%
+WILL BE A PUBLIC HEARING -- IS  
+
+00:07:23.002 --> 00:07:26.103 line:68.66%
+WILL BE A PUBLIC HEARING -- IS  
+
+00:07:23.002 --> 00:07:26.103 line:74%
+THIS FOR THE NEXT ONE?          
+
+00:07:26.105 --> 00:07:29.673 line:68.66%
+THIS FOR THE NEXT ONE?          
+
+00:07:26.105 --> 00:07:29.673 line:74%
+>> I CAN EXPLAIN THAT WE HAD -- 
+
+00:07:29.675 --> 00:07:33.076 line:68.66%
+>> I CAN EXPLAIN THAT WE HAD -- 
+
+00:07:29.675 --> 00:07:33.076 line:74%
+WE HAD A TECHNICAL ERROR IN THE 
+
+00:07:33.078 --> 00:07:36.313 line:68.66%
+WE HAD A TECHNICAL ERROR IN THE 
+
+00:07:33.078 --> 00:07:36.313 line:74%
+PUBLIC HEARING NOTICE FOR THESE 
+
+00:07:36.315 --> 00:07:38.015 line:68.66%
+PUBLIC HEARING NOTICE FOR THESE 
+
+00:07:36.315 --> 00:07:38.015 line:74%
+FOUR PARK REZONINGS SO WE WILL  
+
+00:07:38.017 --> 00:07:39.249 line:68.66%
+FOUR PARK REZONINGS SO WE WILL  
+
+00:07:38.017 --> 00:07:39.249 line:74%
+BE HOLDING ANOTHER PUBLIC       
+
+00:07:39.251 --> 00:07:41.685 line:68.66%
+BE HOLDING ANOTHER PUBLIC       
+
+00:07:39.251 --> 00:07:41.685 line:74%
+HEARING AT THE NEXT MEETING.    
+
+00:07:41.687 --> 00:07:44.988 line:68.66%
+HEARING AT THE NEXT MEETING.    
+
+00:07:41.687 --> 00:07:44.988 line:74%
+SO THIS IS ACCURATE, AND FEELS  
+
+00:07:44.990 --> 00:07:46.990 line:68.66%
+SO THIS IS ACCURATE, AND FEELS  
+
+00:07:44.990 --> 00:07:46.990 line:74%
+LIKE DEJA VU.                   
+
+00:07:46.992 --> 00:07:47.591 line:68.66%
+LIKE DEJA VU.                   
+
+00:07:46.992 --> 00:07:47.591 line:74%
+>> Vice Chair Mills: GOT IT!    
+
+00:07:47.593 --> 00:07:47.791 line:68.66%
+>> Vice Chair Mills: GOT IT!    
+
+00:07:47.593 --> 00:07:47.791 line:74%
+GREAT.                          
+
+00:07:47.793 --> 00:07:49.126 line:68.66%
+GREAT.                          
+
+00:07:47.793 --> 00:07:49.126 line:74%
+SO FOR THE NEXT MEETING, WHICH  
+
+00:07:49.128 --> 00:07:52.129 line:68.66%
+SO FOR THE NEXT MEETING, WHICH  
+
+00:07:49.128 --> 00:07:52.129 line:74%
+WE'LL BE BACK TO OUR REGULARLY  
+
+00:07:52.131 --> 00:07:53.430 line:68.66%
+WE'LL BE BACK TO OUR REGULARLY  
+
+00:07:52.131 --> 00:07:53.430 line:74%
+SCHEDULED TUESDAY, IT'S THE     
+
+00:07:53.432 --> 00:07:54.464 line:68.66%
+SCHEDULED TUESDAY, IT'S THE     
+
+00:07:53.432 --> 00:07:54.464 line:74%
+THIRD TUESDAY OF THE MONTH.     
+
+00:07:54.466 --> 00:07:59.202 line:68.66%
+THIRD TUESDAY OF THE MONTH.     
+
+00:07:54.466 --> 00:07:59.202 line:74%
+SO TUESDAY, NOVEMBER 19th, AT   
+
+00:07:59.204 --> 00:08:01.304 line:68.66%
+SO TUESDAY, NOVEMBER 19th, AT   
+
+00:07:59.204 --> 00:08:01.304 line:74%
+7 P.M., WE WILL HAVE REZONING OF
+
+00:08:01.306 --> 00:08:02.739 line:68.66%
+7 P.M., WE WILL HAVE REZONING OF
+
+00:08:01.306 --> 00:08:02.739 line:74%
+THREE CITY PARKS AND ONE        
+
+00:08:02.741 --> 00:08:04.541 line:68.66%
+THREE CITY PARKS AND ONE        
+
+00:08:02.741 --> 00:08:04.541 line:74%
+ADDITION TO HANSEN PARK FROM THE
+
+00:08:04.543 --> 00:08:07.310 line:68.66%
+ADDITION TO HANSEN PARK FROM THE
+
+00:08:04.543 --> 00:08:07.310 line:74%
+CURRENT ZONING, THE DESIGNATIONS
+
+00:08:07.312 --> 00:08:09.413 line:68.66%
+CURRENT ZONING, THE DESIGNATIONS
+
+00:08:07.312 --> 00:08:09.413 line:74%
+TO PUBLIC HAND, DISTRICT FOUR   
+
+00:08:09.415 --> 00:08:12.115 line:68.66%
+TO PUBLIC HAND, DISTRICT FOUR   
+
+00:08:09.415 --> 00:08:12.115 line:74%
+CITY COUNCIL, THOSE ARE BUTTON  
+
+00:08:12.117 --> 00:08:14.017 line:68.66%
+CITY COUNCIL, THOSE ARE BUTTON  
+
+00:08:12.117 --> 00:08:14.017 line:74%
+PUSH NATURE AREA, HICKORY NATURE
+
+00:08:14.019 --> 00:08:16.553 line:68.66%
+PUSH NATURE AREA, HICKORY NATURE
+
+00:08:14.019 --> 00:08:16.553 line:74%
+AREA AND UNNAMED 1.3-ACRE PARK  
+
+00:08:16.555 --> 00:08:18.755 line:68.66%
+AREA AND UNNAMED 1.3-ACRE PARK  
+
+00:08:16.555 --> 00:08:18.755 line:74%
+ON EAST EISENHOWER AND 1.5-ACRE 
+
+00:08:18.757 --> 00:08:21.391 line:68.66%
+ON EAST EISENHOWER AND 1.5-ACRE 
+
+00:08:18.757 --> 00:08:21.391 line:74%
+ADDITION TO HANSEN PARK.        
+
+00:08:21.393 --> 00:08:25.195 line:68.66%
+ADDITION TO HANSEN PARK.        
+
+00:08:21.393 --> 00:08:25.195 line:74%
+THERE'S ALSO 36 -- 3611 TO 3621 
+
+00:08:25.197 --> 00:08:27.230 line:68.66%
+THERE'S ALSO 36 -- 3611 TO 3621 
+
+00:08:25.197 --> 00:08:27.230 line:74%
+PLYMOUTH ROAD REZONING, SITE    
+
+00:08:27.232 --> 00:08:29.366 line:68.66%
+PLYMOUTH ROAD REZONING, SITE    
+
+00:08:27.232 --> 00:08:29.366 line:74%
+PLAN WITH PLANNED PROJECT       
+
+00:08:29.368 --> 00:08:30.767 line:68.66%
+PLAN WITH PLANNED PROJECT       
+
+00:08:29.368 --> 00:08:30.767 line:74%
+MODIFICATIONS AND SPECIAL       
+
+00:08:30.769 --> 00:08:36.106 line:68.66%
+MODIFICATIONS AND SPECIAL       
+
+00:08:30.769 --> 00:08:36.106 line:74%
+EXCEPTION USE FOR DRIVE THRU    
+
+00:08:36.108 --> 00:08:37.407 line:68.66%
+EXCEPTION USE FOR DRIVE THRU    
+
+00:08:36.108 --> 00:08:37.407 line:74%
+FACILITY.                       
+
+00:08:37.409 --> 00:08:39.142 line:68.66%
+FACILITY.                       
+
+00:08:37.409 --> 00:08:39.142 line:74%
+AND 2385 EAST ELLSWORTH SPECIAL 
+
+00:08:39.144 --> 00:08:40.544 line:68.66%
+AND 2385 EAST ELLSWORTH SPECIAL 
+
+00:08:39.144 --> 00:08:40.544 line:74%
+EXCEPTION USE FOR A MEDICAL     
+
+00:08:40.546 --> 00:08:42.579 line:68.66%
+EXCEPTION USE FOR A MEDICAL     
+
+00:08:40.546 --> 00:08:42.579 line:74%
+MARIJUANA PROVISIONING CENTER   
+
+00:08:42.581 --> 00:08:46.283 line:68.66%
+MARIJUANA PROVISIONING CENTER   
+
+00:08:42.581 --> 00:08:46.283 line:74%
+AND MARIJUANA RETAILER.         
+
+00:08:46.285 --> 00:08:48.418 line:68.66%
+AND MARIJUANA RETAILER.         
+
+00:08:46.285 --> 00:08:48.418 line:74%
+IF YOU HAVE ANY QUESTIONS ABOUT 
+
+00:08:48.420 --> 00:08:50.020 line:68.66%
+IF YOU HAVE ANY QUESTIONS ABOUT 
+
+00:08:48.420 --> 00:08:50.020 line:74%
+THESE, YOU CAN -- LET'S SEE, IT 
+
+00:08:50.022 --> 00:08:51.621 line:68.66%
+THESE, YOU CAN -- LET'S SEE, IT 
+
+00:08:50.022 --> 00:08:51.621 line:74%
+SAYS YOU CAN CONTACT PLANNING   
+
+00:08:51.623 --> 00:08:52.756 line:68.66%
+SAYS YOU CAN CONTACT PLANNING   
+
+00:08:51.623 --> 00:08:52.756 line:74%
+SERVICES UNIT.                  
+
+00:08:52.758 --> 00:08:55.959 line:68.66%
+SERVICES UNIT.                  
+
+00:08:52.758 --> 00:08:55.959 line:74%
+OKAY.                           
+
+00:08:55.961 --> 00:08:57.894 line:68.66%
+OKAY.                           
+
+00:08:55.961 --> 00:08:57.894 line:74%
+NOW, REGULAR BUSINESS.          
+
+00:08:57.896 --> 00:09:00.831 line:68.66%
+NOW, REGULAR BUSINESS.          
+
+00:08:57.896 --> 00:09:00.831 line:74%
+SO WE HAVE ONE ITEM OF REGULAR  
+
+00:09:00.833 --> 00:09:01.798 line:68.66%
+SO WE HAVE ONE ITEM OF REGULAR  
+
+00:09:00.833 --> 00:09:01.798 line:74%
+BUSINESS, WHICH IS -- THIS IS   
+
+00:09:01.800 --> 00:09:06.670 line:68.66%
+BUSINESS, WHICH IS -- THIS IS   
+
+00:09:01.800 --> 00:09:06.670 line:74%
+WHERE THE DEJA VU COMES IN, THE 
+
+00:09:06.672 --> 00:09:10.207 line:68.66%
+WHERE THE DEJA VU COMES IN, THE 
+
+00:09:06.672 --> 00:09:10.207 line:74%
+REZONING OF THREE CITY PARKS AND
+
+00:09:10.209 --> 00:09:15.212 line:68.66%
+REZONING OF THREE CITY PARKS AND
+
+00:09:10.209 --> 00:09:15.212 line:74%
+ADDITION OF HANSEN PARK.        
+
+00:09:15.214 --> 00:09:16.713 line:68.66%
+ADDITION OF HANSEN PARK.        
+
+00:09:15.214 --> 00:09:16.713 line:74%
+WE WILL HAVE THE PUBLIC HEARING 
+
+00:09:16.715 --> 00:09:18.181 line:68.66%
+WE WILL HAVE THE PUBLIC HEARING 
+
+00:09:16.715 --> 00:09:18.181 line:74%
+AND THEN DISCUSSION THE MOTION. 
+
+00:09:18.183 --> 00:09:19.149 line:68.66%
+AND THEN DISCUSSION THE MOTION. 
+
+00:09:18.183 --> 00:09:19.149 line:74%
+>> THANK YOU.                   
+
+00:09:19.151 --> 00:09:22.786 line:68.66%
+>> THANK YOU.                   
+
+00:09:19.151 --> 00:09:22.786 line:74%
+THIS IS A REZONING OF FOUR PARK 
+
+00:09:22.788 --> 00:09:26.523 line:68.66%
+THIS IS A REZONING OF FOUR PARK 
+
+00:09:22.788 --> 00:09:26.523 line:74%
+PROPERTIES THAT WERE RECENTLY   
+
+00:09:26.525 --> 00:09:26.790 line:68.66%
+PROPERTIES THAT WERE RECENTLY   
+
+00:09:26.525 --> 00:09:26.790 line:74%
+ACQUIRED.                       
+
+00:09:26.792 --> 00:09:29.025 line:68.66%
+ACQUIRED.                       
+
+00:09:26.792 --> 00:09:29.025 line:74%
+I WILL -- WE HAVE WRITTEN A     
+
+00:09:29.027 --> 00:09:30.761 line:68.66%
+I WILL -- WE HAVE WRITTEN A     
+
+00:09:29.027 --> 00:09:30.761 line:74%
+SINGLE STAFF REPORT AND WE ARE  
+
+00:09:30.763 --> 00:09:32.562 line:68.66%
+SINGLE STAFF REPORT AND WE ARE  
+
+00:09:30.763 --> 00:09:32.562 line:74%
+HOLDING ONE SINGLE PUBLIC       
+
+00:09:32.564 --> 00:09:34.798 line:68.66%
+HOLDING ONE SINGLE PUBLIC       
+
+00:09:32.564 --> 00:09:34.798 line:74%
+HEARING TONIGHT AS WELL AS      
+
+00:09:34.800 --> 00:09:37.801 line:68.66%
+HEARING TONIGHT AS WELL AS      
+
+00:09:34.800 --> 00:09:37.801 line:74%
+ANOTHER AT THE NEXT MEETING.    
+
+00:09:37.803 --> 00:09:39.703 line:68.66%
+ANOTHER AT THE NEXT MEETING.    
+
+00:09:37.803 --> 00:09:39.703 line:74%
+BUT -- CITY COUNCIL WILL BE     
+
+00:09:39.705 --> 00:09:41.838 line:68.66%
+BUT -- CITY COUNCIL WILL BE     
+
+00:09:39.705 --> 00:09:41.838 line:74%
+TAKING THESE SEPARATELY WHEN IT 
+
+00:09:41.840 --> 00:09:42.839 line:68.66%
+TAKING THESE SEPARATELY WHEN IT 
+
+00:09:41.840 --> 00:09:42.839 line:74%
+GETS TO THEM.                   
+
+00:09:42.841 --> 00:09:45.976 line:68.66%
+GETS TO THEM.                   
+
+00:09:42.841 --> 00:09:45.976 line:74%
+THE FIRST REZONING AND ALSO LET 
+
+00:09:45.978 --> 00:09:48.211 line:68.66%
+THE FIRST REZONING AND ALSO LET 
+
+00:09:45.978 --> 00:09:48.211 line:74%
+ME SAY THAT PURCHASING OR       
+
+00:09:48.213 --> 00:09:49.513 line:68.66%
+ME SAY THAT PURCHASING OR       
+
+00:09:48.213 --> 00:09:49.513 line:74%
+ACCEPTING LAND DONATIONS DOES   
+
+00:09:49.515 --> 00:09:51.047 line:68.66%
+ACCEPTING LAND DONATIONS DOES   
+
+00:09:49.515 --> 00:09:51.047 line:74%
+NOT AUTOMATICALLY CHANGE A      
+
+00:09:51.049 --> 00:09:52.349 line:68.66%
+NOT AUTOMATICALLY CHANGE A      
+
+00:09:51.049 --> 00:09:52.349 line:74%
+ZONING DESIGNATION.             
+
+00:09:52.351 --> 00:09:54.751 line:68.66%
+ZONING DESIGNATION.             
+
+00:09:52.351 --> 00:09:54.751 line:74%
+ZONING MAP IS PART OF THE       
+
+00:09:54.753 --> 00:09:57.287 line:68.66%
+ZONING MAP IS PART OF THE       
+
+00:09:54.753 --> 00:09:57.287 line:74%
+CHAPTER 55, THE UDC AND ONLY AN 
+
+00:09:57.289 --> 00:09:59.189 line:68.66%
+CHAPTER 55, THE UDC AND ONLY AN 
+
+00:09:57.289 --> 00:09:59.189 line:74%
+ORDINANCE TO AMEND THE UDC AND  
+
+00:09:59.191 --> 00:10:00.590 line:68.66%
+ORDINANCE TO AMEND THE UDC AND  
+
+00:09:59.191 --> 00:10:00.590 line:74%
+THE ZONING MAP CAN CHANGE THE   
+
+00:10:00.592 --> 00:10:02.359 line:68.66%
+THE ZONING MAP CAN CHANGE THE   
+
+00:10:00.592 --> 00:10:02.359 line:74%
+ZONING DESIGNATION OF ANY LAND. 
+
+00:10:02.361 --> 00:10:03.627 line:68.66%
+ZONING DESIGNATION OF ANY LAND. 
+
+00:10:02.361 --> 00:10:03.627 line:74%
+SO EVEN THOUGH THESE ARE NOW    
+
+00:10:03.629 --> 00:10:07.564 line:68.66%
+SO EVEN THOUGH THESE ARE NOW    
+
+00:10:03.629 --> 00:10:07.564 line:74%
+UNDER THE CITY OWNERSHIP, A     
+
+00:10:07.566 --> 00:10:10.200 line:68.66%
+UNDER THE CITY OWNERSHIP, A     
+
+00:10:07.566 --> 00:10:10.200 line:74%
+P.L., PUBLIC LAND ZONING        
+
+00:10:10.202 --> 00:10:11.501 line:68.66%
+P.L., PUBLIC LAND ZONING        
+
+00:10:10.202 --> 00:10:11.501 line:74%
+DESIGNATION DOES NOT            
+
+00:10:11.503 --> 00:10:12.235 line:68.66%
+DESIGNATION DOES NOT            
+
+00:10:11.503 --> 00:10:12.235 line:74%
+AUTOMATICALLY MOVE FORWARD.     
+
+00:10:12.237 --> 00:10:13.436 line:68.66%
+AUTOMATICALLY MOVE FORWARD.     
+
+00:10:12.237 --> 00:10:13.436 line:74%
+WE NEED TO GO THROUGH THIS      
+
+00:10:13.438 --> 00:10:15.639 line:68.66%
+WE NEED TO GO THROUGH THIS      
+
+00:10:13.438 --> 00:10:15.639 line:74%
+REZONING PROCESS.               
+
+00:10:15.641 --> 00:10:27.117 line:68.66%
+REZONING PROCESS.               
+
+00:10:15.641 --> 00:10:27.117 line:74%
+THE BUTTONBUSH NATURE AREA IS ON
+
+00:10:27.119 --> 00:10:29.553 line:68.66%
+THE BUTTONBUSH NATURE AREA IS ON
+
+00:10:27.119 --> 00:10:29.553 line:74%
+DHU VARREN, AND A TOTAL OF      
+
+00:10:29.555 --> 00:10:32.455 line:68.66%
+DHU VARREN, AND A TOTAL OF      
+
+00:10:29.555 --> 00:10:32.455 line:74%
+16 ACRES, ABOUT, 6 ACRES WAS    
+
+00:10:32.457 --> 00:10:35.792 line:68.66%
+16 ACRES, ABOUT, 6 ACRES WAS    
+
+00:10:32.457 --> 00:10:35.792 line:74%
+DONATED BY THE TOLL BROTHERS,   
+
+00:10:35.794 --> 00:10:37.928 line:68.66%
+DONATED BY THE TOLL BROTHERS,   
+
+00:10:35.794 --> 00:10:37.928 line:74%
+AND ANOTHER 10 ACRES WAS        
+
+00:10:37.930 --> 00:10:38.829 line:68.66%
+AND ANOTHER 10 ACRES WAS        
+
+00:10:37.930 --> 00:10:38.829 line:74%
+PURCHASED BY THE CITY.          
+
+00:10:38.831 --> 00:10:40.931 line:68.66%
+PURCHASED BY THE CITY.          
+
+00:10:38.831 --> 00:10:40.931 line:74%
+THIS CAME WITH THE NORTH OAKS   
+
+00:10:40.933 --> 00:10:42.332 line:68.66%
+THIS CAME WITH THE NORTH OAKS   
+
+00:10:40.933 --> 00:10:42.332 line:74%
+PROJECT, THE DEVELOPMENT OF THE 
+
+00:10:42.334 --> 00:10:45.669 line:68.66%
+PROJECT, THE DEVELOPMENT OF THE 
+
+00:10:42.334 --> 00:10:45.669 line:74%
+NIXON FARM INTO THE NORTH OAKS  
+
+00:10:45.671 --> 00:10:46.002 line:68.66%
+NIXON FARM INTO THE NORTH OAKS  
+
+00:10:45.671 --> 00:10:46.002 line:74%
+NEIGHBORHOOD.                   
+
+00:10:46.004 --> 00:10:48.405 line:68.66%
+NEIGHBORHOOD.                   
+
+00:10:46.004 --> 00:10:48.405 line:74%
+IT IS CURRENTLY ZONED R4A WITH  
+
+00:10:48.407 --> 00:10:50.574 line:68.66%
+IT IS CURRENTLY ZONED R4A WITH  
+
+00:10:48.407 --> 00:10:50.574 line:74%
+CONDITIONS, AS IS THE ADJACENT  
+
+00:10:50.576 --> 00:10:52.142 line:68.66%
+CONDITIONS, AS IS THE ADJACENT  
+
+00:10:50.576 --> 00:10:52.142 line:74%
+NORTH OAKS AND WE ARE PROPOSING 
+
+00:10:52.144 --> 00:10:57.080 line:68.66%
+NORTH OAKS AND WE ARE PROPOSING 
+
+00:10:52.144 --> 00:10:57.080 line:74%
+TO REZONE IT TO P.L.            
+
+00:10:57.082 --> 00:10:59.182 line:68.66%
+TO REZONE IT TO P.L.            
+
+00:10:57.082 --> 00:10:59.182 line:74%
+THE SECOND AREA IS THE HICKORY  
+
+00:10:59.184 --> 00:11:02.219 line:68.66%
+THE SECOND AREA IS THE HICKORY  
+
+00:10:59.184 --> 00:11:02.219 line:74%
+NATURE AREA, LOCATED AT 2817    
+
+00:11:02.221 --> 00:11:02.719 line:68.66%
+NATURE AREA, LOCATED AT 2817    
+
+00:11:02.221 --> 00:11:02.719 line:74%
+DILLON DRIVE.                   
+
+00:11:02.721 --> 00:11:04.621 line:68.66%
+DILLON DRIVE.                   
+
+00:11:02.721 --> 00:11:04.621 line:74%
+IT'S ABOUT 2 ACRES OF NATURAL   
+
+00:11:04.623 --> 00:11:07.057 line:68.66%
+IT'S ABOUT 2 ACRES OF NATURAL   
+
+00:11:04.623 --> 00:11:07.057 line:74%
+AREA, DONATED BY PULTE HOMES.   
+
+00:11:07.059 --> 00:11:08.391 line:68.66%
+AREA, DONATED BY PULTE HOMES.   
+
+00:11:07.059 --> 00:11:08.391 line:74%
+PART OF THEIR NORTH SKY         
+
+00:11:08.393 --> 00:11:10.360 line:68.66%
+PART OF THEIR NORTH SKY         
+
+00:11:08.393 --> 00:11:10.360 line:74%
+DEVELOPMENT.                    
+
+00:11:10.362 --> 00:11:13.597 line:68.66%
+DEVELOPMENT.                    
+
+00:11:10.362 --> 00:11:13.597 line:74%
+IT IS CURRENTLY ZONED R1D, AS IS
+
+00:11:13.599 --> 00:11:15.365 line:68.66%
+IT IS CURRENTLY ZONED R1D, AS IS
+
+00:11:13.599 --> 00:11:15.365 line:74%
+THE ADJACENT NORTH SKY SITE AND 
+
+00:11:15.367 --> 00:11:18.068 line:68.66%
+THE ADJACENT NORTH SKY SITE AND 
+
+00:11:15.367 --> 00:11:18.068 line:74%
+WE ARE PROPOSING TO REZONE IT TO
+
+00:11:18.070 --> 00:11:20.170 line:68.66%
+WE ARE PROPOSING TO REZONE IT TO
+
+00:11:18.070 --> 00:11:20.170 line:74%
+P.L.                            
+
+00:11:20.172 --> 00:11:24.975 line:68.66%
+P.L.                            
+
+00:11:20.172 --> 00:11:24.975 line:74%
+THIRD PIECE OF PROPERTY IS 385  
+
+00:11:24.977 --> 00:11:28.345 line:68.66%
+THIRD PIECE OF PROPERTY IS 385  
+
+00:11:24.977 --> 00:11:28.345 line:74%
+EAST EISENHOWER PARKWAY.        
+
+00:11:28.347 --> 00:11:29.846 line:68.66%
+EAST EISENHOWER PARKWAY.        
+
+00:11:28.347 --> 00:11:29.846 line:74%
+THIS IS -- I'M SORRY.           
+
+00:11:29.848 --> 00:11:32.983 line:68.66%
+THIS IS -- I'M SORRY.           
+
+00:11:29.848 --> 00:11:32.983 line:74%
+I FEEL LIKE IT'S -- THIS IS JUST
+
+00:11:32.985 --> 00:11:35.285 line:68.66%
+I FEEL LIKE IT'S -- THIS IS JUST
+
+00:11:32.985 --> 00:11:35.285 line:74%
+MORE THAN ONE ACRE DONATED AS   
+
+00:11:35.287 --> 00:11:37.020 line:68.66%
+MORE THAN ONE ACRE DONATED AS   
+
+00:11:35.287 --> 00:11:37.020 line:74%
+PART OF THE MALLETS VIEW OFFICE 
+
+00:11:37.022 --> 00:11:38.321 line:68.66%
+PART OF THE MALLETS VIEW OFFICE 
+
+00:11:37.022 --> 00:11:38.321 line:74%
+CENTER DEVELOPMENT AND PUD.     
+
+00:11:38.323 --> 00:11:42.659 line:68.66%
+CENTER DEVELOPMENT AND PUD.     
+
+00:11:38.323 --> 00:11:42.659 line:74%
+IT WAS DONATED IN 2007.         
+
+00:11:42.661 --> 00:11:44.561 line:68.66%
+IT WAS DONATED IN 2007.         
+
+00:11:42.661 --> 00:11:44.561 line:74%
+AND IT IS CURRENTLY ZONED PUD.  
+
+00:11:44.563 --> 00:11:47.297 line:68.66%
+AND IT IS CURRENTLY ZONED PUD.  
+
+00:11:44.563 --> 00:11:47.297 line:74%
+WE ARE PROPOSING TO REZONING IT 
+
+00:11:47.299 --> 00:11:49.332 line:68.66%
+WE ARE PROPOSING TO REZONING IT 
+
+00:11:47.299 --> 00:11:49.332 line:74%
+TO P.L.                         
+
+00:11:49.334 --> 00:11:51.735 line:68.66%
+TO P.L.                         
+
+00:11:49.334 --> 00:11:51.735 line:74%
+AND FINALLY, THERE HAS BEEN AN  
+
+00:11:51.737 --> 00:11:53.436 line:68.66%
+AND FINALLY, THERE HAS BEEN AN  
+
+00:11:51.737 --> 00:11:53.436 line:74%
+ADDITION TO THE HANSEN NATURE   
+
+00:11:53.438 --> 00:11:57.173 line:68.66%
+ADDITION TO THE HANSEN NATURE   
+
+00:11:53.438 --> 00:11:57.173 line:74%
+AREA AT 1200 SOUTH MAPLE ROAD   
+
+00:11:57.175 --> 00:11:59.109 line:68.66%
+AREA AT 1200 SOUTH MAPLE ROAD   
+
+00:11:57.175 --> 00:11:59.109 line:74%
+THIS 1.5-ACRE PIECE THAT I HAVE 
+
+00:11:59.111 --> 00:12:02.212 line:68.66%
+THIS 1.5-ACRE PIECE THAT I HAVE 
+
+00:11:59.111 --> 00:12:02.212 line:74%
+CIRCLED IN RED CAME FROM AVALON 
+
+00:12:02.214 --> 00:12:03.713 line:68.66%
+CIRCLED IN RED CAME FROM AVALON 
+
+00:12:02.214 --> 00:12:03.713 line:74%
+NONPROFIT HOUSING CORPORATION AS
+
+00:12:03.715 --> 00:12:05.649 line:68.66%
+NONPROFIT HOUSING CORPORATION AS
+
+00:12:03.715 --> 00:12:05.649 line:74%
+PART OF THEIR HICKORY WAY SITE  
+
+00:12:05.651 --> 00:12:05.949 line:68.66%
+PART OF THEIR HICKORY WAY SITE  
+
+00:12:05.651 --> 00:12:05.949 line:74%
+PLAN.                           
+
+00:12:05.951 --> 00:12:07.884 line:68.66%
+PLAN.                           
+
+00:12:05.951 --> 00:12:07.884 line:74%
+SO WITH THIS ADDITION, HANSEN   
+
+00:12:07.886 --> 00:12:10.287 line:68.66%
+SO WITH THIS ADDITION, HANSEN   
+
+00:12:07.886 --> 00:12:10.287 line:74%
+NATURE AREA IS NOW 9 ACRES.     
+
+00:12:10.289 --> 00:12:13.023 line:68.66%
+NATURE AREA IS NOW 9 ACRES.     
+
+00:12:10.289 --> 00:12:13.023 line:74%
+THE PIECE IS CURRENTLY ZONED R4B
+
+00:12:13.025 --> 00:12:15.558 line:68.66%
+THE PIECE IS CURRENTLY ZONED R4B
+
+00:12:13.025 --> 00:12:15.558 line:74%
+AS IS THE ADJACENT HICKORY WAY  
+
+00:12:15.560 --> 00:12:16.960 line:68.66%
+AS IS THE ADJACENT HICKORY WAY  
+
+00:12:15.560 --> 00:12:16.960 line:74%
+SITE AND WE ARE PROPOSING TO    
+
+00:12:16.962 --> 00:12:22.165 line:68.66%
+SITE AND WE ARE PROPOSING TO    
+
+00:12:16.962 --> 00:12:22.165 line:74%
+REZONE IT TO P.L.               
+
+00:12:22.167 --> 00:12:23.800 line:68.66%
+REZONE IT TO P.L.               
+
+00:12:22.167 --> 00:12:23.800 line:74%
+I WOULD BE HAPPY TO ANSWER ANY  
+
+00:12:23.802 --> 00:12:25.035 line:68.66%
+I WOULD BE HAPPY TO ANSWER ANY  
+
+00:12:23.802 --> 00:12:25.035 line:74%
+ADDITIONAL QUESTIONS AND, AGAIN 
+
+00:12:25.037 --> 00:12:27.537 line:68.66%
+ADDITIONAL QUESTIONS AND, AGAIN 
+
+00:12:25.037 --> 00:12:27.537 line:74%
+THIS WOULD COME BEFORE YOU AGAIN
+
+00:12:27.539 --> 00:12:28.071 line:68.66%
+THIS WOULD COME BEFORE YOU AGAIN
+
+00:12:27.539 --> 00:12:28.071 line:74%
+NEXT WEEK.                      
+
+00:12:28.073 --> 00:12:30.507 line:68.66%
+NEXT WEEK.                      
+
+00:12:28.073 --> 00:12:30.507 line:74%
+I'M SORRY, NEXT MEETING.        
+
+00:12:30.509 --> 00:12:31.975 line:68.66%
+I'M SORRY, NEXT MEETING.        
+
+00:12:30.509 --> 00:12:31.975 line:74%
+WE WILL BE RECOMMENDING APPROVAL
+
+00:12:31.977 --> 00:12:33.009 line:68.66%
+WE WILL BE RECOMMENDING APPROVAL
+
+00:12:31.977 --> 00:12:33.009 line:74%
+BUT TONIGHT WE ARE RECOMMENDING 
+
+00:12:33.011 --> 00:12:35.712 line:68.66%
+BUT TONIGHT WE ARE RECOMMENDING 
+
+00:12:33.011 --> 00:12:35.712 line:74%
+THAT IT BE POSTPONED SO THAT A  
+
+00:12:35.714 --> 00:12:39.249 line:68.66%
+THAT IT BE POSTPONED SO THAT A  
+
+00:12:35.714 --> 00:12:39.249 line:74%
+PROPER PUBLIC HEARING CAN BE    
+
+00:12:39.251 --> 00:12:42.752 line:68.66%
+PROPER PUBLIC HEARING CAN BE    
+
+00:12:39.251 --> 00:12:42.752 line:74%
+ADVERTISED AND HELD.            
+
+00:12:42.754 --> 00:12:45.388 line:68.66%
+ADVERTISED AND HELD.            
+
+00:12:42.754 --> 00:12:45.388 line:74%
+>> Vice Chair Mills: VERY GOOD. 
+
+00:12:45.390 --> 00:12:46.890 line:68.66%
+>> Vice Chair Mills: VERY GOOD. 
+
+00:12:45.390 --> 00:12:46.890 line:74%
+NOW WE WILL OPEN UP THE PUBLIC  
+
+00:12:46.892 --> 00:12:47.223 line:68.66%
+NOW WE WILL OPEN UP THE PUBLIC  
+
+00:12:46.892 --> 00:12:47.223 line:74%
+HEARING.                        
+
+00:12:47.225 --> 00:12:49.025 line:68.66%
+HEARING.                        
+
+00:12:47.225 --> 00:12:49.025 line:74%
+IF ANYONE WOULD LIKE TO ADDRESS 
+
+00:12:49.027 --> 00:12:50.327 line:68.66%
+IF ANYONE WOULD LIKE TO ADDRESS 
+
+00:12:49.027 --> 00:12:50.327 line:74%
+THE PLANNING COMMISSION ON THIS 
+
+00:12:50.329 --> 00:12:52.062 line:68.66%
+THE PLANNING COMMISSION ON THIS 
+
+00:12:50.329 --> 00:12:52.062 line:74%
+ITEM OF BUSINESS, PLEASE STEP   
+
+00:12:52.064 --> 00:12:53.296 line:68.66%
+ITEM OF BUSINESS, PLEASE STEP   
+
+00:12:52.064 --> 00:12:53.296 line:74%
+FORWARD AND, AGAIN, STATE YOUR  
+
+00:12:53.298 --> 00:12:57.701 line:68.66%
+FORWARD AND, AGAIN, STATE YOUR  
+
+00:12:53.298 --> 00:12:57.701 line:74%
+NAME AND ADDRESS FOR THE RECORD.
+
+00:12:57.703 --> 00:12:59.536 line:68.66%
+NAME AND ADDRESS FOR THE RECORD.
+
+00:12:57.703 --> 00:12:59.536 line:74%
+SEEING NO TAKERS, I WILL CLOSE  
+
+00:12:59.538 --> 00:13:01.738 line:68.66%
+SEEING NO TAKERS, I WILL CLOSE  
+
+00:12:59.538 --> 00:13:01.738 line:74%
+THE PUBLIC HEARING, BUT, AGAIN, 
+
+00:13:01.740 --> 00:13:03.139 line:68.66%
+THE PUBLIC HEARING, BUT, AGAIN, 
+
+00:13:01.740 --> 00:13:03.139 line:74%
+REMIND PEOPLE THAT THERE WILL BE
+
+00:13:03.141 --> 00:13:04.341 line:68.66%
+REMIND PEOPLE THAT THERE WILL BE
+
+00:13:03.141 --> 00:13:04.341 line:74%
+AN OPPORTUNITY TO SPEAK AT THE  
+
+00:13:04.343 --> 00:13:06.209 line:68.66%
+AN OPPORTUNITY TO SPEAK AT THE  
+
+00:13:04.343 --> 00:13:06.209 line:74%
+NEXT MEETING.                   
+
+00:13:06.211 --> 00:13:07.143 line:68.66%
+NEXT MEETING.                   
+
+00:13:06.211 --> 00:13:07.143 line:74%
+ALL RIGHT.                      
+
+00:13:07.145 --> 00:13:10.013 line:68.66%
+ALL RIGHT.                      
+
+00:13:07.145 --> 00:13:10.013 line:74%
+I WILL READ THE MOTION.         
+
+00:13:10.015 --> 00:13:12.515 line:68.66%
+I WILL READ THE MOTION.         
+
+00:13:10.015 --> 00:13:12.515 line:74%
+THE MOTION READS THE ANN ARBOR  
+
+00:13:12.517 --> 00:13:14.117 line:68.66%
+THE MOTION READS THE ANN ARBOR  
+
+00:13:12.517 --> 00:13:14.117 line:74%
+CITY PLANNING COMMISSION HEREBY 
+
+00:13:14.119 --> 00:13:15.485 line:68.66%
+CITY PLANNING COMMISSION HEREBY 
+
+00:13:14.119 --> 00:13:15.485 line:74%
+RECOMMENDS THAT THE MAYOR AND   
+
+00:13:15.487 --> 00:13:17.854 line:68.66%
+RECOMMENDS THAT THE MAYOR AND   
+
+00:13:15.487 --> 00:13:17.854 line:74%
+THE CITY COUNCIL APPROVE THE BUT
+
+00:13:17.856 --> 00:13:21.992 line:68.66%
+THE CITY COUNCIL APPROVE THE BUT
+
+00:13:17.856 --> 00:13:21.992 line:74%
+TOP BUSH FROM R4A WITH          
+
+00:13:21.994 --> 00:13:23.326 line:68.66%
+TOP BUSH FROM R4A WITH          
+
+00:13:21.994 --> 00:13:23.326 line:74%
+CONDITIONS TO P.L. PUBLIC LAND, 
+
+00:13:23.328 --> 00:13:25.328 line:68.66%
+CONDITIONS TO P.L. PUBLIC LAND, 
+
+00:13:23.328 --> 00:13:25.328 line:74%
+THE HICKORY NATURE AREA REZONING
+
+00:13:25.330 --> 00:13:27.364 line:68.66%
+THE HICKORY NATURE AREA REZONING
+
+00:13:25.330 --> 00:13:27.364 line:74%
+FROM R1D SINGLE FAMILY DWELLING 
+
+00:13:27.366 --> 00:13:33.703 line:68.66%
+FROM R1D SINGLE FAMILY DWELLING 
+
+00:13:27.366 --> 00:13:33.703 line:74%
+TO P.L., THE 385 EAST EISENHOWER
+
+00:13:33.705 --> 00:13:35.905 line:68.66%
+TO P.L., THE 385 EAST EISENHOWER
+
+00:13:33.705 --> 00:13:35.905 line:74%
+PARKWAY PARK REZONING FROM PUD  
+
+00:13:35.907 --> 00:13:37.507 line:68.66%
+PARKWAY PARK REZONING FROM PUD  
+
+00:13:35.907 --> 00:13:37.507 line:74%
+PLANNED UNIT DEVELOPMENT TO     
+
+00:13:37.509 --> 00:13:40.443 line:68.66%
+PLANNED UNIT DEVELOPMENT TO     
+
+00:13:37.509 --> 00:13:40.443 line:74%
+P.L., AND THE HANSEN NATURE AREA
+
+00:13:40.445 --> 00:13:43.680 line:68.66%
+P.L., AND THE HANSEN NATURE AREA
+
+00:13:40.445 --> 00:13:43.680 line:74%
+ADDITION REZONING FROM R4B      
+
+00:13:43.682 --> 00:13:47.083 line:68.66%
+ADDITION REZONING FROM R4B      
+
+00:13:43.682 --> 00:13:47.083 line:74%
+MULTIPLE FAMILY DWELLING TO P.L.
+
+00:13:47.085 --> 00:13:48.618 line:68.66%
+MULTIPLE FAMILY DWELLING TO P.L.
+
+00:13:47.085 --> 00:13:48.618 line:74%
+DO I HAVE A COMMISSIONER WHO    
+
+00:13:48.620 --> 00:13:49.753 line:68.66%
+DO I HAVE A COMMISSIONER WHO    
+
+00:13:48.620 --> 00:13:49.753 line:74%
+WILL MOVE THIS?                 
+
+00:13:49.755 --> 00:13:51.755 line:68.66%
+WILL MOVE THIS?                 
+
+00:13:49.755 --> 00:13:51.755 line:74%
+MOVED BY COMMISSIONER BRIGGS AND
+
+00:13:51.757 --> 00:13:52.889 line:68.66%
+MOVED BY COMMISSIONER BRIGGS AND
+
+00:13:51.757 --> 00:13:52.889 line:74%
+SECONDED BY GIBB-RANDALL.       
+
+00:13:52.891 --> 00:13:53.957 line:68.66%
+SECONDED BY GIBB-RANDALL.       
+
+00:13:52.891 --> 00:13:53.957 line:74%
+ANY DISCUSSION?                 
+
+00:13:53.959 --> 00:13:57.293 line:68.66%
+ANY DISCUSSION?                 
+
+00:13:53.959 --> 00:13:57.293 line:74%
+COMMISSIONER BRIGGS?            
+
+00:13:57.295 --> 00:13:57.961 line:68.66%
+COMMISSIONER BRIGGS?            
+
+00:13:57.295 --> 00:13:57.961 line:74%
+>> Commissioner Briggs: I JUST  
+
+00:13:57.963 --> 00:13:59.529 line:68.66%
+>> Commissioner Briggs: I JUST  
+
+00:13:57.963 --> 00:13:59.529 line:74%
+HAD A FEW QUESTIONS ABOUT THESE 
+
+00:13:59.531 --> 00:13:59.763 line:68.66%
+HAD A FEW QUESTIONS ABOUT THESE 
+
+00:13:59.531 --> 00:13:59.763 line:74%
+PARCELS.                        
+
+00:13:59.765 --> 00:14:01.231 line:68.66%
+PARCELS.                        
+
+00:13:59.765 --> 00:14:01.231 line:74%
+I THINK WITH THE -- IF I        
+
+00:14:01.233 --> 00:14:03.033 line:68.66%
+I THINK WITH THE -- IF I        
+
+00:14:01.233 --> 00:14:03.033 line:74%
+UNDERSTAND THE BUTTON BUSH ONE, 
+
+00:14:03.035 --> 00:14:06.069 line:68.66%
+UNDERSTAND THE BUTTON BUSH ONE, 
+
+00:14:03.035 --> 00:14:06.069 line:74%
+THAT'S KIND OF A MORE SENSITIVE 
+
+00:14:06.071 --> 00:14:07.303 line:68.66%
+THAT'S KIND OF A MORE SENSITIVE 
+
+00:14:06.071 --> 00:14:07.303 line:74%
+NATURAL AREA.                   
+
+00:14:07.305 --> 00:14:10.073 line:68.66%
+NATURAL AREA.                   
+
+00:14:07.305 --> 00:14:10.073 line:74%
+AM I CORRECT ON THAT?           
+
+00:14:10.075 --> 00:14:13.510 line:68.66%
+AM I CORRECT ON THAT?           
+
+00:14:10.075 --> 00:14:13.510 line:74%
+>> I CAN FOLLOW UP WITH THE     
+
+00:14:13.512 --> 00:14:14.210 line:68.66%
+>> I CAN FOLLOW UP WITH THE     
+
+00:14:13.512 --> 00:14:14.210 line:74%
+PARKS AND MAP.                  
+
+00:14:14.212 --> 00:14:16.813 line:68.66%
+PARKS AND MAP.                  
+
+00:14:14.212 --> 00:14:16.813 line:74%
+I DO BELIEVE IT HAS SOME -- AT  
+
+00:14:16.815 --> 00:14:20.183 line:68.66%
+I DO BELIEVE IT HAS SOME -- AT  
+
+00:14:16.815 --> 00:14:20.183 line:74%
+LEAST PROCEEDIUM, PERHAPS HIGH  
+
+00:14:20.185 --> 00:14:22.585 line:68.66%
+LEAST PROCEEDIUM, PERHAPS HIGH  
+
+00:14:20.185 --> 00:14:22.585 line:74%
+QUALITY NATURAL AREAS ON IT.    
+
+00:14:22.587 --> 00:14:23.920 line:68.66%
+QUALITY NATURAL AREAS ON IT.    
+
+00:14:22.587 --> 00:14:23.920 line:74%
+>> Commissioner Briggs: SO I WAS
+
+00:14:23.922 --> 00:14:26.756 line:68.66%
+>> Commissioner Briggs: SO I WAS
+
+00:14:23.922 --> 00:14:26.756 line:74%
+WONDER JUST ABOUT -- A LITTLE   
+
+00:14:26.758 --> 00:14:29.426 line:68.66%
+WONDER JUST ABOUT -- A LITTLE   
+
+00:14:26.758 --> 00:14:29.426 line:74%
+BIT OF THE -- THE PROCESS FOR   
+
+00:14:29.428 --> 00:14:31.294 line:68.66%
+BIT OF THE -- THE PROCESS FOR   
+
+00:14:29.428 --> 00:14:31.294 line:74%
+ACCEPTING THIS OBVIOUSLY, JUST  
+
+00:14:31.296 --> 00:14:32.595 line:68.66%
+ACCEPTING THIS OBVIOUSLY, JUST  
+
+00:14:31.296 --> 00:14:32.595 line:74%
+HELPING US UNDERSTAND MAYBE EVEN
+
+00:14:32.597 --> 00:14:35.098 line:68.66%
+HELPING US UNDERSTAND MAYBE EVEN
+
+00:14:32.597 --> 00:14:35.098 line:74%
+FOR THE NEXT PUBLIC HEARING IN  
+
+00:14:35.100 --> 00:14:38.334 line:68.66%
+FOR THE NEXT PUBLIC HEARING IN  
+
+00:14:35.100 --> 00:14:38.334 line:74%
+TERMS OF AS WHEN A WHEN WE --   
+
+00:14:38.336 --> 00:14:39.736 line:68.66%
+TERMS OF AS WHEN A WHEN WE --   
+
+00:14:38.336 --> 00:14:39.736 line:74%
+WHEN LAND IS OFFERED, SORT OF   
+
+00:14:39.738 --> 00:14:40.837 line:68.66%
+WHEN LAND IS OFFERED, SORT OF   
+
+00:14:39.738 --> 00:14:40.837 line:74%
+HOW THAT IS ASSESSED.           
+
+00:14:40.839 --> 00:14:41.971 line:68.66%
+HOW THAT IS ASSESSED.           
+
+00:14:40.839 --> 00:14:41.971 line:74%
+I HAVE BEEN THINKING ABOUT HOW  
+
+00:14:41.973 --> 00:14:43.773 line:68.66%
+I HAVE BEEN THINKING ABOUT HOW  
+
+00:14:41.973 --> 00:14:43.773 line:74%
+MUCH OF OUR PARKLAND IS ADJACENT
+
+00:14:43.775 --> 00:14:46.109 line:68.66%
+MUCH OF OUR PARKLAND IS ADJACENT
+
+00:14:43.775 --> 00:14:46.109 line:74%
+TO HIGHWAYS, WHICH NOT -- YOU   
+
+00:14:46.111 --> 00:14:48.044 line:68.66%
+TO HIGHWAYS, WHICH NOT -- YOU   
+
+00:14:46.111 --> 00:14:48.044 line:74%
+KNOW, IN TERMS OF -- I DON'T    
+
+00:14:48.046 --> 00:14:51.347 line:68.66%
+KNOW, IN TERMS OF -- I DON'T    
+
+00:14:48.046 --> 00:14:51.347 line:74%
+KNOW WHAT PERCENTAGE THAT WOULD 
+
+00:14:51.349 --> 00:14:53.583 line:68.66%
+KNOW WHAT PERCENTAGE THAT WOULD 
+
+00:14:51.349 --> 00:14:53.583 line:74%
+BE, BUT IN THIS, IT'S EVIDENT   
+
+00:14:53.585 --> 00:14:56.686 line:68.66%
+BE, BUT IN THIS, IT'S EVIDENT   
+
+00:14:53.585 --> 00:14:56.686 line:74%
+THAT IT'S NEXT TO HIGHWAYS AND  
+
+00:14:56.688 --> 00:14:59.389 line:68.66%
+THAT IT'S NEXT TO HIGHWAYS AND  
+
+00:14:56.688 --> 00:14:59.389 line:74%
+IT OBVIOUSLY PROVIDES A NICE    
+
+00:14:59.391 --> 00:15:00.723 line:68.66%
+IT OBVIOUSLY PROVIDES A NICE    
+
+00:14:59.391 --> 00:15:00.723 line:74%
+BUFFER FOR THE FOLKS LIVING IN  
+
+00:15:00.725 --> 00:15:03.726 line:68.66%
+BUFFER FOR THE FOLKS LIVING IN  
+
+00:15:00.725 --> 00:15:03.726 line:74%
+THOSE COMMUNITIES, BUT I'M JUST 
+
+00:15:03.728 --> 00:15:04.961 line:68.66%
+THOSE COMMUNITIES, BUT I'M JUST 
+
+00:15:03.728 --> 00:15:04.961 line:74%
+CURIOUS HOW PARKS THINKS ABOUT  
+
+00:15:04.963 --> 00:15:06.463 line:68.66%
+CURIOUS HOW PARKS THINKS ABOUT  
+
+00:15:04.963 --> 00:15:06.463 line:74%
+THAT LAND IN TERMS OF PARK SPACE
+
+00:15:06.465 --> 00:15:06.863 line:68.66%
+THAT LAND IN TERMS OF PARK SPACE
+
+00:15:06.465 --> 00:15:06.863 line:74%
+AS WELL.                        
+
+00:15:06.865 --> 00:15:08.998 line:68.66%
+AS WELL.                        
+
+00:15:06.865 --> 00:15:08.998 line:74%
+I DON'T KNOW IF YOU KNOW ANY    
+
+00:15:09.000 --> 00:15:11.935 line:68.66%
+I DON'T KNOW IF YOU KNOW ANY    
+
+00:15:09.000 --> 00:15:11.935 line:74%
+SPECIFICS ON THESE PROPERTIES.  
+
+00:15:11.937 --> 00:15:13.837 line:68.66%
+SPECIFICS ON THESE PROPERTIES.  
+
+00:15:11.937 --> 00:15:13.837 line:74%
+>> I WILL HAVE A FOLLOW-UP.     
+
+00:15:13.839 --> 00:15:16.339 line:68.66%
+>> I WILL HAVE A FOLLOW-UP.     
+
+00:15:13.839 --> 00:15:16.339 line:74%
+I DO RECALL DURING THE SITE PLAN
+
+00:15:16.341 --> 00:15:19.676 line:68.66%
+I DO RECALL DURING THE SITE PLAN
+
+00:15:16.341 --> 00:15:19.676 line:74%
+PROCESS FOR THE NORTH OAKS      
+
+00:15:19.678 --> 00:15:22.011 line:68.66%
+PROCESS FOR THE NORTH OAKS      
+
+00:15:19.678 --> 00:15:22.011 line:74%
+PROJECTS, THAT NAP, THE NATURAL 
+
+00:15:22.013 --> 00:15:24.614 line:68.66%
+PROJECTS, THAT NAP, THE NATURAL 
+
+00:15:22.013 --> 00:15:24.614 line:74%
+PRESERVATION AREA, ADVOCATES AND
+
+00:15:24.616 --> 00:15:25.448 line:68.66%
+PRESERVATION AREA, ADVOCATES AND
+
+00:15:24.616 --> 00:15:25.448 line:74%
+EXPRESSED INTEREST IN THAT      
+
+00:15:25.450 --> 00:15:26.116 line:68.66%
+EXPRESSED INTEREST IN THAT      
+
+00:15:25.450 --> 00:15:26.116 line:74%
+PARTICULAR PIECE.               
+
+00:15:26.118 --> 00:15:27.450 line:68.66%
+PARTICULAR PIECE.               
+
+00:15:26.118 --> 00:15:27.450 line:74%
+THAT'S WHY I HAD MENTIONED THAT 
+
+00:15:27.452 --> 00:15:30.353 line:68.66%
+THAT'S WHY I HAD MENTIONED THAT 
+
+00:15:27.452 --> 00:15:30.353 line:74%
+IT HAS AT LEAST PREMIUM OR HIGH 
+
+00:15:30.355 --> 00:15:34.824 line:68.66%
+IT HAS AT LEAST PREMIUM OR HIGH 
+
+00:15:30.355 --> 00:15:34.824 line:74%
+QUALITY WOODLANDS.              
+
+00:15:34.826 --> 00:15:37.327 line:68.66%
+QUALITY WOODLANDS.              
+
+00:15:34.826 --> 00:15:37.327 line:74%
+THEY $SOME OPEN AREAS ON THE    
+
+00:15:37.329 --> 00:15:38.962 line:68.66%
+THEY $SOME OPEN AREAS ON THE    
+
+00:15:37.329 --> 00:15:38.962 line:74%
+NORTH OAKS SOUTH PIECE THAT THEY
+
+00:15:38.964 --> 00:15:41.264 line:68.66%
+NORTH OAKS SOUTH PIECE THAT THEY
+
+00:15:38.964 --> 00:15:41.264 line:74%
+ACTUALLY SAID THAT WAS -- THAT  
+
+00:15:41.266 --> 00:15:43.099 line:68.66%
+ACTUALLY SAID THAT WAS -- THAT  
+
+00:15:41.266 --> 00:15:43.099 line:74%
+THEY DID NOT WANT TO TAKE ON AND
+
+00:15:43.101 --> 00:15:45.101 line:68.66%
+THEY DID NOT WANT TO TAKE ON AND
+
+00:15:43.101 --> 00:15:45.101 line:74%
+THEY WOULD NOT ACCEPT A         
+
+00:15:45.103 --> 00:15:45.368 line:68.66%
+THEY WOULD NOT ACCEPT A         
+
+00:15:45.103 --> 00:15:45.368 line:74%
+DONATION.                       
+
+00:15:45.370 --> 00:15:47.437 line:68.66%
+DONATION.                       
+
+00:15:45.370 --> 00:15:47.437 line:74%
+SO SPECIFIC TO THIS ONE, I WILL 
+
+00:15:47.439 --> 00:15:49.239 line:68.66%
+SO SPECIFIC TO THIS ONE, I WILL 
+
+00:15:47.439 --> 00:15:49.239 line:74%
+ASK ABOUT --                    
+
+00:15:49.241 --> 00:15:49.973 line:68.66%
+ASK ABOUT --                    
+
+00:15:49.241 --> 00:15:49.973 line:74%
+>> Commissioner Briggs: YEAH.   
+
+00:15:49.975 --> 00:15:54.644 line:68.66%
+>> Commissioner Briggs: YEAH.   
+
+00:15:49.975 --> 00:15:54.644 line:74%
+>> WHAT QUALITIES MAKE IT --    
+
+00:15:54.646 --> 00:15:55.845 line:68.66%
+>> WHAT QUALITIES MAKE IT --    
+
+00:15:54.646 --> 00:15:55.845 line:74%
+>> Commissioner Briggs: I WAS   
+
+00:15:55.847 --> 00:15:57.013 line:68.66%
+>> Commissioner Briggs: I WAS   
+
+00:15:55.847 --> 00:15:57.013 line:74%
+WONDERING ABOUT THE HICKORY     
+
+00:15:57.015 --> 00:15:59.249 line:68.66%
+WONDERING ABOUT THE HICKORY     
+
+00:15:57.015 --> 00:15:59.249 line:74%
+NATURE AREA, BUT OUT OF         
+
+00:15:59.251 --> 00:15:59.516 line:68.66%
+NATURE AREA, BUT OUT OF         
+
+00:15:59.251 --> 00:15:59.516 line:74%
+CURIOSITY.                      
+
+00:15:59.518 --> 00:16:05.388 line:68.66%
+CURIOSITY.                      
+
+00:15:59.518 --> 00:16:05.388 line:74%
+>> SURE.                        
+
+00:16:05.390 --> 00:16:05.955 line:68.66%
+>> SURE.                        
+
+00:16:05.390 --> 00:16:05.955 line:74%
+>> Vice Chair Mills: COMM       
+
+00:16:05.957 --> 00:16:06.189 line:68.66%
+>> Vice Chair Mills: COMM       
+
+00:16:05.957 --> 00:16:06.189 line:74%
+ISSIONE                         
+
+00:16:06.191 --> 00:16:06.890 line:68.66%
+ISSIONE                         
+
+00:16:06.191 --> 00:16:06.890 line:74%
+R GIBB-RANDALL.                 
+
+00:16:06.892 --> 00:16:07.490 line:68.66%
+R GIBB-RANDALL.                 
+
+00:16:06.892 --> 00:16:07.490 line:74%
+>> Commissioner Gibb-Randall:   
+
+00:16:07.492 --> 00:16:13.363 line:68.66%
+>> Commissioner Gibb-Randall:   
+
+00:16:07.492 --> 00:16:13.363 line:74%
+I WOULD BE CURSE CURIOUS WITH TE
+
+00:16:13.365 --> 00:16:14.664 line:68.66%
+I WOULD BE CURSE CURIOUS WITH TE
+
+00:16:13.365 --> 00:16:14.664 line:74%
+HICKORY NATURE AREA, THERE WOULD
+
+00:16:14.666 --> 00:16:19.335 line:68.66%
+HICKORY NATURE AREA, THERE WOULD
+
+00:16:14.666 --> 00:16:19.335 line:74%
+BE SOME WAYS TO MOVE NORTH SUD  
+
+00:16:19.337 --> 00:16:20.703 line:68.66%
+BE SOME WAYS TO MOVE NORTH SUD  
+
+00:16:19.337 --> 00:16:20.703 line:74%
+AND MOVE IT NEAR THE RIVER AND I
+
+00:16:20.705 --> 00:16:22.138 line:68.66%
+AND MOVE IT NEAR THE RIVER AND I
+
+00:16:20.705 --> 00:16:22.138 line:74%
+WOULD BE CURIOUS TO SEE HOW THAT
+
+00:16:22.140 --> 00:16:25.141 line:68.66%
+WOULD BE CURIOUS TO SEE HOW THAT
+
+00:16:22.140 --> 00:16:25.141 line:74%
+WOULD FIT INTO A LARGER PICTURE 
+
+00:16:25.143 --> 00:16:27.177 line:68.66%
+WOULD FIT INTO A LARGER PICTURE 
+
+00:16:25.143 --> 00:16:27.177 line:74%
+OF CONNECTIVITY BOTH FOR HAS    
+
+00:16:27.179 --> 00:16:28.378 line:68.66%
+OF CONNECTIVITY BOTH FOR HAS    
+
+00:16:27.179 --> 00:16:28.378 line:74%
+BEEN TASS AND PEOPLE MOVING     
+
+00:16:28.380 --> 00:16:29.812 line:68.66%
+BEEN TASS AND PEOPLE MOVING     
+
+00:16:28.380 --> 00:16:29.812 line:74%
+THROUGH THAT AREA.              
+
+00:16:29.814 --> 00:16:31.748 line:68.66%
+THROUGH THAT AREA.              
+
+00:16:29.814 --> 00:16:31.748 line:74%
+IS THAT SOMETHING THAT THE CITY 
+
+00:16:31.750 --> 00:16:34.117 line:68.66%
+IS THAT SOMETHING THAT THE CITY 
+
+00:16:31.750 --> 00:16:34.117 line:74%
+IS STILL ACTIVELY TRYING TO     
+
+00:16:34.119 --> 00:16:36.753 line:68.66%
+IS STILL ACTIVELY TRYING TO     
+
+00:16:34.119 --> 00:16:36.753 line:74%
+STRATEGICALLY MAKE HAPPEN OR I  
+
+00:16:36.755 --> 00:16:38.288 line:68.66%
+STRATEGICALLY MAKE HAPPEN OR I  
+
+00:16:36.755 --> 00:16:38.288 line:74%
+KNOW IT WAS A WHILE AGO THAT I  
+
+00:16:38.290 --> 00:16:39.389 line:68.66%
+KNOW IT WAS A WHILE AGO THAT I  
+
+00:16:38.290 --> 00:16:39.389 line:74%
+HEARD ABOUT THAT AS AN EFFORT   
+
+00:16:39.391 --> 00:16:41.224 line:68.66%
+HEARD ABOUT THAT AS AN EFFORT   
+
+00:16:39.391 --> 00:16:41.224 line:74%
+AND I'M CURIOUS TO SEE, FRANKLY,
+
+00:16:41.226 --> 00:16:43.259 line:68.66%
+AND I'M CURIOUS TO SEE, FRANKLY,
+
+00:16:41.226 --> 00:16:43.259 line:74%
+IF ANY OF THESE PROJECTS FIT    
+
+00:16:43.261 --> 00:16:45.962 line:68.66%
+IF ANY OF THESE PROJECTS FIT    
+
+00:16:43.261 --> 00:16:45.962 line:74%
+INTO ANY KIND OF LARGER SCHEMA  
+
+00:16:45.964 --> 00:16:48.364 line:68.66%
+INTO ANY KIND OF LARGER SCHEMA  
+
+00:16:45.964 --> 00:16:48.364 line:74%
+OF HOW PARKS ARE CONNECTED BOTH 
+
+00:16:48.366 --> 00:16:56.306 line:68.66%
+OF HOW PARKS ARE CONNECTED BOTH 
+
+00:16:48.366 --> 00:16:56.306 line:74%
+FOR HUMAN USE AND HABITAT.      
+
+00:16:56.308 --> 00:16:57.140 line:68.66%
+FOR HUMAN USE AND HABITAT.      
+
+00:16:56.308 --> 00:16:57.140 line:74%
+>> YES, I WILL HAVE FOLLOW-UP   
+
+00:16:57.142 --> 00:17:00.210 line:68.66%
+>> YES, I WILL HAVE FOLLOW-UP   
+
+00:16:57.142 --> 00:17:00.210 line:74%
+>> Vice Chair Mills: COMMISSIONE
+
+00:17:00.212 --> 00:17:00.877 line:68.66%
+>> Vice Chair Mills: COMMISSIONE
+
+00:17:00.212 --> 00:17:00.877 line:74%
+R WOODS?                        
+
+00:17:00.879 --> 00:17:01.644 line:68.66%
+R WOODS?                        
+
+00:17:00.879 --> 00:17:01.644 line:74%
+>> Commissioner Woods: AND THEN 
+
+00:17:01.646 --> 00:17:04.514 line:68.66%
+>> Commissioner Woods: AND THEN 
+
+00:17:01.646 --> 00:17:04.514 line:74%
+I WOULD ALSO HAVE A QUESTION AS 
+
+00:17:04.516 --> 00:17:07.951 line:68.66%
+I WOULD ALSO HAVE A QUESTION AS 
+
+00:17:04.516 --> 00:17:07.951 line:74%
+TO THOSE WHO ARE MAKING THESE   
+
+00:17:07.953 --> 00:17:09.719 line:68.66%
+TO THOSE WHO ARE MAKING THESE   
+
+00:17:07.953 --> 00:17:09.719 line:74%
+DONATIONS, WHICH APPEARS TO BE  
+
+00:17:09.721 --> 00:17:10.753 line:68.66%
+DONATIONS, WHICH APPEARS TO BE  
+
+00:17:09.721 --> 00:17:10.753 line:74%
+GENEROSITY ON THEIR PART, IS    
+
+00:17:10.755 --> 00:17:13.022 line:68.66%
+GENEROSITY ON THEIR PART, IS    
+
+00:17:10.755 --> 00:17:13.022 line:74%
+THERE ANY SORT OF FINANCIAL     
+
+00:17:13.024 --> 00:17:14.390 line:68.66%
+THERE ANY SORT OF FINANCIAL     
+
+00:17:13.024 --> 00:17:14.390 line:74%
+BENEFIT WHICH COMES TO THE      
+
+00:17:14.392 --> 00:17:17.293 line:68.66%
+BENEFIT WHICH COMES TO THE      
+
+00:17:14.392 --> 00:17:17.293 line:74%
+PERSON WHO IS MAKING THE        
+
+00:17:17.295 --> 00:17:17.560 line:68.66%
+PERSON WHO IS MAKING THE        
+
+00:17:17.295 --> 00:17:17.560 line:74%
+DONATION?                       
+
+00:17:17.562 --> 00:17:20.029 line:68.66%
+DONATION?                       
+
+00:17:17.562 --> 00:17:20.029 line:74%
+AND IN PARTICULAR, I'M JUST     
+
+00:17:20.031 --> 00:17:23.666 line:68.66%
+AND IN PARTICULAR, I'M JUST     
+
+00:17:20.031 --> 00:17:23.666 line:74%
+CURIOUS ABOUT AVALON BEING A    
+
+00:17:23.668 --> 00:17:25.201 line:68.66%
+CURIOUS ABOUT AVALON BEING A    
+
+00:17:23.668 --> 00:17:25.201 line:74%
+NONPROFIT HOUSING CORPORATION,  
+
+00:17:25.203 --> 00:17:29.505 line:68.66%
+NONPROFIT HOUSING CORPORATION,  
+
+00:17:25.203 --> 00:17:29.505 line:74%
+IT ALMOST SEEMS LIKE WHY WOULD  
+
+00:17:29.507 --> 00:17:32.108 line:68.66%
+IT ALMOST SEEMS LIKE WHY WOULD  
+
+00:17:29.507 --> 00:17:32.108 line:74%
+THEY GIVE UP A RESOURCE, WHICH  
+
+00:17:32.110 --> 00:17:33.343 line:68.66%
+THEY GIVE UP A RESOURCE, WHICH  
+
+00:17:32.110 --> 00:17:33.343 line:74%
+COULD BE VERY IMPORTANT TO THEM 
+
+00:17:33.345 --> 00:17:35.078 line:68.66%
+COULD BE VERY IMPORTANT TO THEM 
+
+00:17:33.345 --> 00:17:35.078 line:74%
+AT SOME POINT IN THE FUTURE.    
+
+00:17:35.080 --> 00:17:37.480 line:68.66%
+AT SOME POINT IN THE FUTURE.    
+
+00:17:35.080 --> 00:17:37.480 line:74%
+AND TURN IT OVER TO THE CITY?   
+
+00:17:37.482 --> 00:17:40.683 line:68.66%
+AND TURN IT OVER TO THE CITY?   
+
+00:17:37.482 --> 00:17:40.683 line:74%
+SO JUST THINGS I WOULD LIKE TO  
+
+00:17:40.685 --> 00:17:40.883 line:68.66%
+SO JUST THINGS I WOULD LIKE TO  
+
+00:17:40.685 --> 00:17:40.883 line:74%
+KNOW.                           
+
+00:17:40.885 --> 00:17:43.419 line:68.66%
+KNOW.                           
+
+00:17:40.885 --> 00:17:43.419 line:74%
+>> I CAN ADDRESS THE PIECE FROM 
+
+00:17:43.421 --> 00:17:45.855 line:68.66%
+>> I CAN ADDRESS THE PIECE FROM 
+
+00:17:43.421 --> 00:17:45.855 line:74%
+THE HANSEN NATURE AREA AND      
+
+00:17:45.857 --> 00:17:46.089 line:68.66%
+THE HANSEN NATURE AREA AND      
+
+00:17:45.857 --> 00:17:46.089 line:74%
+AVALON.                         
+
+00:17:46.091 --> 00:17:50.093 line:68.66%
+AVALON.                         
+
+00:17:46.091 --> 00:17:50.093 line:74%
+THE PIECE THAT THEY DONATED IS  
+
+00:17:50.095 --> 00:17:51.694 line:68.66%
+THE PIECE THAT THEY DONATED IS  
+
+00:17:50.095 --> 00:17:51.694 line:74%
+COVERED IN WETLAND AREA.        
+
+00:17:51.696 --> 00:17:55.398 line:68.66%
+COVERED IN WETLAND AREA.        
+
+00:17:51.696 --> 00:17:55.398 line:74%
+SO IT IS UNBUILDABLE FOR THEM.  
+
+00:17:55.400 --> 00:17:59.035 line:68.66%
+SO IT IS UNBUILDABLE FOR THEM.  
+
+00:17:55.400 --> 00:17:59.035 line:74%
+SO THIS -- THIS MOVES IT OFF OF 
+
+00:17:59.037 --> 00:18:00.370 line:68.66%
+SO THIS -- THIS MOVES IT OFF OF 
+
+00:17:59.037 --> 00:18:00.370 line:74%
+THEIR RESPONSIBILITY INTO THE   
+
+00:18:00.372 --> 00:18:02.572 line:68.66%
+THEIR RESPONSIBILITY INTO THE   
+
+00:18:00.372 --> 00:18:02.572 line:74%
+CITY'S RESPONSIBILITY IS ON     
+
+00:18:02.574 --> 00:18:03.606 line:68.66%
+CITY'S RESPONSIBILITY IS ON     
+
+00:18:02.574 --> 00:18:03.606 line:74%
+BUILDABLE LAND.                 
+
+00:18:03.608 --> 00:18:04.807 line:68.66%
+BUILDABLE LAND.                 
+
+00:18:03.608 --> 00:18:04.807 line:74%
+THEY GET CREDIT FOR THE AREA,   
+
+00:18:04.809 --> 00:18:07.010 line:68.66%
+THEY GET CREDIT FOR THE AREA,   
+
+00:18:04.809 --> 00:18:07.010 line:74%
+FOR FLOOR AREA AND DENSITY      
+
+00:18:07.012 --> 00:18:07.277 line:68.66%
+FOR FLOOR AREA AND DENSITY      
+
+00:18:07.012 --> 00:18:07.277 line:74%
+PURPOSES.                       
+
+00:18:07.279 --> 00:18:09.345 line:68.66%
+PURPOSES.                       
+
+00:18:07.279 --> 00:18:09.345 line:74%
+SO THEY ARE NOT PENALIZED BY    
+
+00:18:09.347 --> 00:18:12.081 line:68.66%
+SO THEY ARE NOT PENALIZED BY    
+
+00:18:09.347 --> 00:18:12.081 line:74%
+DONATING THE LAND, BUT IT IS    
+
+00:18:12.083 --> 00:18:13.883 line:68.66%
+DONATING THE LAND, BUT IT IS    
+
+00:18:12.083 --> 00:18:13.883 line:74%
+UNBUILDABLE AND SO IT MAKES ITS 
+
+00:18:13.885 --> 00:18:15.285 line:68.66%
+UNBUILDABLE AND SO IT MAKES ITS 
+
+00:18:13.885 --> 00:18:15.285 line:74%
+OWNERSHIP PIECE SMALLER FOR     
+
+00:18:15.287 --> 00:18:17.920 line:68.66%
+OWNERSHIP PIECE SMALLER FOR     
+
+00:18:15.287 --> 00:18:17.920 line:74%
+MANAGEABILITY AND THEY MIGHT    
+
+00:18:17.922 --> 00:18:20.723 line:68.66%
+MANAGEABILITY AND THEY MIGHT    
+
+00:18:17.922 --> 00:18:20.723 line:74%
+HAVE LESS TAX BURDEN BECAUSE OF 
+
+00:18:20.725 --> 00:18:22.158 line:68.66%
+HAVE LESS TAX BURDEN BECAUSE OF 
+
+00:18:20.725 --> 00:18:22.158 line:74%
+IT -- THEIR SMALLER LAND SIZE.  
+
+00:18:22.160 --> 00:18:24.093 line:68.66%
+IT -- THEIR SMALLER LAND SIZE.  
+
+00:18:22.160 --> 00:18:24.093 line:74%
+THAT I'M NOT CERTAIN GIVEN THEIR
+
+00:18:24.095 --> 00:18:29.699 line:68.66%
+THAT I'M NOT CERTAIN GIVEN THEIR
+
+00:18:24.095 --> 00:18:29.699 line:74%
+NONPROFIT STATUS, BUT THEY DID  
+
+00:18:29.701 --> 00:18:39.776 line:68.66%
+NONPROFIT STATUS, BUT THEY DID  
+
+00:18:29.701 --> 00:18:39.776 line:74%
+NOT DONATE BUILDABLE LAND.      
+
+00:18:39.778 --> 00:18:40.510 line:68.66%
+NOT DONATE BUILDABLE LAND.      
+
+00:18:39.778 --> 00:18:40.510 line:74%
+>> Vice Chair Mills: ANYTHING   
+
+00:18:40.512 --> 00:18:41.077 line:68.66%
+>> Vice Chair Mills: ANYTHING   
+
+00:18:40.512 --> 00:18:41.077 line:74%
+ELSE?                           
+
+00:18:41.079 --> 00:18:46.716 line:68.66%
+ELSE?                           
+
+00:18:41.079 --> 00:18:46.716 line:74%
+SOMEONE MOVE A POSTPONEMENT?    
+
+00:18:46.718 --> 00:18:48.618 line:68.66%
+SOMEONE MOVE A POSTPONEMENT?    
+
+00:18:46.718 --> 00:18:48.618 line:74%
+COMMISSIONER -- POSTPONEMENT WAS
+
+00:18:48.620 --> 00:18:49.319 line:68.66%
+COMMISSIONER -- POSTPONEMENT WAS
+
+00:18:48.620 --> 00:18:49.319 line:74%
+MOVED GAY COMMISSIONER          
+
+00:18:49.321 --> 00:18:51.754 line:68.66%
+MOVED GAY COMMISSIONER          
+
+00:18:49.321 --> 00:18:51.754 line:74%
+GIBB-RANDALL AND SECONDED BY    
+
+00:18:51.756 --> 00:18:52.622 line:68.66%
+GIBB-RANDALL AND SECONDED BY    
+
+00:18:51.756 --> 00:18:52.622 line:74%
+COMMISSIONER BRIGGS.            
+
+00:18:52.624 --> 00:18:53.756 line:68.66%
+COMMISSIONER BRIGGS.            
+
+00:18:52.624 --> 00:18:53.756 line:74%
+ANY DISCUSSION ON THE MOTION TO 
+
+00:18:53.758 --> 00:18:54.791 line:68.66%
+ANY DISCUSSION ON THE MOTION TO 
+
+00:18:53.758 --> 00:18:54.791 line:74%
+POSTPONE?                       
+
+00:18:54.793 --> 00:18:58.227 line:68.66%
+POSTPONE?                       
+
+00:18:54.793 --> 00:18:58.227 line:74%
+ALL IN NAVOR OF BOTH PONEMENT,  
+
+00:18:58.229 --> 00:19:00.663 line:68.66%
+ALL IN NAVOR OF BOTH PONEMENT,  
+
+00:18:58.229 --> 00:19:00.663 line:74%
+PLEASE SAY -- ALL IN FAVOR IN   
+
+00:19:00.665 --> 00:19:01.964 line:68.66%
+PLEASE SAY -- ALL IN FAVOR IN   
+
+00:19:00.665 --> 00:19:01.964 line:74%
+POSTPONEMENT, PLEASE SAY AYE.   
+
+00:19:01.966 --> 00:19:02.865 line:68.66%
+POSTPONEMENT, PLEASE SAY AYE.   
+
+00:19:01.966 --> 00:19:02.865 line:74%
+[CHORUS OF AYES]                
+
+00:19:02.867 --> 00:19:03.466 line:68.66%
+[CHORUS OF AYES]                
+
+00:19:02.867 --> 00:19:03.466 line:74%
+THAT IS EVERYONE.               
+
+00:19:03.468 --> 00:19:04.567 line:68.66%
+THAT IS EVERYONE.               
+
+00:19:03.468 --> 00:19:04.567 line:74%
+SO WE WILL SEE THIS NEXT TIME.  
+
+00:19:04.569 --> 00:19:06.502 line:68.66%
+SO WE WILL SEE THIS NEXT TIME.  
+
+00:19:04.569 --> 00:19:06.502 line:74%
+WE HAVE MOVED ITEM 9B.          
+
+00:19:06.504 --> 00:19:08.805 line:68.66%
+WE HAVE MOVED ITEM 9B.          
+
+00:19:06.504 --> 00:19:08.805 line:74%
+SO NOW WE ARE ON TO ITEM 10,    
+
+00:19:08.807 --> 00:19:12.141 line:68.66%
+SO NOW WE ARE ON TO ITEM 10,    
+
+00:19:08.807 --> 00:19:12.141 line:74%
+WHICH IS AUDIENCE PARTICIPATION.
+
+00:19:12.143 --> 00:19:14.477 line:68.66%
+WHICH IS AUDIENCE PARTICIPATION.
+
+00:19:12.143 --> 00:19:14.477 line:74%
+AGAIN, LOTS OF OPPORTUNITIES TO 
+
+00:19:14.479 --> 00:19:15.278 line:68.66%
+AGAIN, LOTS OF OPPORTUNITIES TO 
+
+00:19:14.479 --> 00:19:15.278 line:74%
+PARTICIPATE, FOLKS!             
+
+00:19:15.280 --> 00:19:16.579 line:68.66%
+PARTICIPATE, FOLKS!             
+
+00:19:15.280 --> 00:19:16.579 line:74%
+ANYBODY WHO IS INTERESTED TO    
+
+00:19:16.581 --> 00:19:19.482 line:68.66%
+ANYBODY WHO IS INTERESTED TO    
+
+00:19:16.581 --> 00:19:19.482 line:74%
+TALK ABOUT ANY ISSUE THAT THEY  
+
+00:19:19.484 --> 00:19:20.416 line:68.66%
+TALK ABOUT ANY ISSUE THAT THEY  
+
+00:19:19.484 --> 00:19:20.416 line:74%
+WANT CAN COME FORWARD.          
+
+00:19:20.418 --> 00:19:22.118 line:68.66%
+WANT CAN COME FORWARD.          
+
+00:19:20.418 --> 00:19:22.118 line:74%
+YOU HAVE THE PODIUM FOR THREE   
+
+00:19:22.120 --> 00:19:23.052 line:68.66%
+YOU HAVE THE PODIUM FOR THREE   
+
+00:19:22.120 --> 00:19:23.052 line:74%
+MINUTES, JUST PLEASE STATE YOUR 
+
+00:19:23.054 --> 00:19:28.991 line:68.66%
+MINUTES, JUST PLEASE STATE YOUR 
+
+00:19:23.054 --> 00:19:28.991 line:74%
+NAME AND ADDRESS.               
+
+00:19:28.993 --> 00:19:30.593 line:68.66%
+NAME AND ADDRESS.               
+
+00:19:28.993 --> 00:19:30.593 line:74%
+ALL RIGHT.                      
+
+00:19:30.595 --> 00:19:33.429 line:68.66%
+ALL RIGHT.                      
+
+00:19:30.595 --> 00:19:33.429 line:74%
+WE'LL CLOSE ITEM 10.            
+
+00:19:33.431 --> 00:19:35.765 line:68.66%
+WE'LL CLOSE ITEM 10.            
+
+00:19:33.431 --> 00:19:35.765 line:74%
+THERE IS -- NOW WE'RE ON 11,    
+
+00:19:35.767 --> 00:19:36.566 line:68.66%
+THERE IS -- NOW WE'RE ON 11,    
+
+00:19:35.767 --> 00:19:36.566 line:74%
+COMMISSION PROPOSED BUSINESS,   
+
+00:19:36.568 --> 00:19:37.633 line:68.66%
+COMMISSION PROPOSED BUSINESS,   
+
+00:19:36.568 --> 00:19:37.633 line:74%
+AND THERE'S SOMETHING ALREADY IN
+
+00:19:37.635 --> 00:19:39.168 line:68.66%
+AND THERE'S SOMETHING ALREADY IN
+
+00:19:37.635 --> 00:19:39.168 line:74%
+OUR PACKETS THAT HAS BEEN       
+
+00:19:39.170 --> 00:19:41.204 line:68.66%
+OUR PACKETS THAT HAS BEEN       
+
+00:19:39.170 --> 00:19:41.204 line:74%
+PROPOSED FOR US.                
+
+00:19:41.206 --> 00:19:47.744 line:68.66%
+PROPOSED FOR US.                
+
+00:19:41.206 --> 00:19:47.744 line:74%
+>> THANK YOU.                   
+
+00:19:47.746 --> 00:19:48.344 line:68.66%
+>> THANK YOU.                   
+
+00:19:47.746 --> 00:19:48.344 line:74%
+ALL RIGHT.                      
+
+00:19:48.346 --> 00:19:50.880 line:68.66%
+ALL RIGHT.                      
+
+00:19:48.346 --> 00:19:50.880 line:74%
+IN YOUR PACKETS, YOU HAVE A MEMO
+
+00:19:50.882 --> 00:19:53.783 line:68.66%
+IN YOUR PACKETS, YOU HAVE A MEMO
+
+00:19:50.882 --> 00:19:53.783 line:74%
+FROM PLANNING MANAGER BRETT     
+
+00:19:53.785 --> 00:19:55.718 line:68.66%
+FROM PLANNING MANAGER BRETT     
+
+00:19:53.785 --> 00:19:55.718 line:74%
+LENART ABOUT THE CITY COUNCIL'S 
+
+00:19:55.720 --> 00:19:58.554 line:68.66%
+LENART ABOUT THE CITY COUNCIL'S 
+
+00:19:55.720 --> 00:19:58.554 line:74%
+LEGISLATIVE POLICY AGENDA AND   
+
+00:19:58.556 --> 00:20:01.491 line:68.66%
+LEGISLATIVE POLICY AGENDA AND   
+
+00:19:58.556 --> 00:20:01.491 line:74%
+THE PLANNING COMMISSION'S       
+
+00:20:01.493 --> 00:20:02.058 line:68.66%
+THE PLANNING COMMISSION'S       
+
+00:20:01.493 --> 00:20:02.058 line:74%
+RECOMMENDATION TO IT.           
+
+00:20:02.060 --> 00:20:03.893 line:68.66%
+RECOMMENDATION TO IT.           
+
+00:20:02.060 --> 00:20:03.893 line:74%
+THE CITY COUNCIL HAS A COMMITTEE
+
+00:20:03.895 --> 00:20:06.696 line:68.66%
+THE CITY COUNCIL HAS A COMMITTEE
+
+00:20:03.895 --> 00:20:06.696 line:74%
+THAT DRAFTS A POLICY AGENDA.    
+
+00:20:06.698 --> 00:20:08.030 line:68.66%
+THAT DRAFTS A POLICY AGENDA.    
+
+00:20:06.698 --> 00:20:08.030 line:74%
+IT'S PROVIDED -- THE COMMITTEE  
+
+00:20:08.032 --> 00:20:09.632 line:68.66%
+IT'S PROVIDED -- THE COMMITTEE  
+
+00:20:08.032 --> 00:20:09.632 line:74%
+PROVIDES IT TO COUNCIL FOR      
+
+00:20:09.634 --> 00:20:10.099 line:68.66%
+PROVIDES IT TO COUNCIL FOR      
+
+00:20:09.634 --> 00:20:10.099 line:74%
+ADOPTION.                       
+
+00:20:10.101 --> 00:20:11.567 line:68.66%
+ADOPTION.                       
+
+00:20:10.101 --> 00:20:11.567 line:74%
+PRIOR TO FINALIZING THAT, THE   
+
+00:20:11.569 --> 00:20:13.870 line:68.66%
+PRIOR TO FINALIZING THAT, THE   
+
+00:20:11.569 --> 00:20:13.870 line:74%
+CITY COUNCIL SEEKS ADVICE AND   
+
+00:20:13.872 --> 00:20:14.971 line:68.66%
+CITY COUNCIL SEEKS ADVICE AND   
+
+00:20:13.872 --> 00:20:14.971 line:74%
+RECOMMENDATIONS FROM ITS        
+
+00:20:14.973 --> 00:20:16.305 line:68.66%
+RECOMMENDATIONS FROM ITS        
+
+00:20:14.973 --> 00:20:16.305 line:74%
+ADVISORY BOARDS AND COMMISSIONS,
+
+00:20:16.307 --> 00:20:17.707 line:68.66%
+ADVISORY BOARDS AND COMMISSIONS,
+
+00:20:16.307 --> 00:20:17.707 line:74%
+AND THE PLANNING COMMISSION IS  
+
+00:20:17.709 --> 00:20:20.243 line:68.66%
+AND THE PLANNING COMMISSION IS  
+
+00:20:17.709 --> 00:20:20.243 line:74%
+ONE OF THEM.                    
+
+00:20:20.245 --> 00:20:22.345 line:68.66%
+ONE OF THEM.                    
+
+00:20:20.245 --> 00:20:22.345 line:74%
+WE HAVE ATTACHED THE LAST TWO   
+
+00:20:22.347 --> 00:20:25.948 line:68.66%
+WE HAVE ATTACHED THE LAST TWO   
+
+00:20:22.347 --> 00:20:25.948 line:74%
+POLICY AGENDAS THAT HAVE BEEN   
+
+00:20:25.950 --> 00:20:26.182 line:68.66%
+POLICY AGENDAS THAT HAVE BEEN   
+
+00:20:25.950 --> 00:20:26.182 line:74%
+ADOPTED.                        
+
+00:20:26.184 --> 00:20:27.984 line:68.66%
+ADOPTED.                        
+
+00:20:26.184 --> 00:20:27.984 line:74%
+IF THE PLANNING COMMISSION HAS  
+
+00:20:27.986 --> 00:20:29.819 line:68.66%
+IF THE PLANNING COMMISSION HAS  
+
+00:20:27.986 --> 00:20:29.819 line:74%
+ANY POLICY FEEDBACK, THAT THEY  
+
+00:20:29.821 --> 00:20:31.220 line:68.66%
+ANY POLICY FEEDBACK, THAT THEY  
+
+00:20:29.821 --> 00:20:31.220 line:74%
+WOULD LIKE TO FORWARD TO THE    
+
+00:20:31.222 --> 00:20:37.460 line:68.66%
+WOULD LIKE TO FORWARD TO THE    
+
+00:20:31.222 --> 00:20:37.460 line:74%
+CITY COUNCIL, I CAN PROVIDE A   
+
+00:20:37.462 --> 00:20:40.263 line:68.66%
+CITY COUNCIL, I CAN PROVIDE A   
+
+00:20:37.462 --> 00:20:40.263 line:74%
+TEMPLATE FOR MOVING AND         
+
+00:20:40.265 --> 00:20:41.497 line:68.66%
+TEMPLATE FOR MOVING AND         
+
+00:20:40.265 --> 00:20:41.497 line:74%
+SUGGESTING SOMETHING TO BE      
+
+00:20:41.499 --> 00:20:41.764 line:68.66%
+SUGGESTING SOMETHING TO BE      
+
+00:20:41.499 --> 00:20:41.764 line:74%
+INCLUDED.                       
+
+00:20:41.766 --> 00:20:43.099 line:68.66%
+INCLUDED.                       
+
+00:20:41.766 --> 00:20:43.099 line:74%
+I WILL JUST HIT THE             
+
+00:20:43.101 --> 00:20:44.434 line:68.66%
+I WILL JUST HIT THE             
+
+00:20:43.101 --> 00:20:44.434 line:74%
+HIGHLIGHTS -- OR THE TOPICS THAT
+
+00:20:44.436 --> 00:20:46.836 line:68.66%
+HIGHLIGHTS -- OR THE TOPICS THAT
+
+00:20:44.436 --> 00:20:46.836 line:74%
+HAVE BEEN COVERED IN THE PAST   
+
+00:20:46.838 --> 00:20:49.372 line:68.66%
+HAVE BEEN COVERED IN THE PAST   
+
+00:20:46.838 --> 00:20:49.372 line:74%
+TWO YEARS.                      
+
+00:20:49.374 --> 00:20:53.409 line:68.66%
+TWO YEARS.                      
+
+00:20:49.374 --> 00:20:53.409 line:74%
+THE POLICY AGENDA INCLUDED      
+
+00:20:53.411 --> 00:20:54.710 line:68.66%
+THE POLICY AGENDA INCLUDED      
+
+00:20:53.411 --> 00:20:54.710 line:74%
+RECOMMENDATIONS IN THE INTEREST 
+
+00:20:54.712 --> 00:20:56.746 line:68.66%
+RECOMMENDATIONS IN THE INTEREST 
+
+00:20:54.712 --> 00:20:56.746 line:74%
+OF CREATING AND SUSTAINING AN   
+
+00:20:56.748 --> 00:21:01.551 line:68.66%
+OF CREATING AND SUSTAINING AN   
+
+00:20:56.748 --> 00:21:01.551 line:74%
+AFFORDABLE AND WELCOMING        
+
+00:21:01.553 --> 00:21:01.951 line:68.66%
+AFFORDABLE AND WELCOMING        
+
+00:21:01.553 --> 00:21:01.951 line:74%
+COMMUNITY.                      
+
+00:21:01.953 --> 00:21:03.486 line:68.66%
+COMMUNITY.                      
+
+00:21:01.953 --> 00:21:03.486 line:74%
+POLICIES IN THE INTEREST OF     
+
+00:21:03.488 --> 00:21:05.087 line:68.66%
+POLICIES IN THE INTEREST OF     
+
+00:21:03.488 --> 00:21:05.087 line:74%
+CREATING AND SUSTAINING LOCAL   
+
+00:21:05.089 --> 00:21:07.523 line:68.66%
+CREATING AND SUSTAINING LOCAL   
+
+00:21:05.089 --> 00:21:07.523 line:74%
+AND REGIONAL MOBILITY AND       
+
+00:21:07.525 --> 00:21:08.624 line:68.66%
+AND REGIONAL MOBILITY AND       
+
+00:21:07.525 --> 00:21:08.624 line:74%
+TRANSPORTATION SAFETY, POLICIES 
+
+00:21:08.626 --> 00:21:10.226 line:68.66%
+TRANSPORTATION SAFETY, POLICIES 
+
+00:21:08.626 --> 00:21:10.226 line:74%
+IN THE INTEREST OF PROMOTING A  
+
+00:21:10.228 --> 00:21:13.062 line:68.66%
+IN THE INTEREST OF PROMOTING A  
+
+00:21:10.228 --> 00:21:13.062 line:74%
+SUSTAINABLE AND HEALTHY         
+
+00:21:13.064 --> 00:21:14.163 line:68.66%
+SUSTAINABLE AND HEALTHY         
+
+00:21:13.064 --> 00:21:14.163 line:74%
+ENVIRONMENT, POLICIES IN THE    
+
+00:21:14.165 --> 00:21:16.299 line:68.66%
+ENVIRONMENT, POLICIES IN THE    
+
+00:21:14.165 --> 00:21:16.299 line:74%
+INTEREST OF PROVIDING OPEN      
+
+00:21:16.301 --> 00:21:17.900 line:68.66%
+INTEREST OF PROVIDING OPEN      
+
+00:21:16.301 --> 00:21:17.900 line:74%
+TRANSPARENT EFFECTIVE AND       
+
+00:21:17.902 --> 00:21:23.039 line:68.66%
+TRANSPARENT EFFECTIVE AND       
+
+00:21:17.902 --> 00:21:23.039 line:74%
+FINANCIALLY SOUND LOCAL         
+
+00:21:23.041 --> 00:21:24.073 line:68.66%
+FINANCIALLY SOUND LOCAL         
+
+00:21:23.041 --> 00:21:24.073 line:74%
+GOVERNMENT, POLICIES IN THE     
+
+00:21:24.075 --> 00:21:25.875 line:68.66%
+GOVERNMENT, POLICIES IN THE     
+
+00:21:24.075 --> 00:21:25.875 line:74%
+INTEREST OF PRESERVING THE RIGHT
+
+00:21:25.877 --> 00:21:27.610 line:68.66%
+INTEREST OF PRESERVING THE RIGHT
+
+00:21:25.877 --> 00:21:27.610 line:74%
+OF SELF-DETERMINATION IN OUR    
+
+00:21:27.612 --> 00:21:29.312 line:68.66%
+OF SELF-DETERMINATION IN OUR    
+
+00:21:27.612 --> 00:21:29.312 line:74%
+COMMUNITY IN THE INTEREST OF    
+
+00:21:29.314 --> 00:21:32.048 line:68.66%
+COMMUNITY IN THE INTEREST OF    
+
+00:21:29.314 --> 00:21:32.048 line:74%
+SAFE AND WELCOMING AND INCLUSIVE
+
+00:21:32.050 --> 00:21:33.549 line:68.66%
+SAFE AND WELCOMING AND INCLUSIVE
+
+00:21:32.050 --> 00:21:33.549 line:74%
+COMMUNITY IN THE INTEREST OF    
+
+00:21:33.551 --> 00:21:36.452 line:68.66%
+COMMUNITY IN THE INTEREST OF    
+
+00:21:33.551 --> 00:21:36.452 line:74%
+PROVIDING A FINANCIALLY STABLE  
+
+00:21:36.454 --> 00:21:38.488 line:68.66%
+PROVIDING A FINANCIALLY STABLE  
+
+00:21:36.454 --> 00:21:38.488 line:74%
+LOCAL GOVERNMENT, PROMOTING     
+
+00:21:38.490 --> 00:21:39.489 line:68.66%
+LOCAL GOVERNMENT, PROMOTING     
+
+00:21:38.490 --> 00:21:39.489 line:74%
+RESPONSIBLE ECONOMIC DEVELOPMENT
+
+00:21:39.491 --> 00:21:41.491 line:68.66%
+RESPONSIBLE ECONOMIC DEVELOPMENT
+
+00:21:39.491 --> 00:21:41.491 line:74%
+IN THE INTEREST OF PROTECTING   
+
+00:21:41.493 --> 00:21:43.125 line:68.66%
+IN THE INTEREST OF PROTECTING   
+
+00:21:41.493 --> 00:21:43.125 line:74%
+THE ENVIRONMENT AS RESPONSIBLE  
+
+00:21:43.127 --> 00:21:45.394 line:68.66%
+THE ENVIRONMENT AS RESPONSIBLE  
+
+00:21:43.127 --> 00:21:45.394 line:74%
+STEWARDS OF A NATURAL RESOURCE. 
+
+00:21:45.396 --> 00:21:46.762 line:68.66%
+STEWARDS OF A NATURAL RESOURCE. 
+
+00:21:45.396 --> 00:21:46.762 line:74%
+AND IN THE INTEREST OF BUILDING 
+
+00:21:46.764 --> 00:21:51.100 line:68.66%
+AND IN THE INTEREST OF BUILDING 
+
+00:21:46.764 --> 00:21:51.100 line:74%
+AND MAINTAINING A SUSTAINABLE   
+
+00:21:51.102 --> 00:21:51.667 line:68.66%
+AND MAINTAINING A SUSTAINABLE   
+
+00:21:51.102 --> 00:21:51.667 line:74%
+INFRASTRUCTURE.                 
+
+00:21:51.669 --> 00:21:52.335 line:68.66%
+INFRASTRUCTURE.                 
+
+00:21:51.669 --> 00:21:52.335 line:74%
+OH, ONE FINAL ONE.              
+
+00:21:52.337 --> 00:21:54.837 line:68.66%
+OH, ONE FINAL ONE.              
+
+00:21:52.337 --> 00:21:54.837 line:74%
+IN THE INTEREST OF SUPPORTING   
+
+00:21:54.839 --> 00:21:55.972 line:68.66%
+IN THE INTEREST OF SUPPORTING   
+
+00:21:54.839 --> 00:21:55.972 line:74%
+WORKPLACE SAFETY, JOB SECURITY  
+
+00:21:55.974 --> 00:21:57.773 line:68.66%
+WORKPLACE SAFETY, JOB SECURITY  
+
+00:21:55.974 --> 00:21:57.773 line:74%
+AND THE RIGHT OF EMPLOYEES TO   
+
+00:21:57.775 --> 00:21:58.040 line:68.66%
+AND THE RIGHT OF EMPLOYEES TO   
+
+00:21:57.775 --> 00:21:58.040 line:74%
+ORGANIZE.                       
+
+00:21:58.042 --> 00:22:00.309 line:68.66%
+ORGANIZE.                       
+
+00:21:58.042 --> 00:22:00.309 line:74%
+SO THOSE WERE THE KINDS OF      
+
+00:22:00.311 --> 00:22:02.812 line:68.66%
+SO THOSE WERE THE KINDS OF      
+
+00:22:00.311 --> 00:22:02.812 line:74%
+TOPICS THAT CITY COUNCIL HAS    
+
+00:22:02.814 --> 00:22:05.047 line:68.66%
+TOPICS THAT CITY COUNCIL HAS    
+
+00:22:02.814 --> 00:22:05.047 line:74%
+PREPARED POLICY AGENDA 4, AND IF
+
+00:22:05.049 --> 00:22:06.349 line:68.66%
+PREPARED POLICY AGENDA 4, AND IF
+
+00:22:05.049 --> 00:22:06.349 line:74%
+THE PLANNING COMMISSION WOULD   
+
+00:22:06.351 --> 00:22:07.850 line:68.66%
+THE PLANNING COMMISSION WOULD   
+
+00:22:06.351 --> 00:22:07.850 line:74%
+LIKE TO FORWARD ANY COMMENTS TO 
+
+00:22:07.852 --> 00:22:10.186 line:68.66%
+LIKE TO FORWARD ANY COMMENTS TO 
+
+00:22:07.852 --> 00:22:10.186 line:74%
+THEM, I WILL BE HAPPY TO ARRANGE
+
+00:22:10.188 --> 00:22:14.824 line:68.66%
+THEM, I WILL BE HAPPY TO ARRANGE
+
+00:22:10.188 --> 00:22:14.824 line:74%
+THAT.                           
+
+00:22:14.826 --> 00:22:15.525 line:68.66%
+THAT.                           
+
+00:22:14.826 --> 00:22:15.525 line:74%
+>> Vice Chair Mills: DO YOU WANT
+
+00:22:15.527 --> 00:22:15.925 line:68.66%
+>> Vice Chair Mills: DO YOU WANT
+
+00:22:15.527 --> 00:22:15.925 line:74%
+ONE NOW?                        
+
+00:22:15.927 --> 00:22:17.326 line:68.66%
+ONE NOW?                        
+
+00:22:15.927 --> 00:22:17.326 line:74%
+BECAUSE I DO HAVE ONE.          
+
+00:22:17.328 --> 00:22:18.427 line:68.66%
+BECAUSE I DO HAVE ONE.          
+
+00:22:17.328 --> 00:22:18.427 line:74%
+THAT'S COME BEFORE US BEFORE,   
+
+00:22:18.429 --> 00:22:20.630 line:68.66%
+THAT'S COME BEFORE US BEFORE,   
+
+00:22:18.429 --> 00:22:20.630 line:74%
+AND ACTUALLY NOW THIS IS -- PART
+
+00:22:20.632 --> 00:22:23.966 line:68.66%
+AND ACTUALLY NOW THIS IS -- PART
+
+00:22:20.632 --> 00:22:23.966 line:74%
+OF MY DAY JOB -- IT'S COMING UP.
+
+00:22:23.968 --> 00:22:26.202 line:68.66%
+OF MY DAY JOB -- IT'S COMING UP.
+
+00:22:23.968 --> 00:22:26.202 line:74%
+SOMETHING TO PROPOSE, ADVANCE   
+
+00:22:26.204 --> 00:22:28.604 line:68.66%
+SOMETHING TO PROPOSE, ADVANCE   
+
+00:22:26.204 --> 00:22:28.604 line:74%
+AND MONITOR INITIATIVES THAT    
+
+00:22:28.606 --> 00:22:29.839 line:68.66%
+AND MONITOR INITIATIVES THAT    
+
+00:22:28.606 --> 00:22:29.839 line:74%
+ALLOW MUNICIPALITIES TO EXCEED  
+
+00:22:29.841 --> 00:22:31.240 line:68.66%
+ALLOW MUNICIPALITIES TO EXCEED  
+
+00:22:29.841 --> 00:22:31.240 line:74%
+THE STATE'S ENERGY CODE.        
+
+00:22:31.242 --> 00:22:33.175 line:68.66%
+THE STATE'S ENERGY CODE.        
+
+00:22:31.242 --> 00:22:33.175 line:74%
+I DON'T KNOW IF YOU RECALL      
+
+00:22:33.177 --> 00:22:34.911 line:68.66%
+I DON'T KNOW IF YOU RECALL      
+
+00:22:33.177 --> 00:22:34.911 line:74%
+BEFORE THOSE OF YOU WHO WERE ON 
+
+00:22:34.913 --> 00:22:35.978 line:68.66%
+BEFORE THOSE OF YOU WHO WERE ON 
+
+00:22:34.913 --> 00:22:35.978 line:74%
+COMMISSION A COUPLE OF YEARS    
+
+00:22:35.980 --> 00:22:39.715 line:68.66%
+COMMISSION A COUPLE OF YEARS    
+
+00:22:35.980 --> 00:22:39.715 line:74%
+AGO, WHEN WE TALKED ABOUT TRYING
+
+00:22:39.717 --> 00:22:41.250 line:68.66%
+AGO, WHEN WE TALKED ABOUT TRYING
+
+00:22:39.717 --> 00:22:41.250 line:74%
+TO -- WHAT OPTIONS WE HAD TO    
+
+00:22:41.252 --> 00:22:43.052 line:68.66%
+TO -- WHAT OPTIONS WE HAD TO    
+
+00:22:41.252 --> 00:22:43.052 line:74%
+REQUIRE INCREASED ENERGY        
+
+00:22:43.054 --> 00:22:43.352 line:68.66%
+REQUIRE INCREASED ENERGY        
+
+00:22:43.054 --> 00:22:43.352 line:74%
+EFFICIENCY.                     
+
+00:22:43.354 --> 00:22:45.354 line:68.66%
+EFFICIENCY.                     
+
+00:22:43.354 --> 00:22:45.354 line:74%
+RIGHT NOW, YOU CANNOT REQUIRE   
+
+00:22:45.356 --> 00:22:47.089 line:68.66%
+RIGHT NOW, YOU CANNOT REQUIRE   
+
+00:22:45.356 --> 00:22:47.089 line:74%
+THAT IN NEW BUILDINGS.          
+
+00:22:47.091 --> 00:22:51.394 line:68.66%
+THAT IN NEW BUILDINGS.          
+
+00:22:47.091 --> 00:22:51.394 line:74%
+YOU CAN -- YOU CAN REQUIRE --   
+
+00:22:51.396 --> 00:22:53.029 line:68.66%
+YOU CAN -- YOU CAN REQUIRE --   
+
+00:22:51.396 --> 00:22:53.029 line:74%
+IF -- AS AN INCENTIVE, WHICH IS 
+
+00:22:53.031 --> 00:22:55.164 line:68.66%
+IF -- AS AN INCENTIVE, WHICH IS 
+
+00:22:53.031 --> 00:22:55.164 line:74%
+ONE OF THE THINGS THAT WE HAD IN
+
+00:22:55.166 --> 00:22:57.867 line:68.66%
+ONE OF THE THINGS THAT WE HAD IN
+
+00:22:55.166 --> 00:22:57.867 line:74%
+OUR -- IN OUR PREMIUMS, IS THAT 
+
+00:22:57.869 --> 00:23:00.202 line:68.66%
+OUR -- IN OUR PREMIUMS, IS THAT 
+
+00:22:57.869 --> 00:23:00.202 line:74%
+IF YOU HAD MORE EFFICIENT       
+
+00:23:00.204 --> 00:23:01.404 line:68.66%
+IF YOU HAD MORE EFFICIENT       
+
+00:23:00.204 --> 00:23:01.404 line:74%
+BUILDINGS, YOU MIGHT GET A      
+
+00:23:01.406 --> 00:23:02.872 line:68.66%
+BUILDINGS, YOU MIGHT GET A      
+
+00:23:01.406 --> 00:23:02.872 line:74%
+PREMIUM, BUT THE STATE'S ENERGY 
+
+00:23:02.874 --> 00:23:04.140 line:68.66%
+PREMIUM, BUT THE STATE'S ENERGY 
+
+00:23:02.874 --> 00:23:04.140 line:74%
+CODE DOESN'T LET YOU EXCEED IT. 
+
+00:23:04.142 --> 00:23:06.943 line:68.66%
+CODE DOESN'T LET YOU EXCEED IT. 
+
+00:23:04.142 --> 00:23:06.943 line:74%
+I THINK THAT THAT'S             
+
+00:23:06.945 --> 00:23:08.878 line:68.66%
+I THINK THAT THAT'S             
+
+00:23:06.945 --> 00:23:08.878 line:74%
+PARTICULARLY, AS COMMISSIONER   
+
+00:23:08.880 --> 00:23:09.779 line:68.66%
+PARTICULARLY, AS COMMISSIONER   
+
+00:23:08.880 --> 00:23:09.779 line:74%
+GIBB-RANDALL TALKED ABOUT,      
+
+00:23:09.781 --> 00:23:10.846 line:68.66%
+GIBB-RANDALL TALKED ABOUT,      
+
+00:23:09.781 --> 00:23:10.846 line:74%
+THAT'S REALLY IMPORTANT IF WE   
+
+00:23:10.848 --> 00:23:13.616 line:68.66%
+THAT'S REALLY IMPORTANT IF WE   
+
+00:23:10.848 --> 00:23:13.616 line:74%
+ARE GOING TO ACHIEVE OUR CARBON 
+
+00:23:13.618 --> 00:23:19.255 line:68.66%
+ARE GOING TO ACHIEVE OUR CARBON 
+
+00:23:13.618 --> 00:23:19.255 line:74%
+GOALS, OUR CARBON NEUTRALITY    
+
+00:23:19.257 --> 00:23:19.488 line:68.66%
+GOALS, OUR CARBON NEUTRALITY    
+
+00:23:19.257 --> 00:23:19.488 line:74%
+GOALS.                          
+
+00:23:19.490 --> 00:23:20.590 line:68.66%
+GOALS.                          
+
+00:23:19.490 --> 00:23:20.590 line:74%
+>> IN THAT CASE, I WOULD SUGGEST
+
+00:23:20.592 --> 00:23:22.725 line:68.66%
+>> IN THAT CASE, I WOULD SUGGEST
+
+00:23:20.592 --> 00:23:22.725 line:74%
+THAT SOMEONE WOULD LIKE TO MOVE 
+
+00:23:22.727 --> 00:23:24.093 line:68.66%
+THAT SOMEONE WOULD LIKE TO MOVE 
+
+00:23:22.727 --> 00:23:24.093 line:74%
+TO RECOMMEND ALLOWING           
+
+00:23:24.095 --> 00:23:25.428 line:68.66%
+TO RECOMMEND ALLOWING           
+
+00:23:24.095 --> 00:23:25.428 line:74%
+MUNICIPALITIES TO EXCEED THE    
+
+00:23:25.430 --> 00:23:28.030 line:68.66%
+MUNICIPALITIES TO EXCEED THE    
+
+00:23:25.430 --> 00:23:28.030 line:74%
+ENERGY CODE AS AN INCLUSION OR A
+
+00:23:28.032 --> 00:23:34.103 line:68.66%
+ENERGY CODE AS AN INCLUSION OR A
+
+00:23:28.032 --> 00:23:34.103 line:74%
+FOCUS AREA OF THE F.Y.-20-21    
+
+00:23:34.105 --> 00:23:36.005 line:68.66%
+FOCUS AREA OF THE F.Y.-20-21    
+
+00:23:34.105 --> 00:23:36.005 line:74%
+POLICY LEGISLATIVE AGENDA AND   
+
+00:23:36.007 --> 00:23:39.342 line:68.66%
+POLICY LEGISLATIVE AGENDA AND   
+
+00:23:36.007 --> 00:23:39.342 line:74%
+SOMEONE ELSE CAN SUPPORT THAT.  
+
+00:23:39.344 --> 00:23:40.843 line:68.66%
+SOMEONE ELSE CAN SUPPORT THAT.  
+
+00:23:39.344 --> 00:23:40.843 line:74%
+COMMISSIONER ACKERMAN WILL MOVE 
+
+00:23:40.845 --> 00:23:41.043 line:68.66%
+COMMISSIONER ACKERMAN WILL MOVE 
+
+00:23:40.845 --> 00:23:41.043 line:74%
+THAT.                           
+
+00:23:41.045 --> 00:23:42.545 line:68.66%
+THAT.                           
+
+00:23:41.045 --> 00:23:42.545 line:74%
+THANK YOU.                      
+
+00:23:42.547 --> 00:23:46.515 line:68.66%
+THANK YOU.                      
+
+00:23:42.547 --> 00:23:46.515 line:74%
+DOES -- DOES COMMISSIONER       
+
+00:23:46.517 --> 00:23:48.317 line:68.66%
+DOES -- DOES COMMISSIONER       
+
+00:23:46.517 --> 00:23:48.317 line:74%
+HAMMERSCHMIDT, WE WILL PUT DOWN 
+
+00:23:48.319 --> 00:23:48.851 line:68.66%
+HAMMERSCHMIDT, WE WILL PUT DOWN 
+
+00:23:48.319 --> 00:23:48.851 line:74%
+THE SECOND.                     
+
+00:23:48.853 --> 00:23:49.385 line:68.66%
+THE SECOND.                     
+
+00:23:48.853 --> 00:23:49.385 line:74%
+I WILL LEARN IT.                
+
+00:23:49.387 --> 00:23:51.387 line:68.66%
+I WILL LEARN IT.                
+
+00:23:49.387 --> 00:23:51.387 line:74%
+I WILL LEARN IT.                
+
+00:23:51.389 --> 00:23:54.790 line:68.66%
+I WILL LEARN IT.                
+
+00:23:51.389 --> 00:23:54.790 line:74%
+I DON'T KNOW WHY I HAVE A BLOCK.
+
+00:23:54.792 --> 00:23:55.992 line:68.66%
+I DON'T KNOW WHY I HAVE A BLOCK.
+
+00:23:54.792 --> 00:23:55.992 line:74%
+ANY DISCUSSION?                 
+
+00:23:55.994 --> 00:23:58.094 line:68.66%
+ANY DISCUSSION?                 
+
+00:23:55.994 --> 00:23:58.094 line:74%
+ALL IN FAVOR OF THIS MOTION,    
+
+00:23:58.096 --> 00:23:59.128 line:68.66%
+ALL IN FAVOR OF THIS MOTION,    
+
+00:23:58.096 --> 00:23:59.128 line:74%
+PLEASE SAY AYE.                 
+
+00:23:59.130 --> 00:24:00.529 line:68.66%
+PLEASE SAY AYE.                 
+
+00:23:59.130 --> 00:24:00.529 line:74%
+[CHORUS OF AYES]                
+
+00:24:00.531 --> 00:24:02.231 line:68.66%
+[CHORUS OF AYES]                
+
+00:24:00.531 --> 00:24:02.231 line:74%
+ANY OPPOSED?                    
+
+00:24:02.233 --> 00:24:07.370 line:68.66%
+ANY OPPOSED?                    
+
+00:24:02.233 --> 00:24:07.370 line:74%
+OKAY.                           
+
+00:24:07.372 --> 00:24:08.804 line:68.66%
+OKAY.                           
+
+00:24:07.372 --> 00:24:08.804 line:74%
+I WOULD IMAGINE -- I DON'T KNOW 
+
+00:24:08.806 --> 00:24:10.172 line:68.66%
+I WOULD IMAGINE -- I DON'T KNOW 
+
+00:24:08.806 --> 00:24:10.172 line:74%
+WHAT THE TIMING OF THIS IS, BUT 
+
+00:24:10.174 --> 00:24:11.374 line:68.66%
+WHAT THE TIMING OF THIS IS, BUT 
+
+00:24:10.174 --> 00:24:11.374 line:74%
+PARTICULARLY I THINK AS THE     
+
+00:24:11.376 --> 00:24:13.075 line:68.66%
+PARTICULARLY I THINK AS THE     
+
+00:24:11.376 --> 00:24:13.075 line:74%
+CARBON NEUTRALITY COMMISSION    
+
+00:24:13.077 --> 00:24:15.244 line:68.66%
+CARBON NEUTRALITY COMMISSION    
+
+00:24:13.077 --> 00:24:15.244 line:74%
+COMES INTO PLAY, I THINK THERE'S
+
+00:24:15.246 --> 00:24:16.345 line:68.66%
+COMES INTO PLAY, I THINK THERE'S
+
+00:24:15.246 --> 00:24:16.345 line:74%
+POTENTIALLY OTHER ROADBLOCKS    
+
+00:24:16.347 --> 00:24:17.980 line:68.66%
+POTENTIALLY OTHER ROADBLOCKS    
+
+00:24:16.347 --> 00:24:17.980 line:74%
+THAT -- WELL, I KNOW THERE ARE  
+
+00:24:17.982 --> 00:24:19.281 line:68.66%
+THAT -- WELL, I KNOW THERE ARE  
+
+00:24:17.982 --> 00:24:19.281 line:74%
+OTHER ROADBLOCKS THAT DO NOT    
+
+00:24:19.283 --> 00:24:20.916 line:68.66%
+OTHER ROADBLOCKS THAT DO NOT    
+
+00:24:19.283 --> 00:24:20.916 line:74%
+NECESSARILY HAVE TO DO EXACTLY  
+
+00:24:20.918 --> 00:24:22.818 line:68.66%
+NECESSARILY HAVE TO DO EXACTLY  
+
+00:24:20.918 --> 00:24:22.818 line:74%
+WITH THE WORK THAT WE HAVE      
+
+00:24:22.820 --> 00:24:25.221 line:68.66%
+WITH THE WORK THAT WE HAVE      
+
+00:24:22.820 --> 00:24:25.221 line:74%
+BEFORE US, THAT I THINK IT'S    
+
+00:24:25.223 --> 00:24:29.692 line:68.66%
+BEFORE US, THAT I THINK IT'S    
+
+00:24:25.223 --> 00:24:29.692 line:74%
+JUST HELPFUL TO PASS ALONG THAT 
+
+00:24:29.694 --> 00:24:32.595 line:68.66%
+JUST HELPFUL TO PASS ALONG THAT 
+
+00:24:29.694 --> 00:24:32.595 line:74%
+THERE'S MORE ON CARBON --       
+
+00:24:32.597 --> 00:24:35.898 line:68.66%
+THERE'S MORE ON CARBON --       
+
+00:24:32.597 --> 00:24:35.898 line:74%
+ACHIEVING CARBON NEUTRALITY AND 
+
+00:24:35.900 --> 00:24:36.932 line:68.66%
+ACHIEVING CARBON NEUTRALITY AND 
+
+00:24:35.900 --> 00:24:36.932 line:74%
+PARTICULARLY WITH RESPECT TO    
+
+00:24:36.934 --> 00:24:39.135 line:68.66%
+PARTICULARLY WITH RESPECT TO    
+
+00:24:36.934 --> 00:24:39.135 line:74%
+SOME UTILITY POLICIES THAT I    
+
+00:24:39.137 --> 00:24:40.569 line:68.66%
+SOME UTILITY POLICIES THAT I    
+
+00:24:39.137 --> 00:24:40.569 line:74%
+THINK MIGHT WANT TO BE ADDED ON 
+
+00:24:40.571 --> 00:24:46.909 line:68.66%
+THINK MIGHT WANT TO BE ADDED ON 
+
+00:24:40.571 --> 00:24:46.909 line:74%
+THERE.                          
+
+00:24:46.911 --> 00:24:47.209 line:68.66%
+THERE.                          
+
+00:24:46.911 --> 00:24:47.209 line:74%
+OKAY.                           
+
+00:24:47.211 --> 00:24:52.048 line:68.66%
+OKAY.                           
+
+00:24:47.211 --> 00:24:52.048 line:74%
+ANY -- OH, YES?                 
+
+00:24:52.050 --> 00:24:52.715 line:68.66%
+ANY -- OH, YES?                 
+
+00:24:52.050 --> 00:24:52.715 line:74%
+>> Commissioner Briggs: ARE YOU 
+
+00:24:52.717 --> 00:24:53.449 line:68.66%
+>> Commissioner Briggs: ARE YOU 
+
+00:24:52.717 --> 00:24:53.449 line:74%
+LOOKING FOR ALL OF THOSE        
+
+00:24:53.451 --> 00:24:54.784 line:68.66%
+LOOKING FOR ALL OF THOSE        
+
+00:24:53.451 --> 00:24:54.784 line:74%
+SUGGESTIONS TONIGHT OR ARE THEY 
+
+00:24:54.786 --> 00:24:55.985 line:68.66%
+SUGGESTIONS TONIGHT OR ARE THEY 
+
+00:24:54.786 --> 00:24:55.985 line:74%
+GOING TO BE MOVED FORWARD SOON  
+
+00:24:55.987 --> 00:25:00.923 line:68.66%
+GOING TO BE MOVED FORWARD SOON  
+
+00:24:55.987 --> 00:25:00.923 line:74%
+OR --                           
+
+00:25:00.925 --> 00:25:05.061 line:68.66%
+OR --                           
+
+00:25:00.925 --> 00:25:05.061 line:74%
+>> I BELIEVE THAT THE -- THAT   
+
+00:25:05.063 --> 00:25:07.363 line:68.66%
+>> I BELIEVE THAT THE -- THAT   
+
+00:25:05.063 --> 00:25:07.363 line:74%
+THE COUNCIL POLICY AGENDA       
+
+00:25:07.365 --> 00:25:10.199 line:68.66%
+THE COUNCIL POLICY AGENDA       
+
+00:25:07.365 --> 00:25:10.199 line:74%
+COMMITTEE WILL BE MOVING FORWARD
+
+00:25:10.201 --> 00:25:11.100 line:68.66%
+COMMITTEE WILL BE MOVING FORWARD
+
+00:25:10.201 --> 00:25:11.100 line:74%
+THEIR RECOMMENDATIONS TO COUNCIL
+
+00:25:11.102 --> 00:25:16.539 line:68.66%
+THEIR RECOMMENDATIONS TO COUNCIL
+
+00:25:11.102 --> 00:25:16.539 line:74%
+FOR ADOPTION IN EARLY 2020.     
+
+00:25:16.541 --> 00:25:17.807 line:68.66%
+FOR ADOPTION IN EARLY 2020.     
+
+00:25:16.541 --> 00:25:17.807 line:74%
+SO PERHAPS JANUARY OR FEBRUARY. 
+
+00:25:17.809 --> 00:25:20.176 line:68.66%
+SO PERHAPS JANUARY OR FEBRUARY. 
+
+00:25:17.809 --> 00:25:20.176 line:74%
+I THINK WE MAY STILL HAVE MORE  
+
+00:25:20.178 --> 00:25:21.677 line:68.66%
+I THINK WE MAY STILL HAVE MORE  
+
+00:25:20.178 --> 00:25:21.677 line:74%
+WINDOW OF TIME TO FORWARD       
+
+00:25:21.679 --> 00:25:24.513 line:68.66%
+WINDOW OF TIME TO FORWARD       
+
+00:25:21.679 --> 00:25:24.513 line:74%
+ADDITIONAL SUGGESTIONS TO THEM, 
+
+00:25:24.515 --> 00:25:26.449 line:68.66%
+ADDITIONAL SUGGESTIONS TO THEM, 
+
+00:25:24.515 --> 00:25:26.449 line:74%
+BUT I DON'T THINK WE HAVE A VERY
+
+00:25:26.451 --> 00:25:28.284 line:68.66%
+BUT I DON'T THINK WE HAVE A VERY
+
+00:25:26.451 --> 00:25:28.284 line:74%
+GREAT WINDOW.                   
+
+00:25:28.286 --> 00:25:31.287 line:68.66%
+GREAT WINDOW.                   
+
+00:25:28.286 --> 00:25:31.287 line:74%
+>> Commissioner Briggs: GREAT.  
+
+00:25:31.289 --> 00:25:31.887 line:68.66%
+>> Commissioner Briggs: GREAT.  
+
+00:25:31.289 --> 00:25:31.887 line:74%
+>> Chair Milshteyn: ANYTHING    
+
+00:25:31.889 --> 00:25:33.689 line:68.66%
+>> Chair Milshteyn: ANYTHING    
+
+00:25:31.889 --> 00:25:33.689 line:74%
+ELSE?                           
+
+00:25:33.691 --> 00:25:33.889 line:68.66%
+ELSE?                           
+
+00:25:33.691 --> 00:25:33.889 line:74%
+ --                             
+
+00:25:33.891 --> 00:25:34.824 line:68.66%
+ --                             
+
+00:25:33.891 --> 00:25:34.824 line:74%
+>> Vice Chair Mills: ANYTHING   
+
+00:25:34.826 --> 00:25:35.024 line:68.66%
+>> Vice Chair Mills: ANYTHING   
+
+00:25:34.826 --> 00:25:35.024 line:74%
+ELSE?                           
+
+00:25:35.026 --> 00:25:35.691 line:68.66%
+ELSE?                           
+
+00:25:35.026 --> 00:25:35.691 line:74%
+ANY OTHER COMMISSION PROPOSED   
+
+00:25:35.693 --> 00:25:38.728 line:68.66%
+ANY OTHER COMMISSION PROPOSED   
+
+00:25:35.693 --> 00:25:38.728 line:74%
+BUSINESS?                       
+
+00:25:38.730 --> 00:25:40.730 line:68.66%
+BUSINESS?                       
+
+00:25:38.730 --> 00:25:40.730 line:74%
+I JUST HAVE A QUESTION.         
+
+00:25:40.732 --> 00:25:43.466 line:68.66%
+I JUST HAVE A QUESTION.         
+
+00:25:40.732 --> 00:25:43.466 line:74%
+THERE WAS SOMETHING WITHIN OUR  
+
+00:25:43.468 --> 00:25:44.967 line:68.66%
+THERE WAS SOMETHING WITHIN OUR  
+
+00:25:43.468 --> 00:25:44.967 line:74%
+PACKET ON A COMMENT FROM THE    
+
+00:25:44.969 --> 00:25:46.469 line:68.66%
+PACKET ON A COMMENT FROM THE    
+
+00:25:44.969 --> 00:25:46.469 line:74%
+TRANSPORTATION COMMITTEE ABOUT  
+
+00:25:46.471 --> 00:25:48.938 line:68.66%
+TRANSPORTATION COMMITTEE ABOUT  
+
+00:25:46.471 --> 00:25:48.938 line:74%
+THE C.I.P. AND I WAS JOUST      
+
+00:25:48.940 --> 00:25:50.239 line:68.66%
+THE C.I.P. AND I WAS JOUST      
+
+00:25:48.940 --> 00:25:50.239 line:74%
+WONDER -- AND I WAS JUST        
+
+00:25:50.241 --> 00:25:51.140 line:68.66%
+WONDER -- AND I WAS JUST        
+
+00:25:50.241 --> 00:25:51.140 line:74%
+WONDERING IF YOU HAD ANY        
+
+00:25:51.142 --> 00:25:52.441 line:68.66%
+WONDERING IF YOU HAD ANY        
+
+00:25:51.142 --> 00:25:52.441 line:74%
+INFORMATION ON -- THE C.I.P. IS 
+
+00:25:52.443 --> 00:25:55.478 line:68.66%
+INFORMATION ON -- THE C.I.P. IS 
+
+00:25:52.443 --> 00:25:55.478 line:74%
+THE CAPITAL IMPROVEMENTS PLAN.  
+
+00:25:55.480 --> 00:25:57.913 line:68.66%
+THE CAPITAL IMPROVEMENTS PLAN.  
+
+00:25:55.480 --> 00:25:57.913 line:74%
+I WAS WONDERING IF YOU HAVE ANY 
+
+00:25:57.915 --> 00:25:59.115 line:68.66%
+I WAS WONDERING IF YOU HAVE ANY 
+
+00:25:57.915 --> 00:25:59.115 line:74%
+INFORMATION ON WHEN WE WILL BE  
+
+00:25:59.117 --> 00:26:01.817 line:68.66%
+INFORMATION ON WHEN WE WILL BE  
+
+00:25:59.117 --> 00:26:01.817 line:74%
+DISCUSSING THE C.I.P.           
+
+00:26:01.819 --> 00:26:03.552 line:68.66%
+DISCUSSING THE C.I.P.           
+
+00:26:01.819 --> 00:26:03.552 line:74%
+>> I PERSONALLY DO NOT HAVE THAT
+
+00:26:03.554 --> 00:26:06.555 line:68.66%
+>> I PERSONALLY DO NOT HAVE THAT
+
+00:26:03.554 --> 00:26:06.555 line:74%
+INFORMATION, BUT I CAN FOLLOW UP
+
+00:26:06.557 --> 00:26:08.090 line:68.66%
+INFORMATION, BUT I CAN FOLLOW UP
+
+00:26:06.557 --> 00:26:08.090 line:74%
+AND -- WITH AN EMAIL AS SOON AS 
+
+00:26:08.092 --> 00:26:09.692 line:68.66%
+AND -- WITH AN EMAIL AS SOON AS 
+
+00:26:08.092 --> 00:26:09.692 line:74%
+POSSIBLE IF I CAN GET THAT      
+
+00:26:09.694 --> 00:26:11.660 line:68.66%
+POSSIBLE IF I CAN GET THAT      
+
+00:26:09.694 --> 00:26:11.660 line:74%
+ANSWERED THIS WEEK AND IF NOT,  
+
+00:26:11.662 --> 00:26:14.029 line:68.66%
+ANSWERED THIS WEEK AND IF NOT,  
+
+00:26:11.662 --> 00:26:14.029 line:74%
+BY THE NEXT MEETING.            
+
+00:26:14.031 --> 00:26:14.630 line:68.66%
+BY THE NEXT MEETING.            
+
+00:26:14.031 --> 00:26:14.630 line:74%
+>> Vice Chair Mills: GREAT.     
+
+00:26:14.632 --> 00:26:17.800 line:68.66%
+>> Vice Chair Mills: GREAT.     
+
+00:26:14.632 --> 00:26:17.800 line:74%
+IT'S SOMETHING THAT WE DISCUSSED
+
+00:26:17.802 --> 00:26:18.367 line:68.66%
+IT'S SOMETHING THAT WE DISCUSSED
+
+00:26:17.802 --> 00:26:18.367 line:74%
+EVERY YEAR.                     
+
+00:26:18.369 --> 00:26:20.803 line:68.66%
+EVERY YEAR.                     
+
+00:26:18.369 --> 00:26:20.803 line:74%
+IT'S TYPICALLY WINTER, AND SO I 
+
+00:26:20.805 --> 00:26:21.904 line:68.66%
+IT'S TYPICALLY WINTER, AND SO I 
+
+00:26:20.805 --> 00:26:21.904 line:74%
+KIND OF THINK SO.               
+
+00:26:21.906 --> 00:26:23.439 line:68.66%
+KIND OF THINK SO.               
+
+00:26:21.906 --> 00:26:23.439 line:74%
+SO -- BUT I JUST WANTED TO --   
+
+00:26:23.441 --> 00:26:25.941 line:68.66%
+SO -- BUT I JUST WANTED TO --   
+
+00:26:23.441 --> 00:26:25.941 line:74%
+BECAUSE IT WAS, YOU KNOW, IN    
+
+00:26:25.943 --> 00:26:27.976 line:68.66%
+BECAUSE IT WAS, YOU KNOW, IN    
+
+00:26:25.943 --> 00:26:27.976 line:74%
+THERE, IN CASE ANYBODY FROM THE 
+
