@@ -121,6 +121,12 @@ def get_speech_blocks(captions, no_infer_speakers, known_speakers):
         # time. I don't know if this actually happens / makes any
         # difference in practice.
         duration += calc_duration(caption.start, caption.end)
+
+    # Record the final "block"
+    if start_time is not None:
+        blocks.append(
+            Block(start_time, end_time, duration, speaker, current_speech)
+        )
     return blocks, speaker_map
 
 
