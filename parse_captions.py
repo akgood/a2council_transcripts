@@ -124,9 +124,7 @@ def get_speech_blocks(captions, no_infer_speakers, known_speakers):
 
     # Record the final "block"
     if start_time is not None:
-        blocks.append(
-            Block(start_time, end_time, duration, speaker, current_speech)
-        )
+        blocks.append(Block(start_time, end_time, duration, speaker, current_speech))
     return blocks, speaker_map
 
 
@@ -152,7 +150,38 @@ def preprocess(webvtt_fp):
     webvtt_fp.seek(file_pos)
 
     # read the rest of the file, and prepend the magic "WEBVTT" header!
-    return "WEBVTT\r\n" + webvtt_fp.read()
+    return "WEBVTT\r\n\r\n" + webvtt_fp.read()
+
+
+class ParsedCaptions(object):
+    def __init__(self, blocks, speaker_map):
+        self.blocks = blocks
+        self.speaker_map = speaker_map
+
+    def get_transcript(self):
+        return "\n".join("{}: {}".format(b.start, b.speech) for b in self.blocks)
+
+    def get_speaker_times(self):
+        speaker_times = {}
+        for block in self.blocks:
+            speaker_times[block.speaker] = (
+                speaker_times.get(block.speaker, 0) + block.duration
+            )
+        return speaker_times
+
+
+def parse(captions_fp, no_infer_speakers=True, known_speakers=None):
+    if known_speakers is None:
+        known_speakers = []
+    known_speakers = known_speakers + [UNKNOWN_SPEAKER]
+
+    content = preprocess(captions_fp)
+
+    captions = webvtt.read_buffer(StringIO(content))
+
+    blocks, speaker_map = get_speech_blocks(captions, no_infer_speakers, known_speakers)
+
+    return ParsedCaptions(blocks, speaker_map)
 
 
 def main():
@@ -198,50 +227,34 @@ def main():
     parser.add_argument(
         "--output-format",
         choices=["json", "csv"],
-        help=(
-            "Output format for --get-speaker-times"
-            ),
-        default="json"
+        help=("Output format for --get-speaker-times"),
+        default="json",
     )
     args = parser.parse_args()
 
     with open(args.speaker_list_file, "r") as known_speakers_fp:
         known_speakers = [line.strip() for line in known_speakers_fp if line.strip()]
-        # ensure this list also contains our unknown-speaker placeholder!
-        known_speakers.append(UNKNOWN_SPEAKER)
 
     with open(args.captions_file, "r") as captions_fp:
-        content = preprocess(captions_fp)
-
-    captions = webvtt.read_buffer(StringIO(content))
-
-    blocks, speaker_map = get_speech_blocks(
-        captions, args.no_infer_speakers, known_speakers
-    )
+        captions = parse(captions_fp, args.no_infer_speakers, known_speakers)
 
     if args.get_transcript:
-        print("\n".join(b.speech for b in blocks))
-    elif args.check_speakers:
-        for k, v in speaker_map.items():
-            if k != v:
-                print("Inferred {} -> {}".format(k, v))
-        print()
+        print(captions.get_transcript())
     elif args.get_speaker_times:
-        speaker_times = {}
-        for block in blocks:
-            speaker_times[block.speaker] = (
-                speaker_times.get(block.speaker, 0) + block.duration
-            )
+        speaker_times = captions.get_speaker_times()
         if args.output_format == "json":
             print(json.dumps(speaker_times, indent=4, sort_keys=True))
-        elif args.output_format == "csv":
+        else:
             w = csv.writer(sys.stdout)
             w.writerow(["speaker", "time_in_seconds"])
             for s in sorted(speaker_times.keys()):
                 w.writerow([s, speaker_times[s]])
-            print()
     elif args.get_blocks:
-        pprint.pprint(blocks)
+        pprint.pprint(captions.blocks)
+    elif args.check_speakers:
+        for k, v in captions.speaker_map.items():
+            if k != v:
+                print("Inferred {} -> {}".format(k, v))
 
 
 if __name__ == "__main__":
