@@ -7,6 +7,23 @@ import urllib.request
 from parse_captions import parse
 
 
+def get_date_from_show(show):
+    # XXX fromisoformat does not like the full date-time here, so
+    # we'll just grab the date portion and cut off the time.
+    try:
+        # field #6 seems to be "Original Event Date"
+        (date_field,) = [x for x in show["customFields"] if x["showField"] == 6]
+        return datetime.datetime.fromisoformat(date_field["value"].split("T")[0])
+    except Exception as e:
+        logging.warning("Original date for show {} not found: {}".format(show["id"], e))
+        try:
+            # try to parse the date that's usually part of the show title
+            return datetime.datetime.strptime(show["title"][-6:], "%y%m%d")
+        except Exception as e:
+            # eventDate exists always, but is sometimes inaccurate
+            return datetime.datetime.fromisoformat(show["eventDate"].split("T")[0])
+
+
 def retrieve_captions_for_vod(vod, workdir="raw_captions"):
     show_info_url = "https://reflect-ctn.cablecast.tv/cablecastapi/v1/shows/{}".format(
         vod["show"]
@@ -16,11 +33,10 @@ def retrieve_captions_for_vod(vod, workdir="raw_captions"):
         body = json.loads(r.read())
     show = body["show"]
 
-    # XXX fromisoformat does not like the full date-time here, so
-    # we'll just grab the date portion and cut off the time.
-    event_date = datetime.datetime.fromisoformat(show["eventDate"].split("T")[0])
+
     title = show["title"]
     show_id = show["id"]
+    event_date = get_date_from_show(show)
 
     # the VOD URLs all end in "vod.mp4"; there is also a "vod.m3u8"
     # which sometimes references a "captions.m3u8" which points to a
@@ -121,7 +137,7 @@ def main():
         with open("state.json", "r") as fp:
             state = json.load(fp)
     except FileNotFoundError:
-        pass
+        state = {"known_vods": []}
 
     known_vods = fetch_new_raw_captions(state["known_vods"])
     parse_new_captions()
